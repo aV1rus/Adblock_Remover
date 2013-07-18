@@ -1,0 +1,8 @@
+<resources>
+
+    <style name="AppTheme" parent="android:Theme.Light" />
+
+    <style name="styleName" parent="android:Widget.EditText">
+        <item name="android:background">#80FFFFFF</item>
+    </style>
+</resources>
