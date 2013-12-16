@@ -5,6 +5,8 @@ import java.io.DataOutputStream;
 import java.io.IOException;
 import java.io.InputStreamReader;
 import java.util.ArrayList;
+
+import android.app.Activity;
 import android.app.AlertDialog;
 import android.app.Dialog;
 import android.app.ProgressDialog;
@@ -41,7 +43,7 @@ public class MainActivity extends BackgroundJobs implements OnItemClickListener 
     public Dialog notifyUser(int type, String title, String message){
 
         AlertDialog.Builder builder = new AlertDialog.Builder(this);
-
+        final Activity activity = this;
         if(type == 1){
             builder.setMessage(message).setTitle(title).setCancelable(false).setPositiveButton("ok", new DialogInterface.OnClickListener() {
                 public void onClick(DialogInterface dialog, int id) {
@@ -52,6 +54,19 @@ public class MainActivity extends BackgroundJobs implements OnItemClickListener 
                             Intent i = getBaseContext().getPackageManager().getLaunchIntentForPackage( getBaseContext().getPackageName() );
                             i.addFlags(Intent.FLAG_ACTIVITY_CLEAR_TOP);
                             startActivity(i); }
+                    });
+        }else if (type == 2){
+            builder.setMessage(message).setTitle(title).setCancelable(false)
+                    .setPositiveButton("Download", new DialogInterface.OnClickListener() {
+                        public void onClick(DialogInterface dialog, int id) {
+                            dialog.dismiss();
+                            RootTools.offerBusyBox(activity);
+                        }
+                    })
+                    .setNegativeButton("Cancel", new DialogInterface.OnClickListener() {
+                        public void onClick(DialogInterface dialog, int id) {
+                            dialog.dismiss();
+                        }
                     });
         }else{
             builder.setMessage(message).setTitle(title).setCancelable(false)
@@ -72,7 +87,7 @@ public class MainActivity extends BackgroundJobs implements OnItemClickListener 
         if(!RootTools.isRootAvailable())  {
             notifyUser(0, "Important Message", "I cant seem to get Root priviledges... Are you sure phone is rooted?").show();
         } else if (!RootTools.isBusyboxAvailable()){
-           notifyUser(1, "Important Message", "I can't seem to find busybox... This app will not work properly without busybox.").show();
+            notifyUser(2, "Important Message", "I can't seem to find busybox... This app will not work properly without busybox.").show();
         }
 
         String[] listLabels = {
