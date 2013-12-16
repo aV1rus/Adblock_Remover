@@ -11,6 +11,8 @@ import android.widget.Button;
 import android.widget.Toast;
 import android.widget.LinearLayout.LayoutParams;
 import android.support.v4.app.NavUtils;
+import com.av1rus.adblockremover.BackgroundJobs;
+import com.av1rus.adblockremover.R;
 
 @SuppressLint("ParserError")
 public class AdBlockRemoverActivity extends BackgroundJobs implements OnClickListener {
@@ -61,7 +63,8 @@ public class AdBlockRemoverActivity extends BackgroundJobs implements OnClickLis
 			//	Toast.LENGTH_LONG).show();
 		
 		switch (item.getItemId()) {
-		case R.id.menu_reboot:
+		case R.id.menu_share:
+
 			return true;
 		
 		}
