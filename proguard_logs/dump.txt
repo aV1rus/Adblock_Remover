@@ -33567,7 +33567,7 @@ _____________________________________________________________________
 Interfaces (count = 1):
   + Class [android/widget/AdapterView$OnItemClickListener]
 
-Constant Pool (count = 407):
+Constant Pool (count = 421):
   + Integer [67108864]
   + Integer [2130903042]
   + Integer [2130903043]
@@ -33595,8 +33595,10 @@ so you can revert back to original]
   + String [Ad Removal Complete]
   + String [Android App - Ad Block Remover]
   + String [Backup Current Host File]
+  + String [Cancel]
   + String [Check the system for adblock entries and remove individually]
   + String [CustomComplete]
+  + String [Download]
   + String [Email Me]
   + String [Error Encountered]
   + String [Error running command. Are you sure you have root? Reboot and try again.]
@@ -33647,6 +33649,7 @@ If you have any questions about this application send me an email at aV1rusApps@
   + String [ok]
   + String [text/plain]
   + Class [[Ljava/lang/String;]
+  + Class [android/app/Activity]
   + Class [android/app/AlertDialog$Builder]
   + Class [android/app/Dialog]
   + Class [android/content/Context]
@@ -33670,6 +33673,8 @@ If you have any questions about this application send me an email at aV1rusApps@
   + Class [com/av1rus/adblockremover/aa]
   + Class [com/av1rus/adblockremover/ab]
   + Class [com/av1rus/adblockremover/ac]
+  + Class [com/av1rus/adblockremover/ad]
+  + Class [com/av1rus/adblockremover/ae]
   + Class [com/av1rus/adblockremover/w]
   + Class [com/av1rus/adblockremover/x]
   + Class [com/av1rus/adblockremover/y]
@@ -33678,8 +33683,8 @@ If you have any questions about this application send me an email at aV1rusApps@
   + Class [java/lang/String]
   + Class [java/lang/StringBuilder]
   + Fieldref [com/av1rus/adblockremover/MainActivity.d Landroid/app/Dialog;]
-  + Fieldref [com/av1rus/adblockremover/MainActivity.e [Lcom/av1rus/adblockremover/ab;]
-  + Fieldref [com/av1rus/adblockremover/MainActivity.f Lcom/av1rus/adblockremover/ac;]
+  + Fieldref [com/av1rus/adblockremover/MainActivity.e [Lcom/av1rus/adblockremover/ad;]
+  + Fieldref [com/av1rus/adblockremover/MainActivity.f Lcom/av1rus/adblockremover/ae;]
   + Fieldref [com/av1rus/adblockremover/MainActivity.i Landroid/widget/ListView;]
   + Methodref [android/app/AlertDialog$Builder.<init> (Landroid/content/Context;)V]
   + Methodref [android/app/AlertDialog$Builder.create ()Landroid/app/AlertDialog;]
@@ -33745,20 +33750,23 @@ If you have any questions about this application send me an email at aV1rusApps@
   + Methodref [com/av1rus/adblockremover/a.onCreate (Landroid/os/Bundle;)V]
   + Methodref [com/av1rus/adblockremover/a.onOptionsItemSelected (Landroid/view/MenuItem;)Z]
   + Methodref [com/av1rus/adblockremover/aa.<init> (Lcom/av1rus/adblockremover/MainActivity;)V]
-  + Methodref [com/av1rus/adblockremover/ab.<init> (Ljava/lang/String;Ljava/lang/String;)V]
-  + Methodref [com/av1rus/adblockremover/ac.<init> (Landroid/content/Context;I[Lcom/av1rus/adblockremover/ab;)V]
+  + Methodref [com/av1rus/adblockremover/ab.<init> (Lcom/av1rus/adblockremover/MainActivity;)V]
+  + Methodref [com/av1rus/adblockremover/ac.<init> (Lcom/av1rus/adblockremover/MainActivity;)V]
+  + Methodref [com/av1rus/adblockremover/ad.<init> (Ljava/lang/String;Ljava/lang/String;)V]
+  + Methodref [com/av1rus/adblockremover/ae.<init> (Landroid/content/Context;I[Lcom/av1rus/adblockremover/ad;)V]
   + Methodref [com/av1rus/adblockremover/w.<init> (Lcom/av1rus/adblockremover/MainActivity;)V]
   + Methodref [com/av1rus/adblockremover/x.<init> (Lcom/av1rus/adblockremover/MainActivity;)V]
   + Methodref [com/av1rus/adblockremover/y.<init> (Lcom/av1rus/adblockremover/MainActivity;)V]
-  + Methodref [com/av1rus/adblockremover/z.<init> (Lcom/av1rus/adblockremover/MainActivity;)V]
+  + Methodref [com/av1rus/adblockremover/z.<init> (Lcom/av1rus/adblockremover/MainActivity;Landroid/app/Activity;)V]
   + Methodref [java/lang/StringBuilder.<init> ()V]
   + Methodref [java/lang/StringBuilder.append (Ljava/lang/String;)Ljava/lang/StringBuilder;]
   + Methodref [java/lang/StringBuilder.toString ()Ljava/lang/String;]
   + InterfaceMethodref [android/view/MenuItem.getItemId ()I]
   + NameAndType [<init> ()V]
   + NameAndType [<init> (Landroid/content/Context;)V]
-  + NameAndType [<init> (Landroid/content/Context;I[Lcom/av1rus/adblockremover/ab;)V]
+  + NameAndType [<init> (Landroid/content/Context;I[Lcom/av1rus/adblockremover/ad;)V]
   + NameAndType [<init> (Lcom/av1rus/adblockremover/MainActivity;)V]
+  + NameAndType [<init> (Lcom/av1rus/adblockremover/MainActivity;Landroid/app/Activity;)V]
   + NameAndType [<init> (Ljava/lang/String;)V]
   + NameAndType [<init> (Ljava/lang/String;Ljava/lang/String;)V]
   + NameAndType [a ()V]
@@ -33777,9 +33785,9 @@ If you have any questions about this application send me an email at aV1rusApps@
   + NameAndType [d Landroid/app/Dialog;]
   + NameAndType [e ()V]
   + NameAndType [e (Ljava/lang/String;)V]
-  + NameAndType [e [Lcom/av1rus/adblockremover/ab;]
+  + NameAndType [e [Lcom/av1rus/adblockremover/ad;]
   + NameAndType [f ()V]
-  + NameAndType [f Lcom/av1rus/adblockremover/ac;]
+  + NameAndType [f Lcom/av1rus/adblockremover/ae;]
   + NameAndType [findViewById (I)Landroid/view/View;]
   + NameAndType [g ()Ljava/lang/String;]
   + NameAndType [getApplicationContext ()Landroid/content/Context;]
@@ -33843,7 +33851,7 @@ Support the open source community! Check out this android application.
   + Utf8 [(ILandroid/view/ViewGroup;)Landroid/view/View;]
   + Utf8 [(ILjava/lang/String;Ljava/lang/String;)Landroid/app/Dialog;]
   + Utf8 [(Landroid/content/Context;)V]
-  + Utf8 [(Landroid/content/Context;I[Lcom/av1rus/adblockremover/ab;)V]
+  + Utf8 [(Landroid/content/Context;I[Lcom/av1rus/adblockremover/ad;)V]
   + Utf8 [(Landroid/content/Context;Ljava/lang/CharSequence;I)Landroid/widget/Toast;]
   + Utf8 [(Landroid/content/Intent;)V]
   + Utf8 [(Landroid/content/Intent;Ljava/lang/CharSequence;)Landroid/content/Intent;]
@@ -33856,6 +33864,7 @@ Support the open source community! Check out this android application.
   + Utf8 [(Landroid/widget/AdapterView;Landroid/view/View;IJ)V]
   + Utf8 [(Landroid/widget/ListAdapter;)V]
   + Utf8 [(Lcom/av1rus/adblockremover/MainActivity;)V]
+  + Utf8 [(Lcom/av1rus/adblockremover/MainActivity;Landroid/app/Activity;)V]
   + Utf8 [(Ljava/lang/CharSequence;)Landroid/app/AlertDialog$Builder;]
   + Utf8 [(Ljava/lang/CharSequence;)V]
   + Utf8 [(Ljava/lang/CharSequence;Landroid/content/DialogInterface$OnClickListener;)Landroid/app/AlertDialog$Builder;]
@@ -33876,9 +33885,11 @@ so you can revert back to original]
   + Utf8 [Ad Removal Complete]
   + Utf8 [Android App - Ad Block Remover]
   + Utf8 [Backup Current Host File]
+  + Utf8 [Cancel]
   + Utf8 [Check the system for adblock entries and remove individually]
   + Utf8 [Code]
   + Utf8 [CustomComplete]
+  + Utf8 [Download]
   + Utf8 [Email Me]
   + Utf8 [Error Encountered]
   + Utf8 [Error running command. Are you sure you have root? Reboot and try again.]
@@ -33903,7 +33914,7 @@ If you have any questions about this application send me an email at aV1rusApps@
   + Utf8 [Job FInished]
   + Utf8 [Landroid/app/Dialog;]
   + Utf8 [Landroid/widget/ListView;]
-  + Utf8 [Lcom/av1rus/adblockremover/ac;]
+  + Utf8 [Lcom/av1rus/adblockremover/ae;]
   + Utf8 [Manage Backups]
   + Utf8 [More info including help if you need it]
   + Utf8 [Ok]
@@ -33916,7 +33927,7 @@ If you have any questions about this application send me an email at aV1rusApps@
   + Utf8 [Share With: ]
   + Utf8 [StackMapTable]
   + Utf8 [There was an error editing the hosts file]
-  + Utf8 [[Lcom/av1rus/adblockremover/ab;]
+  + Utf8 [[Lcom/av1rus/adblockremover/ad;]
   + Utf8 [[Ljava/lang/String;]
   + Utf8 [a]
   + Utf8 [adRemoverComplete]
@@ -33926,6 +33937,7 @@ If you have any questions about this application send me an email at aV1rusApps@
   + Utf8 [android.intent.action.SEND]
   + Utf8 [android.intent.extra.SUBJECT]
   + Utf8 [android.intent.extra.TEXT]
+  + Utf8 [android/app/Activity]
   + Utf8 [android/app/AlertDialog$Builder]
   + Utf8 [android/app/Dialog]
   + Utf8 [android/content/Context]
@@ -33952,6 +33964,8 @@ If you have any questions about this application send me an email at aV1rusApps@
   + Utf8 [com/av1rus/adblockremover/aa]
   + Utf8 [com/av1rus/adblockremover/ab]
   + Utf8 [com/av1rus/adblockremover/ac]
+  + Utf8 [com/av1rus/adblockremover/ad]
+  + Utf8 [com/av1rus/adblockremover/ae]
   + Utf8 [com/av1rus/adblockremover/w]
   + Utf8 [com/av1rus/adblockremover/x]
   + Utf8 [com/av1rus/adblockremover/y]
@@ -34017,12 +34031,12 @@ Fields (count = 3):
   + Field:        i Landroid/widget/ListView;
     Access flags: 0x2
       = private android.widget.ListView i
-  + Field:        e [Lcom/av1rus/adblockremover/ab;
+  + Field:        e [Lcom/av1rus/adblockremover/ad;
     Access flags: 0x0
-      = com.av1rus.adblockremover.ab[] e
-  + Field:        f Lcom/av1rus/adblockremover/ac;
+      = com.av1rus.adblockremover.ad[] e
+  + Field:        f Lcom/av1rus/adblockremover/ae;
     Access flags: 0x0
-      = com.av1rus.adblockremover.ac f
+      = com.av1rus.adblockremover.ae f
 
 Methods (count = 11):
   - Method:       <init>()V
@@ -34031,7 +34045,7 @@ Methods (count = 11):
     Class member attributes (count = 1):
     + Code attribute instructions (code length = 5, locals = 1, stack = 1):
       [0] aload_0 v0
-      [1] invokespecial #154
+      [1] invokespecial #159
         + Methodref [com/av1rus/adblockremover/a.<init> ()V]
       [4] return
       Code attribute exceptions (count = 0):
@@ -34040,79 +34054,118 @@ Methods (count = 11):
     Access flags: 0x1
       = public android.app.Dialog a(int,java.lang.String,java.lang.String)
     Class member attributes (count = 1):
-    + Code attribute instructions (code length = 93, locals = 5, stack = 5):
-      [0] new #61
+    + Code attribute instructions (code length = 147, locals = 6, stack = 6):
+      [0] new #64
         + Class [android/app/AlertDialog$Builder]
       [3] dup
       [4] aload_0 v0
-      [5] invokespecial #95
+      [5] invokespecial #100
         + Methodref [android/app/AlertDialog$Builder.<init> (Landroid/content/Context;)V]
       [8] astore v4
-      [10] iload_1 v1
-      [11] iconst_1
-      [12] ificmpne +47 (target=59)
-      [15] aload v4
-      [17] aload_3 v3
-      [18] invokevirtual #98
+      [10] aload_0 v0
+      [11] astore v5
+      [13] iload_1 v1
+      [14] iconst_1
+      [15] ificmpne +47 (target=62)
+      [18] aload v4
+      [20] aload_3 v3
+      [21] invokevirtual #103
         + Methodref [android/app/AlertDialog$Builder.setMessage (Ljava/lang/CharSequence;)Landroid/app/AlertDialog$Builder;]
-      [21] aload_2 v2
-      [22] invokevirtual #101
+      [24] aload_2 v2
+      [25] invokevirtual #106
         + Methodref [android/app/AlertDialog$Builder.setTitle (Ljava/lang/CharSequence;)Landroid/app/AlertDialog$Builder;]
-      [25] iconst_0
-      [26] invokevirtual #97
+      [28] iconst_0
+      [29] invokevirtual #102
         + Methodref [android/app/AlertDialog$Builder.setCancelable (Z)Landroid/app/AlertDialog$Builder;]
-      [29] ldc #58
+      [32] ldc #60
         + String [ok]
-      [31] new #85
+      [34] new #90
         + Class [com/av1rus/adblockremover/x]
-      [34] dup
-      [35] aload_0 v0
-      [36] invokespecial #162
+      [37] dup
+      [38] aload_0 v0
+      [39] invokespecial #169
         + Methodref [com/av1rus/adblockremover/x.<init> (Lcom/av1rus/adblockremover/MainActivity;)V]
-      [39] invokevirtual #100
+      [42] invokevirtual #105
         + Methodref [android/app/AlertDialog$Builder.setPositiveButton (Ljava/lang/CharSequence;Landroid/content/DialogInterface$OnClickListener;)Landroid/app/AlertDialog$Builder;]
-      [42] ldc #41
+      [45] ldc #43
         + String [Retry]
-      [44] new #84
+      [47] new #89
         + Class [com/av1rus/adblockremover/w]
-      [47] dup
-      [48] aload_0 v0
-      [49] invokespecial #161
+      [50] dup
+      [51] aload_0 v0
+      [52] invokespecial #168
         + Methodref [com/av1rus/adblockremover/w.<init> (Lcom/av1rus/adblockremover/MainActivity;)V]
-      [52] invokevirtual #99
+      [55] invokevirtual #104
         + Methodref [android/app/AlertDialog$Builder.setNegativeButton (Ljava/lang/CharSequence;Landroid/content/DialogInterface$OnClickListener;)Landroid/app/AlertDialog$Builder;]
-      [55] pop
-      [56] goto +31 (target=87)
-      [59] aload v4
-      [61] aload_3 v3
-      [62] invokevirtual #98
+      [58] pop
+      [59] goto +82 (target=141)
+      [62] iload_1 v1
+      [63] iconst_2
+      [64] ificmpne +49 (target=113)
+      [67] aload v4
+      [69] aload_3 v3
+      [70] invokevirtual #103
         + Methodref [android/app/AlertDialog$Builder.setMessage (Ljava/lang/CharSequence;)Landroid/app/AlertDialog$Builder;]
-      [65] aload_2 v2
-      [66] invokevirtual #101
+      [73] aload_2 v2
+      [74] invokevirtual #106
         + Methodref [android/app/AlertDialog$Builder.setTitle (Ljava/lang/CharSequence;)Landroid/app/AlertDialog$Builder;]
-      [69] iconst_0
-      [70] invokevirtual #97
+      [77] iconst_0
+      [78] invokevirtual #102
         + Methodref [android/app/AlertDialog$Builder.setCancelable (Z)Landroid/app/AlertDialog$Builder;]
-      [73] ldc #58
-        + String [ok]
-      [75] new #86
-        + Class [com/av1rus/adblockremover/y]
-      [78] dup
-      [79] aload_0 v0
-      [80] invokespecial #163
-        + Methodref [com/av1rus/adblockremover/y.<init> (Lcom/av1rus/adblockremover/MainActivity;)V]
-      [83] invokevirtual #100
+      [81] ldc #27
+        + String [Download]
+      [83] new #92
+        + Class [com/av1rus/adblockremover/z]
+      [86] dup
+      [87] aload_0 v0
+      [88] aload v5
+      [90] invokespecial #171
+        + Methodref [com/av1rus/adblockremover/z.<init> (Lcom/av1rus/adblockremover/MainActivity;Landroid/app/Activity;)V]
+      [93] invokevirtual #105
         + Methodref [android/app/AlertDialog$Builder.setPositiveButton (Ljava/lang/CharSequence;Landroid/content/DialogInterface$OnClickListener;)Landroid/app/AlertDialog$Builder;]
-      [86] pop
-      [87] aload v4
-      [89] invokevirtual #96
+      [96] ldc #24
+        + String [Cancel]
+      [98] new #91
+        + Class [com/av1rus/adblockremover/y]
+      [101] dup
+      [102] aload_0 v0
+      [103] invokespecial #170
+        + Methodref [com/av1rus/adblockremover/y.<init> (Lcom/av1rus/adblockremover/MainActivity;)V]
+      [106] invokevirtual #104
+        + Methodref [android/app/AlertDialog$Builder.setNegativeButton (Ljava/lang/CharSequence;Landroid/content/DialogInterface$OnClickListener;)Landroid/app/AlertDialog$Builder;]
+      [109] pop
+      [110] goto +31 (target=141)
+      [113] aload v4
+      [115] aload_3 v3
+      [116] invokevirtual #103
+        + Methodref [android/app/AlertDialog$Builder.setMessage (Ljava/lang/CharSequence;)Landroid/app/AlertDialog$Builder;]
+      [119] aload_2 v2
+      [120] invokevirtual #106
+        + Methodref [android/app/AlertDialog$Builder.setTitle (Ljava/lang/CharSequence;)Landroid/app/AlertDialog$Builder;]
+      [123] iconst_0
+      [124] invokevirtual #102
+        + Methodref [android/app/AlertDialog$Builder.setCancelable (Z)Landroid/app/AlertDialog$Builder;]
+      [127] ldc #60
+        + String [ok]
+      [129] new #84
+        + Class [com/av1rus/adblockremover/aa]
+      [132] dup
+      [133] aload_0 v0
+      [134] invokespecial #163
+        + Methodref [com/av1rus/adblockremover/aa.<init> (Lcom/av1rus/adblockremover/MainActivity;)V]
+      [137] invokevirtual #105
+        + Methodref [android/app/AlertDialog$Builder.setPositiveButton (Ljava/lang/CharSequence;Landroid/content/DialogInterface$OnClickListener;)Landroid/app/AlertDialog$Builder;]
+      [140] pop
+      [141] aload v4
+      [143] invokevirtual #101
         + Methodref [android/app/AlertDialog$Builder.create ()Landroid/app/AlertDialog;]
-      [92] areturn
+      [146] areturn
       Code attribute exceptions (count = 0):
       Code attribute attributes (attribute count = 1):
-      + Stack map table attribute (count = 2):
-        - [59] Var: ...[a:android/app/AlertDialog$Builder], Stack: (empty)
-        - [87] Var: ..., Stack: (empty)
+      + Stack map table attribute (count = 3):
+        - [62] Var: ...[a:android/app/AlertDialog$Builder][a:android/app/Activity], Stack: (empty)
+        - [113] Var: ..., Stack: (empty)
+        - [141] Var: ..., Stack: (empty)
   + Method:       onCreate(Landroid/os/Bundle;)V
     Access flags: 0x1
       = public void onCreate(android.os.Bundle)
@@ -34120,42 +34173,42 @@ Methods (count = 11):
     + Code attribute instructions (code length = 229, locals = 5, stack = 7):
       [0] aload_0 v0
       [1] aload_1 v1
-      [2] invokespecial #156
+      [2] invokespecial #161
         + Methodref [com/av1rus/adblockremover/a.onCreate (Landroid/os/Bundle;)V]
       [5] aload_0 v0
       [6] ldc #4
         + Integer [2130903045]
-      [8] invokevirtual #152
+      [8] invokevirtual #157
         + Methodref [com/av1rus/adblockremover/MainActivity.setContentView (I)V]
-      [11] invokestatic #136
+      [11] invokestatic #141
         + Methodref [com/a/a/a.d ()Z]
       [14] ifne +18 (target=32)
       [17] aload_0 v0
       [18] iconst_0
-      [19] ldc #33
+      [19] ldc #35
         + String [Important Message]
-      [21] ldc #31
+      [21] ldc #33
         + String [I cant seem to get Root priviledges... Are you sure phone is rooted?]
-      [23] invokevirtual #138
+      [23] invokevirtual #143
         + Methodref [com/av1rus/adblockremover/MainActivity.a (ILjava/lang/String;Ljava/lang/String;)Landroid/app/Dialog;]
-      [26] invokevirtual #108
+      [26] invokevirtual #113
         + Methodref [android/app/Dialog.show ()V]
       [29] goto +21 (target=50)
-      [32] invokestatic #135
+      [32] invokestatic #140
         + Methodref [com/a/a/a.c ()Z]
       [35] ifne +15 (target=50)
       [38] aload_0 v0
-      [39] iconst_1
-      [40] ldc #33
+      [39] iconst_2
+      [40] ldc #35
         + String [Important Message]
-      [42] ldc #30
+      [42] ldc #32
         + String [I can't seem to find busybox... This app will not work properly without busybox.]
-      [44] invokevirtual #138
+      [44] invokevirtual #143
         + Methodref [com/av1rus/adblockremover/MainActivity.a (ILjava/lang/String;Ljava/lang/String;)Landroid/app/Dialog;]
-      [47] invokevirtual #108
+      [47] invokevirtual #113
         + Methodref [android/app/Dialog.show ()V]
       [50] iconst_5
-      [51] anewarray #89
+      [51] anewarray #94
         + Class [java/lang/String]
       [54] dup
       [55] iconst_0
@@ -34164,17 +34217,17 @@ Methods (count = 11):
       [58] aastore
       [59] dup
       [60] iconst_1
-      [61] ldc #35
+      [61] ldc #37
         + String [Manage Backups]
       [63] aastore
       [64] dup
       [65] iconst_2
-      [66] ldc #43
+      [66] ldc #45
         + String [Search System before Delete]
       [68] aastore
       [69] dup
       [70] iconst_3
-      [71] ldc #42
+      [71] ldc #44
         + String [Run Batch AdBlock Remover]
       [73] aastore
       [74] dup
@@ -34184,7 +34237,7 @@ Methods (count = 11):
       [78] aastore
       [79] astore_2 v2
       [80] iconst_5
-      [81] anewarray #89
+      [81] anewarray #94
         + Class [java/lang/String]
       [84] dup
       [85] iconst_0
@@ -34194,32 +34247,32 @@ so you can revert back to original]
       [88] aastore
       [89] dup
       [90] iconst_1
-      [91] ldc #40
+      [91] ldc #42
         + String [RESTORE, Delete, etc. for your Backups]
       [93] aastore
       [94] dup
       [95] iconst_2
-      [96] ldc #24
+      [96] ldc #25
         + String [Check the system for adblock entries and remove individually]
       [98] aastore
       [99] dup
       [100] iconst_3
-      [101] ldc #38
+      [101] ldc #40
         + String [Once your all set run the Remover to delete the set entries.]
       [103] aastore
       [104] dup
       [105] iconst_4
-      [106] ldc #36
+      [106] ldc #38
         + String [More info including help if you need it]
       [108] aastore
       [109] astore_3 v3
       [110] aload_0 v0
       [111] aload_2 v2
       [112] arraylength
-      [113] anewarray #82
-        + Class [com/av1rus/adblockremover/ab]
-      [116] putfield #92
-        + Fieldref [com/av1rus/adblockremover/MainActivity.e [Lcom/av1rus/adblockremover/ab;]
+      [113] anewarray #87
+        + Class [com/av1rus/adblockremover/ad]
+      [116] putfield #97
+        + Fieldref [com/av1rus/adblockremover/MainActivity.e [Lcom/av1rus/adblockremover/ad;]
       [119] iconst_0
       [120] istore v4
       [122] iload v4
@@ -34227,11 +34280,11 @@ so you can revert back to original]
       [125] arraylength
       [126] ificmpge +31 (target=157)
       [129] aload_0 v0
-      [130] getfield #92
-        + Fieldref [com/av1rus/adblockremover/MainActivity.e [Lcom/av1rus/adblockremover/ab;]
+      [130] getfield #97
+        + Fieldref [com/av1rus/adblockremover/MainActivity.e [Lcom/av1rus/adblockremover/ad;]
       [133] iload v4
-      [135] new #82
-        + Class [com/av1rus/adblockremover/ab]
+      [135] new #87
+        + Class [com/av1rus/adblockremover/ad]
       [138] dup
       [139] aload_2 v2
       [140] iload v4
@@ -34239,63 +34292,63 @@ so you can revert back to original]
       [143] aload_3 v3
       [144] iload v4
       [146] aaload
-      [147] invokespecial #159
-        + Methodref [com/av1rus/adblockremover/ab.<init> (Ljava/lang/String;Ljava/lang/String;)V]
+      [147] invokespecial #166
+        + Methodref [com/av1rus/adblockremover/ad.<init> (Ljava/lang/String;Ljava/lang/String;)V]
       [150] aastore
       [151] iinc v4, 1
       [154] goto -32 (target=122)
       [157] aload_0 v0
-      [158] new #83
-        + Class [com/av1rus/adblockremover/ac]
+      [158] new #88
+        + Class [com/av1rus/adblockremover/ae]
       [161] dup
       [162] aload_0 v0
       [163] ldc #3
         + Integer [2130903043]
       [165] aload_0 v0
-      [166] getfield #92
-        + Fieldref [com/av1rus/adblockremover/MainActivity.e [Lcom/av1rus/adblockremover/ab;]
-      [169] invokespecial #160
-        + Methodref [com/av1rus/adblockremover/ac.<init> (Landroid/content/Context;I[Lcom/av1rus/adblockremover/ab;)V]
-      [172] putfield #93
-        + Fieldref [com/av1rus/adblockremover/MainActivity.f Lcom/av1rus/adblockremover/ac;]
+      [166] getfield #97
+        + Fieldref [com/av1rus/adblockremover/MainActivity.e [Lcom/av1rus/adblockremover/ad;]
+      [169] invokespecial #167
+        + Methodref [com/av1rus/adblockremover/ae.<init> (Landroid/content/Context;I[Lcom/av1rus/adblockremover/ad;)V]
+      [172] putfield #98
+        + Fieldref [com/av1rus/adblockremover/MainActivity.f Lcom/av1rus/adblockremover/ae;]
       [175] aload_0 v0
       [176] aload_0 v0
       [177] ldc #7
         + Integer [2131230743]
-      [179] invokevirtual #145
+      [179] invokevirtual #150
         + Methodref [com/av1rus/adblockremover/MainActivity.findViewById (I)Landroid/view/View;]
-      [182] checkcast #74
+      [182] checkcast #77
         + Class [android/widget/ListView]
-      [185] putfield #94
+      [185] putfield #99
         + Fieldref [com/av1rus/adblockremover/MainActivity.i Landroid/widget/ListView;]
       [188] aload_0 v0
-      [189] invokevirtual #149
+      [189] invokevirtual #154
         + Methodref [com/av1rus/adblockremover/MainActivity.getLayoutInflater ()Landroid/view/LayoutInflater;]
       [192] ldc #2
         + Integer [2130903042]
       [194] aconst_null
-      [195] invokevirtual #119
+      [195] invokevirtual #124
         + Methodref [android/view/LayoutInflater.inflate (ILandroid/view/ViewGroup;)Landroid/view/View;]
       [198] astore v4
       [200] aload_0 v0
-      [201] getfield #94
+      [201] getfield #99
         + Fieldref [com/av1rus/adblockremover/MainActivity.i Landroid/widget/ListView;]
       [204] aload v4
-      [206] invokevirtual #126
+      [206] invokevirtual #131
         + Methodref [android/widget/ListView.addHeaderView (Landroid/view/View;)V]
       [209] aload_0 v0
-      [210] getfield #94
+      [210] getfield #99
         + Fieldref [com/av1rus/adblockremover/MainActivity.i Landroid/widget/ListView;]
       [213] aload_0 v0
-      [214] getfield #93
-        + Fieldref [com/av1rus/adblockremover/MainActivity.f Lcom/av1rus/adblockremover/ac;]
-      [217] invokevirtual #127
+      [214] getfield #98
+        + Fieldref [com/av1rus/adblockremover/MainActivity.f Lcom/av1rus/adblockremover/ae;]
+      [217] invokevirtual #132
         + Methodref [android/widget/ListView.setAdapter (Landroid/widget/ListAdapter;)V]
       [220] aload_0 v0
-      [221] getfield #94
+      [221] getfield #99
         + Fieldref [com/av1rus/adblockremover/MainActivity.i Landroid/widget/ListView;]
       [224] aload_0 v0
-      [225] invokevirtual #128
+      [225] invokevirtual #133
         + Methodref [android/widget/ListView.setOnItemClickListener (Landroid/widget/AdapterView$OnItemClickListener;)V]
       [228] return
       Code attribute exceptions (count = 0):
@@ -34311,12 +34364,12 @@ so you can revert back to original]
     Class member attributes (count = 1):
     + Code attribute instructions (code length = 12, locals = 2, stack = 3):
       [0] aload_0 v0
-      [1] invokevirtual #150
+      [1] invokevirtual #155
         + Methodref [com/av1rus/adblockremover/MainActivity.getMenuInflater ()Landroid/view/MenuInflater;]
       [4] ldc #6
         + Integer [2131165184]
       [6] aload_1 v1
-      [7] invokevirtual #120
+      [7] invokevirtual #125
         + Methodref [android/view/MenuInflater.inflate (ILandroid/view/Menu;)V]
       [10] iconst_1
       [11] ireturn
@@ -34328,19 +34381,19 @@ so you can revert back to original]
     Class member attributes (count = 1):
     + Code attribute instructions (code length = 36, locals = 2, stack = 2):
       [0] aload_1 v1
-      [1] invokeinterface #168
+      [1] invokeinterface #175
         + InterfaceMethodref [android/view/MenuItem.getItemId ()I]
       [6] lookupswitch (1 offsets, default=24) (target=30)
         2131230752: offset = 18, target = 24
         default: offset = 24, target = 30
       [24] aload_0 v0
-      [25] invokevirtual #142
+      [25] invokevirtual #147
         + Methodref [com/av1rus/adblockremover/MainActivity.e ()V]
       [28] iconst_1
       [29] ireturn
       [30] aload_0 v0
       [31] aload_1 v1
-      [32] invokespecial #157
+      [32] invokespecial #162
         + Methodref [com/av1rus/adblockremover/a.onOptionsItemSelected (Landroid/view/MenuItem;)Z]
       [35] ireturn
       Code attribute exceptions (count = 0):
@@ -34353,26 +34406,26 @@ so you can revert back to original]
       = public void e()
     Class member attributes (count = 1):
     + Code attribute instructions (code length = 72, locals = 3, stack = 3):
-      [0] new #64
+      [0] new #67
         + Class [android/content/Intent]
       [3] dup
-      [4] ldc #48
+      [4] ldc #50
         + String [android.intent.action.SEND]
-      [6] invokespecial #111
+      [6] invokespecial #116
         + Methodref [android/content/Intent.<init> (Ljava/lang/String;)V]
       [9] astore_1 v1
       [10] aload_1 v1
-      [11] ldc #59
+      [11] ldc #61
         + String [text/plain]
-      [13] invokevirtual #115
+      [13] invokevirtual #120
         + Methodref [android/content/Intent.setType (Ljava/lang/String;)Landroid/content/Intent;]
       [16] pop
       [17] aload_1 v1
-      [18] ldc #49
+      [18] ldc #51
         + String [android.intent.extra.SUBJECT]
       [20] ldc #22
         + String [Android App - Ad Block Remover]
-      [22] invokevirtual #114
+      [22] invokevirtual #119
         + Methodref [android/content/Intent.putExtra (Ljava/lang/String;Ljava/lang/String;)Landroid/content/Intent;]
       [25] pop
       [26] ldc #14
@@ -34381,37 +34434,37 @@ Support the open source community! Check out this android application.
 
 ]
       [28] astore_2 v2
-      [29] new #90
+      [29] new #95
         + Class [java/lang/StringBuilder]
       [32] dup
-      [33] invokespecial #165
+      [33] invokespecial #172
         + Methodref [java/lang/StringBuilder.<init> ()V]
       [36] aload_2 v2
-      [37] invokevirtual #166
+      [37] invokevirtual #173
         + Methodref [java/lang/StringBuilder.append (Ljava/lang/String;)Ljava/lang/StringBuilder;]
-      [40] ldc #57
+      [40] ldc #59
         + String [https://play.google.com/store/apps/details?id=com.av1rus.adblockremover 
 
 ]
-      [42] invokevirtual #166
+      [42] invokevirtual #173
         + Methodref [java/lang/StringBuilder.append (Ljava/lang/String;)Ljava/lang/StringBuilder;]
-      [45] invokevirtual #167
+      [45] invokevirtual #174
         + Methodref [java/lang/StringBuilder.toString ()Ljava/lang/String;]
       [48] astore_2 v2
       [49] aload_1 v1
-      [50] ldc #50
+      [50] ldc #52
         + String [android.intent.extra.TEXT]
       [52] aload_2 v2
-      [53] invokevirtual #114
+      [53] invokevirtual #119
         + Methodref [android/content/Intent.putExtra (Ljava/lang/String;Ljava/lang/String;)Landroid/content/Intent;]
       [56] pop
       [57] aload_0 v0
       [58] aload_1 v1
-      [59] ldc #44
+      [59] ldc #46
         + String [Share With: ]
-      [61] invokestatic #113
+      [61] invokestatic #118
         + Methodref [android/content/Intent.createChooser (Landroid/content/Intent;Ljava/lang/CharSequence;)Landroid/content/Intent;]
-      [64] invokevirtual #153
+      [64] invokevirtual #158
         + Methodref [com/av1rus/adblockremover/MainActivity.startActivity (Landroid/content/Intent;)V]
       [67] goto +4 (target=71)
       [70] astore_1 v1
@@ -34432,14 +34485,14 @@ Support the open source community! Check out this android application.
       [1] iconst_1
       [2] ificmpne +10 (target=12)
       [5] aload_0 v0
-      [6] invokevirtual #137
+      [6] invokevirtual #142
         + Methodref [com/av1rus/adblockremover/MainActivity.a ()V]
       [9] goto +62 (target=71)
       [12] iload_3 v3
       [13] iconst_2
       [14] ificmpne +10 (target=24)
       [17] aload_0 v0
-      [18] invokevirtual #140
+      [18] invokevirtual #145
         + Methodref [com/av1rus/adblockremover/MainActivity.c ()V]
       [21] goto +50 (target=71)
       [24] iload_3 v3
@@ -34448,23 +34501,23 @@ Support the open source community! Check out this android application.
       [29] aload_0 v0
       [30] ldc #18
         + String [/etc/hosts]
-      [32] invokevirtual #143
+      [32] invokevirtual #148
         + Methodref [com/av1rus/adblockremover/MainActivity.e (Ljava/lang/String;)V]
       [35] goto +36 (target=71)
       [38] iload_3 v3
       [39] iconst_4
       [40] ificmpne +13 (target=53)
       [43] aload_0 v0
-      [44] invokevirtual #141
+      [44] invokevirtual #146
         + Methodref [com/av1rus/adblockremover/MainActivity.d ()Landroid/app/Dialog;]
-      [47] invokevirtual #108
+      [47] invokevirtual #113
         + Methodref [android/app/Dialog.show ()V]
       [50] goto +21 (target=71)
       [53] iload_3 v3
       [54] iconst_5
       [55] ificmpne +10 (target=65)
       [58] aload_0 v0
-      [59] invokevirtual #144
+      [59] invokevirtual #149
         + Methodref [com/av1rus/adblockremover/MainActivity.f ()V]
       [62] goto +9 (target=71)
       [65] iload_3 v3
@@ -34488,166 +34541,166 @@ Support the open source community! Check out this android application.
       [0] aload_0 v0
       [1] aload_1 v1
       [2] aload_2 v2
-      [3] invokespecial #155
+      [3] invokespecial #160
         + Methodref [com/av1rus/adblockremover/a.b (Ljava/lang/String;Ljava/lang/String;)V]
       [6] aload_1 v1
-      [7] ldc #52
+      [7] ldc #54
         + String [errorWithRoot]
       [9] ifacmpne +19 (target=28)
       [12] aload_0 v0
-      [13] invokevirtual #147
+      [13] invokevirtual #152
         + Methodref [com/av1rus/adblockremover/MainActivity.getApplicationContext ()Landroid/content/Context;]
-      [16] ldc #28
+      [16] ldc #30
         + String [Error running command. Are you sure you have root? Reboot and try again.]
       [18] iconst_1
-      [19] invokestatic #133
+      [19] invokestatic #138
         + Methodref [android/widget/Toast.makeText (Landroid/content/Context;Ljava/lang/CharSequence;I)Landroid/widget/Toast;]
-      [22] invokevirtual #134
+      [22] invokevirtual #139
         + Methodref [android/widget/Toast.show ()V]
       [25] goto +206 (target=231)
       [28] aload_1 v1
-      [29] ldc #51
+      [29] ldc #53
         + String [errorWithCopy]
       [31] ifacmpne +36 (target=67)
       [34] aload_0 v0
-      [35] invokevirtual #147
+      [35] invokevirtual #152
         + Methodref [com/av1rus/adblockremover/MainActivity.getApplicationContext ()Landroid/content/Context;]
-      [38] new #90
+      [38] new #95
         + Class [java/lang/StringBuilder]
       [41] dup
-      [42] invokespecial #165
+      [42] invokespecial #172
         + Methodref [java/lang/StringBuilder.<init> ()V]
-      [45] ldc #39
+      [45] ldc #41
         + String [Problem copying file: ]
-      [47] invokevirtual #166
+      [47] invokevirtual #173
         + Methodref [java/lang/StringBuilder.append (Ljava/lang/String;)Ljava/lang/StringBuilder;]
       [50] aload_2 v2
-      [51] invokevirtual #166
+      [51] invokevirtual #173
         + Methodref [java/lang/StringBuilder.append (Ljava/lang/String;)Ljava/lang/StringBuilder;]
-      [54] invokevirtual #167
+      [54] invokevirtual #174
         + Methodref [java/lang/StringBuilder.toString ()Ljava/lang/String;]
       [57] iconst_1
-      [58] invokestatic #133
+      [58] invokestatic #138
         + Methodref [android/widget/Toast.makeText (Landroid/content/Context;Ljava/lang/CharSequence;I)Landroid/widget/Toast;]
-      [61] invokevirtual #134
+      [61] invokevirtual #139
         + Methodref [android/widget/Toast.show ()V]
       [64] goto +167 (target=231)
       [67] aload_1 v1
-      [68] ldc #56
+      [68] ldc #58
         + String [filesaved]
       [70] ifacmpne +41 (target=111)
       [73] aload_0 v0
-      [74] invokevirtual #147
+      [74] invokevirtual #152
         + Methodref [com/av1rus/adblockremover/MainActivity.getApplicationContext ()Landroid/content/Context;]
-      [77] new #90
+      [77] new #95
         + Class [java/lang/StringBuilder]
       [80] dup
-      [81] invokespecial #165
+      [81] invokespecial #172
         + Methodref [java/lang/StringBuilder.<init> ()V]
-      [84] ldc #29
+      [84] ldc #31
         + String [File name: ]
-      [86] invokevirtual #166
+      [86] invokevirtual #173
         + Methodref [java/lang/StringBuilder.append (Ljava/lang/String;)Ljava/lang/StringBuilder;]
       [89] aload_2 v2
-      [90] invokevirtual #166
+      [90] invokevirtual #173
         + Methodref [java/lang/StringBuilder.append (Ljava/lang/String;)Ljava/lang/StringBuilder;]
       [93] ldc #16
         + String [ Saved]
-      [95] invokevirtual #166
+      [95] invokevirtual #173
         + Methodref [java/lang/StringBuilder.append (Ljava/lang/String;)Ljava/lang/StringBuilder;]
-      [98] invokevirtual #167
+      [98] invokevirtual #174
         + Methodref [java/lang/StringBuilder.toString ()Ljava/lang/String;]
       [101] iconst_1
-      [102] invokestatic #133
+      [102] invokestatic #138
         + Methodref [android/widget/Toast.makeText (Landroid/content/Context;Ljava/lang/CharSequence;I)Landroid/widget/Toast;]
-      [105] invokevirtual #134
+      [105] invokevirtual #139
         + Methodref [android/widget/Toast.show ()V]
       [108] goto +123 (target=231)
       [111] aload_1 v1
-      [112] ldc #54
+      [112] ldc #56
         + String [fileoverwritten]
       [114] ifacmpne +41 (target=155)
       [117] aload_0 v0
-      [118] invokevirtual #147
+      [118] invokevirtual #152
         + Methodref [com/av1rus/adblockremover/MainActivity.getApplicationContext ()Landroid/content/Context;]
-      [121] new #90
+      [121] new #95
         + Class [java/lang/StringBuilder]
       [124] dup
-      [125] invokespecial #165
+      [125] invokespecial #172
         + Methodref [java/lang/StringBuilder.<init> ()V]
-      [128] ldc #29
+      [128] ldc #31
         + String [File name: ]
-      [130] invokevirtual #166
+      [130] invokevirtual #173
         + Methodref [java/lang/StringBuilder.append (Ljava/lang/String;)Ljava/lang/StringBuilder;]
       [133] aload_2 v2
-      [134] invokevirtual #166
+      [134] invokevirtual #173
         + Methodref [java/lang/StringBuilder.append (Ljava/lang/String;)Ljava/lang/StringBuilder;]
       [137] ldc #15
         + String [ Overwritten]
-      [139] invokevirtual #166
+      [139] invokevirtual #173
         + Methodref [java/lang/StringBuilder.append (Ljava/lang/String;)Ljava/lang/StringBuilder;]
-      [142] invokevirtual #167
+      [142] invokevirtual #174
         + Methodref [java/lang/StringBuilder.toString ()Ljava/lang/String;]
       [145] iconst_1
-      [146] invokestatic #133
+      [146] invokestatic #138
         + Methodref [android/widget/Toast.makeText (Landroid/content/Context;Ljava/lang/CharSequence;I)Landroid/widget/Toast;]
-      [149] invokevirtual #134
+      [149] invokevirtual #139
         + Methodref [android/widget/Toast.show ()V]
       [152] goto +79 (target=231)
       [155] aload_1 v1
-      [156] ldc #55
+      [156] ldc #57
         + String [filerestored]
       [158] ifacmpne +20 (target=178)
       [161] aload_0 v0
-      [162] invokevirtual #151
+      [162] invokevirtual #156
         + Methodref [com/av1rus/adblockremover/MainActivity.h ()V]
       [165] aload_0 v0
       [166] iconst_0
-      [167] ldc #34
+      [167] ldc #36
         + String [Job FInished]
-      [169] ldc #53
+      [169] ldc #55
         + String [file successfully restored]
-      [171] invokevirtual #138
+      [171] invokevirtual #143
         + Methodref [com/av1rus/adblockremover/MainActivity.a (ILjava/lang/String;Ljava/lang/String;)Landroid/app/Dialog;]
       [174] pop
       [175] goto +56 (target=231)
       [178] aload_1 v1
-      [179] ldc #46
+      [179] ldc #48
         + String [adRemoverComplete]
       [181] ifacmpne +20 (target=201)
       [184] aload_0 v0
-      [185] invokevirtual #151
+      [185] invokevirtual #156
         + Methodref [com/av1rus/adblockremover/MainActivity.h ()V]
       [188] aload_0 v0
       [189] iconst_0
-      [190] ldc #34
+      [190] ldc #36
         + String [Job FInished]
       [192] ldc #21
         + String [Ad Removal Complete]
-      [194] invokevirtual #138
+      [194] invokevirtual #143
         + Methodref [com/av1rus/adblockremover/MainActivity.a (ILjava/lang/String;Ljava/lang/String;)Landroid/app/Dialog;]
       [197] pop
       [198] goto +33 (target=231)
       [201] aload_1 v1
-      [202] ldc #47
+      [202] ldc #49
         + String [adRemoverError]
       [204] ifacmpne +17 (target=221)
       [207] aload_0 v0
-      [208] ldc #27
+      [208] ldc #29
         + String [Error Encountered]
-      [210] ldc #45
+      [210] ldc #47
         + String [There was an error editing the hosts file]
-      [212] invokevirtual #139
+      [212] invokevirtual #144
         + Methodref [com/av1rus/adblockremover/MainActivity.a (Ljava/lang/String;Ljava/lang/String;)Landroid/app/Dialog;]
-      [215] invokevirtual #108
+      [215] invokevirtual #113
         + Methodref [android/app/Dialog.show ()V]
       [218] goto +13 (target=231)
       [221] aload_1 v1
-      [222] ldc #25
+      [222] ldc #26
         + String [CustomComplete]
       [224] ifacmpne +7 (target=231)
       [227] aload_0 v0
-      [228] invokevirtual #151
+      [228] invokevirtual #156
         + Methodref [com/av1rus/adblockremover/MainActivity.h ()V]
       [231] return
       Code attribute exceptions (count = 0):
@@ -34667,170 +34720,170 @@ Support the open source community! Check out this android application.
     Class member attributes (count = 1):
     + Code attribute instructions (code length = 232, locals = 8, stack = 4):
       [0] aload_0 v0
-      [1] new #62
+      [1] new #65
         + Class [android/app/Dialog]
       [4] dup
       [5] aload_0 v0
-      [6] invokespecial #102
+      [6] invokespecial #107
         + Methodref [android/app/Dialog.<init> (Landroid/content/Context;)V]
-      [9] putfield #91
+      [9] putfield #96
         + Fieldref [com/av1rus/adblockremover/MainActivity.d Landroid/app/Dialog;]
       [12] aload_0 v0
-      [13] getfield #91
+      [13] getfield #96
         + Fieldref [com/av1rus/adblockremover/MainActivity.d Landroid/app/Dialog;]
       [16] ldc #5
         + Integer [2130903046]
-      [18] invokevirtual #106
+      [18] invokevirtual #111
         + Methodref [android/app/Dialog.setContentView (I)V]
       [21] aload_0 v0
-      [22] getfield #91
+      [22] getfield #96
         + Fieldref [com/av1rus/adblockremover/MainActivity.d Landroid/app/Dialog;]
       [25] ldc #19
         + String [About]
-      [27] invokevirtual #107
+      [27] invokevirtual #112
         + Methodref [android/app/Dialog.setTitle (Ljava/lang/CharSequence;)V]
       [30] aload_0 v0
-      [31] getfield #91
+      [31] getfield #96
         + Fieldref [com/av1rus/adblockremover/MainActivity.d Landroid/app/Dialog;]
       [34] iconst_1
-      [35] invokevirtual #105
+      [35] invokevirtual #110
         + Methodref [android/app/Dialog.setCancelable (Z)V]
-      [38] new #66
+      [38] new #69
         + Class [android/text/format/Time]
       [41] dup
-      [42] invokespecial #117
+      [42] invokespecial #122
         + Methodref [android/text/format/Time.<init> ()V]
       [45] astore_1 v1
       [46] aload_1 v1
-      [47] invokevirtual #118
+      [47] invokevirtual #123
         + Methodref [android/text/format/Time.setToNow ()V]
       [50] aload_0 v0
-      [51] getfield #91
+      [51] getfield #96
         + Fieldref [com/av1rus/adblockremover/MainActivity.d Landroid/app/Dialog;]
       [54] ldc #11
         + Integer [2131230748]
-      [56] invokevirtual #103
+      [56] invokevirtual #108
         + Methodref [android/app/Dialog.findViewById (I)Landroid/view/View;]
-      [59] checkcast #73
+      [59] checkcast #76
         + Class [android/widget/EditText]
       [62] astore_2 v2
       [63] aload_2 v2
       [64] bipush 8
-      [66] invokevirtual #125
+      [66] invokevirtual #130
         + Methodref [android/widget/EditText.setVisibility (I)V]
       [69] aload_0 v0
-      [70] getfield #91
+      [70] getfield #96
         + Fieldref [com/av1rus/adblockremover/MainActivity.d Landroid/app/Dialog;]
       [73] ldc #8
         + Integer [2131230745]
-      [75] invokevirtual #103
+      [75] invokevirtual #108
         + Methodref [android/app/Dialog.findViewById (I)Landroid/view/View;]
-      [78] checkcast #74
+      [78] checkcast #77
         + Class [android/widget/ListView]
       [81] astore_3 v3
       [82] aload_3 v3
       [83] bipush 8
-      [85] invokevirtual #129
+      [85] invokevirtual #134
         + Methodref [android/widget/ListView.setVisibility (I)V]
       [88] aload_0 v0
-      [89] getfield #91
+      [89] getfield #96
         + Fieldref [com/av1rus/adblockremover/MainActivity.d Landroid/app/Dialog;]
       [92] ldc #9
         + Integer [2131230746]
-      [94] invokevirtual #103
+      [94] invokevirtual #108
         + Methodref [android/app/Dialog.findViewById (I)Landroid/view/View;]
-      [97] checkcast #75
+      [97] checkcast #78
         + Class [android/widget/ScrollView]
       [100] astore v4
       [102] aload v4
       [104] iconst_0
-      [105] invokevirtual #130
+      [105] invokevirtual #135
         + Methodref [android/widget/ScrollView.setVisibility (I)V]
       [108] aload_0 v0
-      [109] getfield #91
+      [109] getfield #96
         + Fieldref [com/av1rus/adblockremover/MainActivity.d Landroid/app/Dialog;]
       [112] ldc #10
         + Integer [2131230747]
-      [114] invokevirtual #103
+      [114] invokevirtual #108
         + Methodref [android/app/Dialog.findViewById (I)Landroid/view/View;]
-      [117] checkcast #76
+      [117] checkcast #79
         + Class [android/widget/TextView]
       [120] astore v5
       [122] aload v5
       [124] iconst_0
-      [125] invokevirtual #132
+      [125] invokevirtual #137
         + Methodref [android/widget/TextView.setVisibility (I)V]
       [128] aload v5
       [130] aload_0 v0
-      [131] invokevirtual #146
+      [131] invokevirtual #151
         + Methodref [com/av1rus/adblockremover/MainActivity.g ()Ljava/lang/String;]
-      [134] invokevirtual #131
+      [134] invokevirtual #136
         + Methodref [android/widget/TextView.setText (Ljava/lang/CharSequence;)V]
       [137] aload_0 v0
-      [138] getfield #91
+      [138] getfield #96
         + Fieldref [com/av1rus/adblockremover/MainActivity.d Landroid/app/Dialog;]
       [141] ldc #12
         + Integer [2131230749]
-      [143] invokevirtual #103
+      [143] invokevirtual #108
         + Methodref [android/app/Dialog.findViewById (I)Landroid/view/View;]
-      [146] checkcast #72
+      [146] checkcast #75
         + Class [android/widget/Button]
       [149] astore v6
       [151] aload v6
-      [153] ldc #37
+      [153] ldc #39
         + String [Ok]
-      [155] invokevirtual #123
+      [155] invokevirtual #128
         + Methodref [android/widget/Button.setText (Ljava/lang/CharSequence;)V]
       [158] aload v6
-      [160] new #87
-        + Class [com/av1rus/adblockremover/z]
+      [160] new #85
+        + Class [com/av1rus/adblockremover/ab]
       [163] dup
       [164] aload_0 v0
       [165] invokespecial #164
-        + Methodref [com/av1rus/adblockremover/z.<init> (Lcom/av1rus/adblockremover/MainActivity;)V]
-      [168] invokevirtual #122
+        + Methodref [com/av1rus/adblockremover/ab.<init> (Lcom/av1rus/adblockremover/MainActivity;)V]
+      [168] invokevirtual #127
         + Methodref [android/widget/Button.setOnClickListener (Landroid/view/View$OnClickListener;)V]
       [171] aload_0 v0
-      [172] getfield #91
+      [172] getfield #96
         + Fieldref [com/av1rus/adblockremover/MainActivity.d Landroid/app/Dialog;]
       [175] ldc #13
         + Integer [2131230750]
-      [177] invokevirtual #103
+      [177] invokevirtual #108
         + Methodref [android/app/Dialog.findViewById (I)Landroid/view/View;]
-      [180] checkcast #72
+      [180] checkcast #75
         + Class [android/widget/Button]
       [183] astore v7
       [185] aload v7
-      [187] ldc #26
+      [187] ldc #28
         + String [Email Me]
-      [189] invokevirtual #123
+      [189] invokevirtual #128
         + Methodref [android/widget/Button.setText (Ljava/lang/CharSequence;)V]
       [192] aload v7
       [194] iconst_0
-      [195] invokevirtual #124
+      [195] invokevirtual #129
         + Methodref [android/widget/Button.setVisibility (I)V]
       [198] aload v7
-      [200] new #81
-        + Class [com/av1rus/adblockremover/aa]
+      [200] new #86
+        + Class [com/av1rus/adblockremover/ac]
       [203] dup
       [204] aload_0 v0
-      [205] invokespecial #158
-        + Methodref [com/av1rus/adblockremover/aa.<init> (Lcom/av1rus/adblockremover/MainActivity;)V]
-      [208] invokevirtual #122
+      [205] invokespecial #165
+        + Methodref [com/av1rus/adblockremover/ac.<init> (Lcom/av1rus/adblockremover/MainActivity;)V]
+      [208] invokevirtual #127
         + Methodref [android/widget/Button.setOnClickListener (Landroid/view/View$OnClickListener;)V]
       [211] aload_0 v0
-      [212] getfield #91
+      [212] getfield #96
         + Fieldref [com/av1rus/adblockremover/MainActivity.d Landroid/app/Dialog;]
-      [215] invokevirtual #104
+      [215] invokevirtual #109
         + Methodref [android/app/Dialog.getWindow ()Landroid/view/Window;]
       [218] iconst_m1
       [219] bipush -2
-      [221] invokevirtual #121
+      [221] invokevirtual #126
         + Methodref [android/view/Window.setLayout (II)V]
       [224] aload_0 v0
-      [225] getfield #91
+      [225] getfield #96
         + Fieldref [com/av1rus/adblockremover/MainActivity.d Landroid/app/Dialog;]
-      [228] invokevirtual #108
+      [228] invokevirtual #113
         + Methodref [android/app/Dialog.show ()V]
       [231] return
       Code attribute exceptions (count = 0):
@@ -34840,7 +34893,7 @@ Support the open source community! Check out this android application.
       = public java.lang.String g()
     Class member attributes (count = 1):
     + Code attribute instructions (code length = 5, locals = 2, stack = 1):
-      [0] ldc #32
+      [0] ldc #34
         + String [If you support the developer community than you will appreciate this application. Advertisements are used to allow developers to make money while keeping the application free for you to use. Without ads the application would not be free. This application was created to remove the ad blockers from your phone IF you are willing to do so. 
 
 HOW IT WORKS:
@@ -34866,27 +34919,27 @@ If you have any questions about this application send me an email at aV1rusApps@
     Class member attributes (count = 1):
     + Code attribute instructions (code length = 31, locals = 2, stack = 2):
       [0] aload_0 v0
-      [1] invokevirtual #148
+      [1] invokevirtual #153
         + Methodref [com/av1rus/adblockremover/MainActivity.getBaseContext ()Landroid/content/Context;]
-      [4] invokevirtual #109
+      [4] invokevirtual #114
         + Methodref [android/content/Context.getPackageManager ()Landroid/content/pm/PackageManager;]
       [7] aload_0 v0
-      [8] invokevirtual #148
+      [8] invokevirtual #153
         + Methodref [com/av1rus/adblockremover/MainActivity.getBaseContext ()Landroid/content/Context;]
-      [11] invokevirtual #110
+      [11] invokevirtual #115
         + Methodref [android/content/Context.getPackageName ()Ljava/lang/String;]
-      [14] invokevirtual #116
+      [14] invokevirtual #121
         + Methodref [android/content/pm/PackageManager.getLaunchIntentForPackage (Ljava/lang/String;)Landroid/content/Intent;]
       [17] astore_1 v1
       [18] aload_1 v1
       [19] ldc #1
         + Integer [67108864]
-      [21] invokevirtual #112
+      [21] invokevirtual #117
         + Methodref [android/content/Intent.addFlags (I)Landroid/content/Intent;]
       [24] pop
       [25] aload_0 v0
       [26] aload_1 v1
-      [27] invokevirtual #153
+      [27] invokevirtual #158
         + Methodref [com/av1rus/adblockremover/MainActivity.startActivity (Landroid/content/Intent;)V]
       [30] return
       Code attribute exceptions (count = 0):
@@ -35102,16 +35155,16 @@ Interfaces (count = 1):
   + Class [android/content/DialogInterface$OnClickListener]
 
 Constant Pool (count = 24):
+  + Class [android/content/DialogInterface]
   + Class [android/content/DialogInterface$OnClickListener]
-  + Class [com/av1rus/adblockremover/MainActivity]
   + Class [com/av1rus/adblockremover/y]
   + Class [java/lang/Object]
   + Fieldref [com/av1rus/adblockremover/y.a Lcom/av1rus/adblockremover/MainActivity;]
-  + Methodref [com/av1rus/adblockremover/MainActivity.finish ()V]
   + Methodref [java/lang/Object.<init> ()V]
+  + InterfaceMethodref [android/content/DialogInterface.dismiss ()V]
   + NameAndType [<init> ()V]
   + NameAndType [a Lcom/av1rus/adblockremover/MainActivity;]
-  + NameAndType [finish ()V]
+  + NameAndType [dismiss ()V]
   + Utf8 [()V]
   + Utf8 [(Landroid/content/DialogInterface;I)V]
   + Utf8 [(Lcom/av1rus/adblockremover/MainActivity;)V]
@@ -35119,10 +35172,10 @@ Constant Pool (count = 24):
   + Utf8 [Code]
   + Utf8 [Lcom/av1rus/adblockremover/MainActivity;]
   + Utf8 [a]
+  + Utf8 [android/content/DialogInterface]
   + Utf8 [android/content/DialogInterface$OnClickListener]
-  + Utf8 [com/av1rus/adblockremover/MainActivity]
   + Utf8 [com/av1rus/adblockremover/y]
-  + Utf8 [finish]
+  + Utf8 [dismiss]
   + Utf8 [java/lang/Object]
   + Utf8 [onClick]
 
@@ -35142,7 +35195,7 @@ Methods (count = 2):
       [2] putfield #5
         + Fieldref [com/av1rus/adblockremover/y.a Lcom/av1rus/adblockremover/MainActivity;]
       [5] aload_0 v0
-      [6] invokespecial #7
+      [6] invokespecial #6
         + Methodref [java/lang/Object.<init> ()V]
       [9] return
       Code attribute exceptions (count = 0):
@@ -35151,13 +35204,11 @@ Methods (count = 2):
     Access flags: 0x1
       = public void onClick(android.content.DialogInterface,int)
     Class member attributes (count = 1):
-    + Code attribute instructions (code length = 8, locals = 3, stack = 1):
-      [0] aload_0 v0
-      [1] getfield #5
-        + Fieldref [com/av1rus/adblockremover/y.a Lcom/av1rus/adblockremover/MainActivity;]
-      [4] invokevirtual #6
-        + Methodref [com/av1rus/adblockremover/MainActivity.finish ()V]
-      [7] return
+    + Code attribute instructions (code length = 7, locals = 3, stack = 1):
+      [0] aload_1 v1
+      [1] invokeinterface #7
+        + InterfaceMethodref [android/content/DialogInterface.dismiss ()V]
+      [6] return
       Code attribute exceptions (count = 0):
       Code attribute attributes (attribute count = 0):
 
@@ -35172,16 +35223,181 @@ _____________________________________________________________________
     = class com.av1rus.adblockremover.z extends java.lang.Object
 
 Interfaces (count = 1):
+  + Class [android/content/DialogInterface$OnClickListener]
+
+Constant Pool (count = 33):
+  + Class [android/content/DialogInterface]
+  + Class [android/content/DialogInterface$OnClickListener]
+  + Class [com/a/a/a]
+  + Class [com/av1rus/adblockremover/z]
+  + Class [java/lang/Object]
+  + Fieldref [com/av1rus/adblockremover/z.a Landroid/app/Activity;]
+  + Fieldref [com/av1rus/adblockremover/z.b Lcom/av1rus/adblockremover/MainActivity;]
+  + Methodref [com/a/a/a.a (Landroid/app/Activity;)V]
+  + Methodref [java/lang/Object.<init> ()V]
+  + InterfaceMethodref [android/content/DialogInterface.dismiss ()V]
+  + NameAndType [<init> ()V]
+  + NameAndType [a (Landroid/app/Activity;)V]
+  + NameAndType [a Landroid/app/Activity;]
+  + NameAndType [b Lcom/av1rus/adblockremover/MainActivity;]
+  + NameAndType [dismiss ()V]
+  + Utf8 [()V]
+  + Utf8 [(Landroid/app/Activity;)V]
+  + Utf8 [(Landroid/content/DialogInterface;I)V]
+  + Utf8 [(Lcom/av1rus/adblockremover/MainActivity;Landroid/app/Activity;)V]
+  + Utf8 [<init>]
+  + Utf8 [Code]
+  + Utf8 [Landroid/app/Activity;]
+  + Utf8 [Lcom/av1rus/adblockremover/MainActivity;]
+  + Utf8 [a]
+  + Utf8 [android/content/DialogInterface]
+  + Utf8 [android/content/DialogInterface$OnClickListener]
+  + Utf8 [b]
+  + Utf8 [com/a/a/a]
+  + Utf8 [com/av1rus/adblockremover/z]
+  + Utf8 [dismiss]
+  + Utf8 [java/lang/Object]
+  + Utf8 [onClick]
+
+Fields (count = 2):
+  + Field:        a Landroid/app/Activity;
+    Access flags: 0x1010
+      = final synthetic android.app.Activity a
+  + Field:        b Lcom/av1rus/adblockremover/MainActivity;
+    Access flags: 0x1010
+      = final synthetic com.av1rus.adblockremover.MainActivity b
+
+Methods (count = 2):
+  - Method:       <init>(Lcom/av1rus/adblockremover/MainActivity;Landroid/app/Activity;)V
+    Access flags: 0x0
+      = z(com.av1rus.adblockremover.MainActivity,android.app.Activity)
+    Class member attributes (count = 1):
+    + Code attribute instructions (code length = 15, locals = 3, stack = 2):
+      [0] aload_0 v0
+      [1] aload_1 v1
+      [2] putfield #7
+        + Fieldref [com/av1rus/adblockremover/z.b Lcom/av1rus/adblockremover/MainActivity;]
+      [5] aload_0 v0
+      [6] aload_2 v2
+      [7] putfield #6
+        + Fieldref [com/av1rus/adblockremover/z.a Landroid/app/Activity;]
+      [10] aload_0 v0
+      [11] invokespecial #9
+        + Methodref [java/lang/Object.<init> ()V]
+      [14] return
+      Code attribute exceptions (count = 0):
+      Code attribute attributes (attribute count = 0):
+  + Method:       onClick(Landroid/content/DialogInterface;I)V
+    Access flags: 0x1
+      = public void onClick(android.content.DialogInterface,int)
+    Class member attributes (count = 1):
+    + Code attribute instructions (code length = 14, locals = 3, stack = 1):
+      [0] aload_1 v1
+      [1] invokeinterface #10
+        + InterfaceMethodref [android/content/DialogInterface.dismiss ()V]
+      [6] aload_0 v0
+      [7] getfield #6
+        + Fieldref [com/av1rus/adblockremover/z.a Landroid/app/Activity;]
+      [10] invokestatic #8
+        + Methodref [com/a/a/a.a (Landroid/app/Activity;)V]
+      [13] return
+      Code attribute exceptions (count = 0):
+      Code attribute attributes (attribute count = 0):
+
+Class file attributes (count = 0):
+
+_____________________________________________________________________
++ Program class: com/av1rus/adblockremover/aa
+  Superclass:    java/lang/Object
+  Major version: 0x33
+  Minor version: 0x0
+  Access flags:  0x20
+    = class com.av1rus.adblockremover.aa extends java.lang.Object
+
+Interfaces (count = 1):
+  + Class [android/content/DialogInterface$OnClickListener]
+
+Constant Pool (count = 24):
+  + Class [android/content/DialogInterface$OnClickListener]
+  + Class [com/av1rus/adblockremover/MainActivity]
+  + Class [com/av1rus/adblockremover/aa]
+  + Class [java/lang/Object]
+  + Fieldref [com/av1rus/adblockremover/aa.a Lcom/av1rus/adblockremover/MainActivity;]
+  + Methodref [com/av1rus/adblockremover/MainActivity.finish ()V]
+  + Methodref [java/lang/Object.<init> ()V]
+  + NameAndType [<init> ()V]
+  + NameAndType [a Lcom/av1rus/adblockremover/MainActivity;]
+  + NameAndType [finish ()V]
+  + Utf8 [()V]
+  + Utf8 [(Landroid/content/DialogInterface;I)V]
+  + Utf8 [(Lcom/av1rus/adblockremover/MainActivity;)V]
+  + Utf8 [<init>]
+  + Utf8 [Code]
+  + Utf8 [Lcom/av1rus/adblockremover/MainActivity;]
+  + Utf8 [a]
+  + Utf8 [android/content/DialogInterface$OnClickListener]
+  + Utf8 [com/av1rus/adblockremover/MainActivity]
+  + Utf8 [com/av1rus/adblockremover/aa]
+  + Utf8 [finish]
+  + Utf8 [java/lang/Object]
+  + Utf8 [onClick]
+
+Fields (count = 1):
+  + Field:        a Lcom/av1rus/adblockremover/MainActivity;
+    Access flags: 0x1010
+      = final synthetic com.av1rus.adblockremover.MainActivity a
+
+Methods (count = 2):
+  - Method:       <init>(Lcom/av1rus/adblockremover/MainActivity;)V
+    Access flags: 0x0
+      = aa(com.av1rus.adblockremover.MainActivity)
+    Class member attributes (count = 1):
+    + Code attribute instructions (code length = 10, locals = 2, stack = 2):
+      [0] aload_0 v0
+      [1] aload_1 v1
+      [2] putfield #5
+        + Fieldref [com/av1rus/adblockremover/aa.a Lcom/av1rus/adblockremover/MainActivity;]
+      [5] aload_0 v0
+      [6] invokespecial #7
+        + Methodref [java/lang/Object.<init> ()V]
+      [9] return
+      Code attribute exceptions (count = 0):
+      Code attribute attributes (attribute count = 0):
+  + Method:       onClick(Landroid/content/DialogInterface;I)V
+    Access flags: 0x1
+      = public void onClick(android.content.DialogInterface,int)
+    Class member attributes (count = 1):
+    + Code attribute instructions (code length = 8, locals = 3, stack = 1):
+      [0] aload_0 v0
+      [1] getfield #5
+        + Fieldref [com/av1rus/adblockremover/aa.a Lcom/av1rus/adblockremover/MainActivity;]
+      [4] invokevirtual #6
+        + Methodref [com/av1rus/adblockremover/MainActivity.finish ()V]
+      [7] return
+      Code attribute exceptions (count = 0):
+      Code attribute attributes (attribute count = 0):
+
+Class file attributes (count = 0):
+
+_____________________________________________________________________
++ Program class: com/av1rus/adblockremover/ab
+  Superclass:    java/lang/Object
+  Major version: 0x33
+  Minor version: 0x0
+  Access flags:  0x20
+    = class com.av1rus.adblockremover.ab extends java.lang.Object
+
+Interfaces (count = 1):
   + Class [android/view/View$OnClickListener]
 
 Constant Pool (count = 30):
   + Class [android/app/Dialog]
   + Class [android/view/View$OnClickListener]
   + Class [com/av1rus/adblockremover/MainActivity]
-  + Class [com/av1rus/adblockremover/z]
+  + Class [com/av1rus/adblockremover/ab]
   + Class [java/lang/Object]
   + Fieldref [com/av1rus/adblockremover/MainActivity.d Landroid/app/Dialog;]
-  + Fieldref [com/av1rus/adblockremover/z.a Lcom/av1rus/adblockremover/MainActivity;]
+  + Fieldref [com/av1rus/adblockremover/ab.a Lcom/av1rus/adblockremover/MainActivity;]
   + Methodref [android/app/Dialog.dismiss ()V]
   + Methodref [java/lang/Object.<init> ()V]
   + NameAndType [<init> ()V]
@@ -35199,7 +35415,7 @@ Constant Pool (count = 30):
   + Utf8 [android/app/Dialog]
   + Utf8 [android/view/View$OnClickListener]
   + Utf8 [com/av1rus/adblockremover/MainActivity]
-  + Utf8 [com/av1rus/adblockremover/z]
+  + Utf8 [com/av1rus/adblockremover/ab]
   + Utf8 [d]
   + Utf8 [dismiss]
   + Utf8 [java/lang/Object]
@@ -35213,13 +35429,13 @@ Fields (count = 1):
 Methods (count = 2):
   - Method:       <init>(Lcom/av1rus/adblockremover/MainActivity;)V
     Access flags: 0x0
-      = z(com.av1rus.adblockremover.MainActivity)
+      = ab(com.av1rus.adblockremover.MainActivity)
     Class member attributes (count = 1):
     + Code attribute instructions (code length = 10, locals = 2, stack = 2):
       [0] aload_0 v0
       [1] aload_1 v1
       [2] putfield #7
-        + Fieldref [com/av1rus/adblockremover/z.a Lcom/av1rus/adblockremover/MainActivity;]
+        + Fieldref [com/av1rus/adblockremover/ab.a Lcom/av1rus/adblockremover/MainActivity;]
       [5] aload_0 v0
       [6] invokespecial #9
         + Methodref [java/lang/Object.<init> ()V]
@@ -35233,7 +35449,7 @@ Methods (count = 2):
     + Code attribute instructions (code length = 11, locals = 2, stack = 1):
       [0] aload_0 v0
       [1] getfield #7
-        + Fieldref [com/av1rus/adblockremover/z.a Lcom/av1rus/adblockremover/MainActivity;]
+        + Fieldref [com/av1rus/adblockremover/ab.a Lcom/av1rus/adblockremover/MainActivity;]
       [4] getfield #6
         + Fieldref [com/av1rus/adblockremover/MainActivity.d Landroid/app/Dialog;]
       [7] invokevirtual #8
@@ -35245,12 +35461,12 @@ Methods (count = 2):
 Class file attributes (count = 0):
 
 _____________________________________________________________________
-+ Program class: com/av1rus/adblockremover/aa
++ Program class: com/av1rus/adblockremover/ac
   Superclass:    java/lang/Object
   Major version: 0x33
   Minor version: 0x0
   Access flags:  0x20
-    = class com.av1rus.adblockremover.aa extends java.lang.Object
+    = class com.av1rus.adblockremover.ac extends java.lang.Object
 
 Interfaces (count = 1):
   + Class [android/view/View$OnClickListener]
@@ -35270,11 +35486,11 @@ I am emailing you in regards to AdBlock Remover.]
   + Class [android/content/Intent]
   + Class [android/view/View$OnClickListener]
   + Class [com/av1rus/adblockremover/MainActivity]
-  + Class [com/av1rus/adblockremover/aa]
+  + Class [com/av1rus/adblockremover/ac]
   + Class [java/lang/Object]
   + Class [java/lang/String]
   + Fieldref [com/av1rus/adblockremover/MainActivity.d Landroid/app/Dialog;]
-  + Fieldref [com/av1rus/adblockremover/aa.a Lcom/av1rus/adblockremover/MainActivity;]
+  + Fieldref [com/av1rus/adblockremover/ac.a Lcom/av1rus/adblockremover/MainActivity;]
   + Methodref [android/app/Dialog.dismiss ()V]
   + Methodref [android/content/Intent.<init> (Ljava/lang/String;)V]
   + Methodref [android/content/Intent.createChooser (Landroid/content/Intent;Ljava/lang/CharSequence;)Landroid/content/Intent;]
@@ -35320,7 +35536,7 @@ I am emailing you in regards to AdBlock Remover.]
   + Utf8 [android/content/Intent]
   + Utf8 [android/view/View$OnClickListener]
   + Utf8 [com/av1rus/adblockremover/MainActivity]
-  + Utf8 [com/av1rus/adblockremover/aa]
+  + Utf8 [com/av1rus/adblockremover/ac]
   + Utf8 [createChooser]
   + Utf8 [d]
   + Utf8 [dismiss]
@@ -35340,13 +35556,13 @@ Fields (count = 1):
 Methods (count = 2):
   - Method:       <init>(Lcom/av1rus/adblockremover/MainActivity;)V
     Access flags: 0x0
-      = aa(com.av1rus.adblockremover.MainActivity)
+      = ac(com.av1rus.adblockremover.MainActivity)
     Class member attributes (count = 1):
     + Code attribute instructions (code length = 10, locals = 2, stack = 2):
       [0] aload_0 v0
       [1] aload_1 v1
       [2] putfield #18
-        + Fieldref [com/av1rus/adblockremover/aa.a Lcom/av1rus/adblockremover/MainActivity;]
+        + Fieldref [com/av1rus/adblockremover/ac.a Lcom/av1rus/adblockremover/MainActivity;]
       [5] aload_0 v0
       [6] invokespecial #26
         + Methodref [java/lang/Object.<init> ()V]
@@ -35413,7 +35629,7 @@ I am emailing you in regards to AdBlock Remover.]
       [67] pop
       [68] aload_0 v0
       [69] getfield #18
-        + Fieldref [com/av1rus/adblockremover/aa.a Lcom/av1rus/adblockremover/MainActivity;]
+        + Fieldref [com/av1rus/adblockremover/ac.a Lcom/av1rus/adblockremover/MainActivity;]
       [72] aload v6
       [74] ldc #1
         + String [Choice App to send message:]
@@ -35423,7 +35639,7 @@ I am emailing you in regards to AdBlock Remover.]
         + Methodref [com/av1rus/adblockremover/MainActivity.startActivity (Landroid/content/Intent;)V]
       [82] aload_0 v0
       [83] getfield #18
-        + Fieldref [com/av1rus/adblockremover/aa.a Lcom/av1rus/adblockremover/MainActivity;]
+        + Fieldref [com/av1rus/adblockremover/ac.a Lcom/av1rus/adblockremover/MainActivity;]
       [86] getfield #17
         + Fieldref [com/av1rus/adblockremover/MainActivity.d Landroid/app/Dialog;]
       [89] invokevirtual #19
@@ -35435,20 +35651,20 @@ I am emailing you in regards to AdBlock Remover.]
 Class file attributes (count = 0):
 
 _____________________________________________________________________
-+ Program class: com/av1rus/adblockremover/ab
++ Program class: com/av1rus/adblockremover/ad
   Superclass:    java/lang/Object
   Major version: 0x33
   Minor version: 0x0
   Access flags:  0x21
-    = public class com.av1rus.adblockremover.ab extends java.lang.Object
+    = public class com.av1rus.adblockremover.ad extends java.lang.Object
 
 Interfaces (count = 0):
 
 Constant Pool (count = 18):
-  + Class [com/av1rus/adblockremover/ab]
+  + Class [com/av1rus/adblockremover/ad]
   + Class [java/lang/Object]
-  + Fieldref [com/av1rus/adblockremover/ab.a Ljava/lang/String;]
-  + Fieldref [com/av1rus/adblockremover/ab.b Ljava/lang/String;]
+  + Fieldref [com/av1rus/adblockremover/ad.a Ljava/lang/String;]
+  + Fieldref [com/av1rus/adblockremover/ad.b Ljava/lang/String;]
   + Methodref [java/lang/Object.<init> ()V]
   + NameAndType [<init> ()V]
   + NameAndType [a Ljava/lang/String;]
@@ -35460,7 +35676,7 @@ Constant Pool (count = 18):
   + Utf8 [Ljava/lang/String;]
   + Utf8 [a]
   + Utf8 [b]
-  + Utf8 [com/av1rus/adblockremover/ab]
+  + Utf8 [com/av1rus/adblockremover/ad]
   + Utf8 [java/lang/Object]
 
 Fields (count = 2):
@@ -35474,7 +35690,7 @@ Fields (count = 2):
 Methods (count = 2):
   - Method:       <init>()V
     Access flags: 0x1
-      = public ab()
+      = public ad()
     Class member attributes (count = 1):
     + Code attribute instructions (code length = 5, locals = 1, stack = 1):
       [0] aload_0 v0
@@ -35485,7 +35701,7 @@ Methods (count = 2):
       Code attribute attributes (attribute count = 0):
   - Method:       <init>(Ljava/lang/String;Ljava/lang/String;)V
     Access flags: 0x1
-      = public ab(java.lang.String,java.lang.String)
+      = public ad(java.lang.String,java.lang.String)
     Class member attributes (count = 1):
     + Code attribute instructions (code length = 15, locals = 3, stack = 2):
       [0] aload_0 v0
@@ -35494,11 +35710,11 @@ Methods (count = 2):
       [4] aload_0 v0
       [5] aload_1 v1
       [6] putfield #3
-        + Fieldref [com/av1rus/adblockremover/ab.a Ljava/lang/String;]
+        + Fieldref [com/av1rus/adblockremover/ad.a Ljava/lang/String;]
       [9] aload_0 v0
       [10] aload_2 v2
       [11] putfield #4
-        + Fieldref [com/av1rus/adblockremover/ab.b Ljava/lang/String;]
+        + Fieldref [com/av1rus/adblockremover/ad.b Ljava/lang/String;]
       [14] return
       Code attribute exceptions (count = 0):
       Code attribute attributes (attribute count = 0):
@@ -35506,12 +35722,12 @@ Methods (count = 2):
 Class file attributes (count = 0):
 
 _____________________________________________________________________
-+ Program class: com/av1rus/adblockremover/ac
++ Program class: com/av1rus/adblockremover/ae
   Superclass:    android/widget/ArrayAdapter
   Major version: 0x33
   Minor version: 0x0
   Access flags:  0x21
-    = public class com.av1rus.adblockremover.ac extends android.widget.ArrayAdapter
+    = public class com.av1rus.adblockremover.ae extends android.widget.ArrayAdapter
 
 Interfaces (count = 0):
 
@@ -35523,16 +35739,16 @@ Constant Pool (count = 77):
   + Class [android/view/View]
   + Class [android/widget/ArrayAdapter]
   + Class [android/widget/TextView]
-  + Class [com/av1rus/adblockremover/ab]
-  + Class [com/av1rus/adblockremover/ac]
   + Class [com/av1rus/adblockremover/ad]
-  + Fieldref [com/av1rus/adblockremover/ab.a Ljava/lang/String;]
-  + Fieldref [com/av1rus/adblockremover/ab.b Ljava/lang/String;]
-  + Fieldref [com/av1rus/adblockremover/ac.a Landroid/content/Context;]
-  + Fieldref [com/av1rus/adblockremover/ac.b I]
-  + Fieldref [com/av1rus/adblockremover/ac.c [Lcom/av1rus/adblockremover/ab;]
-  + Fieldref [com/av1rus/adblockremover/ad.a Landroid/widget/TextView;]
-  + Fieldref [com/av1rus/adblockremover/ad.b Landroid/widget/TextView;]
+  + Class [com/av1rus/adblockremover/ae]
+  + Class [com/av1rus/adblockremover/af]
+  + Fieldref [com/av1rus/adblockremover/ad.a Ljava/lang/String;]
+  + Fieldref [com/av1rus/adblockremover/ad.b Ljava/lang/String;]
+  + Fieldref [com/av1rus/adblockremover/ae.a Landroid/content/Context;]
+  + Fieldref [com/av1rus/adblockremover/ae.b I]
+  + Fieldref [com/av1rus/adblockremover/ae.c [Lcom/av1rus/adblockremover/ad;]
+  + Fieldref [com/av1rus/adblockremover/af.a Landroid/widget/TextView;]
+  + Fieldref [com/av1rus/adblockremover/af.b Landroid/widget/TextView;]
   + Methodref [android/app/Activity.getLayoutInflater ()Landroid/view/LayoutInflater;]
   + Methodref [android/view/LayoutInflater.inflate (ILandroid/view/ViewGroup;Z)Landroid/view/View;]
   + Methodref [android/view/View.findViewById (I)Landroid/view/View;]
@@ -35540,7 +35756,7 @@ Constant Pool (count = 77):
   + Methodref [android/view/View.setTag (Ljava/lang/Object;)V]
   + Methodref [android/widget/ArrayAdapter.<init> (Landroid/content/Context;I[Ljava/lang/Object;)V]
   + Methodref [android/widget/TextView.setText (Ljava/lang/CharSequence;)V]
-  + Methodref [com/av1rus/adblockremover/ad.<init> ()V]
+  + Methodref [com/av1rus/adblockremover/af.<init> ()V]
   + NameAndType [<init> ()V]
   + NameAndType [<init> (Landroid/content/Context;I[Ljava/lang/Object;)V]
   + NameAndType [a Landroid/content/Context;]
@@ -35549,7 +35765,7 @@ Constant Pool (count = 77):
   + NameAndType [b I]
   + NameAndType [b Landroid/widget/TextView;]
   + NameAndType [b Ljava/lang/String;]
-  + NameAndType [c [Lcom/av1rus/adblockremover/ab;]
+  + NameAndType [c [Lcom/av1rus/adblockremover/ad;]
   + NameAndType [findViewById (I)Landroid/view/View;]
   + NameAndType [getLayoutInflater ()Landroid/view/LayoutInflater;]
   + NameAndType [getTag ()Ljava/lang/Object;]
@@ -35562,7 +35778,7 @@ Constant Pool (count = 77):
   + Utf8 [(I)Landroid/view/View;]
   + Utf8 [(ILandroid/view/View;Landroid/view/ViewGroup;)Landroid/view/View;]
   + Utf8 [(ILandroid/view/ViewGroup;Z)Landroid/view/View;]
-  + Utf8 [(Landroid/content/Context;I[Lcom/av1rus/adblockremover/ab;)V]
+  + Utf8 [(Landroid/content/Context;I[Lcom/av1rus/adblockremover/ad;)V]
   + Utf8 [(Landroid/content/Context;I[Ljava/lang/Object;)V]
   + Utf8 [(Ljava/lang/CharSequence;)V]
   + Utf8 [(Ljava/lang/Object;)V]
@@ -35573,7 +35789,7 @@ Constant Pool (count = 77):
   + Utf8 [Landroid/widget/TextView;]
   + Utf8 [Ljava/lang/String;]
   + Utf8 [StackMapTable]
-  + Utf8 [[Lcom/av1rus/adblockremover/ab;]
+  + Utf8 [[Lcom/av1rus/adblockremover/ad;]
   + Utf8 [a]
   + Utf8 [android/app/Activity]
   + Utf8 [android/view/LayoutInflater]
@@ -35582,9 +35798,9 @@ Constant Pool (count = 77):
   + Utf8 [android/widget/TextView]
   + Utf8 [b]
   + Utf8 [c]
-  + Utf8 [com/av1rus/adblockremover/ab]
-  + Utf8 [com/av1rus/adblockremover/ac]
   + Utf8 [com/av1rus/adblockremover/ad]
+  + Utf8 [com/av1rus/adblockremover/ae]
+  + Utf8 [com/av1rus/adblockremover/af]
   + Utf8 [findViewById]
   + Utf8 [getLayoutInflater]
   + Utf8 [getTag]
@@ -35600,14 +35816,14 @@ Fields (count = 3):
   + Field:        b I
     Access flags: 0x0
       = int b
-  + Field:        c [Lcom/av1rus/adblockremover/ab;
+  + Field:        c [Lcom/av1rus/adblockremover/ad;
     Access flags: 0x0
-      = com.av1rus.adblockremover.ab[] c
+      = com.av1rus.adblockremover.ad[] c
 
 Methods (count = 2):
-  - Method:       <init>(Landroid/content/Context;I[Lcom/av1rus/adblockremover/ab;)V
+  - Method:       <init>(Landroid/content/Context;I[Lcom/av1rus/adblockremover/ad;)V
     Access flags: 0x1
-      = public ac(android.content.Context,int,com.av1rus.adblockremover.ab[])
+      = public ae(android.content.Context,int,com.av1rus.adblockremover.ad[])
     Class member attributes (count = 1):
     + Code attribute instructions (code length = 28, locals = 4, stack = 4):
       [0] aload_0 v0
@@ -35619,19 +35835,19 @@ Methods (count = 2):
       [7] aload_0 v0
       [8] aconst_null
       [9] putfield #15
-        + Fieldref [com/av1rus/adblockremover/ac.c [Lcom/av1rus/adblockremover/ab;]
+        + Fieldref [com/av1rus/adblockremover/ae.c [Lcom/av1rus/adblockremover/ad;]
       [12] aload_0 v0
       [13] iload_2 v2
       [14] putfield #14
-        + Fieldref [com/av1rus/adblockremover/ac.b I]
+        + Fieldref [com/av1rus/adblockremover/ae.b I]
       [17] aload_0 v0
       [18] aload_1 v1
       [19] putfield #13
-        + Fieldref [com/av1rus/adblockremover/ac.a Landroid/content/Context;]
+        + Fieldref [com/av1rus/adblockremover/ae.a Landroid/content/Context;]
       [22] aload_0 v0
       [23] aload_3 v3
       [24] putfield #15
-        + Fieldref [com/av1rus/adblockremover/ac.c [Lcom/av1rus/adblockremover/ab;]
+        + Fieldref [com/av1rus/adblockremover/ae.c [Lcom/av1rus/adblockremover/ad;]
       [27] return
       Code attribute exceptions (count = 0):
       Code attribute attributes (attribute count = 0):
@@ -35648,7 +35864,7 @@ Methods (count = 2):
       [8] ifnonnull +77 (target=85)
       [11] aload_0 v0
       [12] getfield #13
-        + Fieldref [com/av1rus/adblockremover/ac.a Landroid/content/Context;]
+        + Fieldref [com/av1rus/adblockremover/ae.a Landroid/content/Context;]
       [15] checkcast #3
         + Class [android/app/Activity]
       [18] invokevirtual #18
@@ -35657,17 +35873,17 @@ Methods (count = 2):
       [23] aload v6
       [25] aload_0 v0
       [26] getfield #14
-        + Fieldref [com/av1rus/adblockremover/ac.b I]
+        + Fieldref [com/av1rus/adblockremover/ae.b I]
       [29] aload_3 v3
       [30] iconst_0
       [31] invokevirtual #19
         + Methodref [android/view/LayoutInflater.inflate (ILandroid/view/ViewGroup;Z)Landroid/view/View;]
       [34] astore v4
       [36] new #10
-        + Class [com/av1rus/adblockremover/ad]
+        + Class [com/av1rus/adblockremover/af]
       [39] dup
       [40] invokespecial #25
-        + Methodref [com/av1rus/adblockremover/ad.<init> ()V]
+        + Methodref [com/av1rus/adblockremover/af.<init> ()V]
       [43] astore v5
       [45] aload v5
       [47] aload v4
@@ -35678,7 +35894,7 @@ Methods (count = 2):
       [54] checkcast #7
         + Class [android/widget/TextView]
       [57] putfield #16
-        + Fieldref [com/av1rus/adblockremover/ad.a Landroid/widget/TextView;]
+        + Fieldref [com/av1rus/adblockremover/af.a Landroid/widget/TextView;]
       [60] aload v5
       [62] aload v4
       [64] ldc #2
@@ -35688,7 +35904,7 @@ Methods (count = 2):
       [69] checkcast #7
         + Class [android/widget/TextView]
       [72] putfield #17
-        + Fieldref [com/av1rus/adblockremover/ad.b Landroid/widget/TextView;]
+        + Fieldref [com/av1rus/adblockremover/af.b Landroid/widget/TextView;]
       [75] aload v4
       [77] aload v5
       [79] invokevirtual #22
@@ -35698,28 +35914,28 @@ Methods (count = 2):
       [87] invokevirtual #21
         + Methodref [android/view/View.getTag ()Ljava/lang/Object;]
       [90] checkcast #10
-        + Class [com/av1rus/adblockremover/ad]
+        + Class [com/av1rus/adblockremover/af]
       [93] astore v5
       [95] aload_0 v0
       [96] getfield #15
-        + Fieldref [com/av1rus/adblockremover/ac.c [Lcom/av1rus/adblockremover/ab;]
+        + Fieldref [com/av1rus/adblockremover/ae.c [Lcom/av1rus/adblockremover/ad;]
       [99] iload_1 v1
       [100] aaload
       [101] astore v6
       [103] aload v5
       [105] getfield #16
-        + Fieldref [com/av1rus/adblockremover/ad.a Landroid/widget/TextView;]
+        + Fieldref [com/av1rus/adblockremover/af.a Landroid/widget/TextView;]
       [108] aload v6
       [110] getfield #11
-        + Fieldref [com/av1rus/adblockremover/ab.a Ljava/lang/String;]
+        + Fieldref [com/av1rus/adblockremover/ad.a Ljava/lang/String;]
       [113] invokevirtual #24
         + Methodref [android/widget/TextView.setText (Ljava/lang/CharSequence;)V]
       [116] aload v5
       [118] getfield #17
-        + Fieldref [com/av1rus/adblockremover/ad.b Landroid/widget/TextView;]
+        + Fieldref [com/av1rus/adblockremover/af.b Landroid/widget/TextView;]
       [121] aload v6
       [123] getfield #12
-        + Fieldref [com/av1rus/adblockremover/ab.b Ljava/lang/String;]
+        + Fieldref [com/av1rus/adblockremover/ad.b Ljava/lang/String;]
       [126] invokevirtual #24
         + Methodref [android/widget/TextView.setText (Ljava/lang/CharSequence;)V]
       [129] aload v4
@@ -35727,23 +35943,23 @@ Methods (count = 2):
       Code attribute exceptions (count = 0):
       Code attribute attributes (attribute count = 1):
       + Stack map table attribute (count = 2):
-        - [85] Var: ...[a:android/view/View][a:com/av1rus/adblockremover/ad], Stack: (empty)
+        - [85] Var: ...[a:android/view/View][a:com/av1rus/adblockremover/af], Stack: (empty)
         - [95] Var: ..., Stack: (empty)
 
 Class file attributes (count = 0):
 
 _____________________________________________________________________
-+ Program class: com/av1rus/adblockremover/ad
++ Program class: com/av1rus/adblockremover/af
   Superclass:    java/lang/Object
   Major version: 0x33
   Minor version: 0x0
   Access flags:  0x20
-    = class com.av1rus.adblockremover.ad extends java.lang.Object
+    = class com.av1rus.adblockremover.af extends java.lang.Object
 
 Interfaces (count = 0):
 
 Constant Pool (count = 13):
-  + Class [com/av1rus/adblockremover/ad]
+  + Class [com/av1rus/adblockremover/af]
   + Class [java/lang/Object]
   + Methodref [java/lang/Object.<init> ()V]
   + NameAndType [<init> ()V]
@@ -35753,7 +35969,7 @@ Constant Pool (count = 13):
   + Utf8 [Landroid/widget/TextView;]
   + Utf8 [a]
   + Utf8 [b]
-  + Utf8 [com/av1rus/adblockremover/ad]
+  + Utf8 [com/av1rus/adblockremover/af]
   + Utf8 [java/lang/Object]
 
 Fields (count = 2):
@@ -35767,7 +35983,7 @@ Fields (count = 2):
 Methods (count = 1):
   - Method:       <init>()V
     Access flags: 0x0
-      = ad()
+      = af()
     Class member attributes (count = 1):
     + Code attribute instructions (code length = 5, locals = 1, stack = 1):
       [0] aload_0 v0
@@ -36052,13 +36268,14 @@ _____________________________________________________________________
 
 Interfaces (count = 0):
 
-Constant Pool (count = 114):
+Constant Pool (count = 119):
   + String [AdBlockRemover - AsyncRemoveLine]
   + String [ERROR copying file]
   + String [Exception when copying: ]
   + String [errorWithCopy]
   + String [filerestored]
   + String [please wait...]
+  + String [rw]
   + Class [[Ljava/lang/String;]
   + Class [android/os/AsyncTask]
   + Class [android/util/Log]
@@ -36077,6 +36294,7 @@ Constant Pool (count = 114):
   + Methodref [android/os/AsyncTask.<init> ()V]
   + Methodref [android/util/Log.d (Ljava/lang/String;Ljava/lang/String;)I]
   + Methodref [android/util/Log.e (Ljava/lang/String;Ljava/lang/String;)I]
+  + Methodref [com/a/a/a.a (Ljava/lang/String;Ljava/lang/String;)Z]
   + Methodref [com/a/a/a.a (Ljava/lang/String;Ljava/lang/String;ZZ)Z]
   + Methodref [com/a/a/a.a (Ljava/lang/String;Z)Z]
   + Methodref [com/av1rus/adblockremover/a/a.b (Ljava/lang/String;Ljava/lang/String;)V]
@@ -36095,6 +36313,7 @@ Constant Pool (count = 114):
   + NameAndType [<init> ()V]
   + NameAndType [<init> (Ljava/lang/String;)V]
   + NameAndType [a (Ljava/lang/Boolean;)V]
+  + NameAndType [a (Ljava/lang/String;Ljava/lang/String;)Z]
   + NameAndType [a (Ljava/lang/String;Ljava/lang/String;ZZ)Z]
   + NameAndType [a (Ljava/lang/String;Z)Z]
   + NameAndType [a ([Ljava/lang/String;)Ljava/lang/Boolean;]
@@ -36124,6 +36343,7 @@ Constant Pool (count = 114):
   + Utf8 [(Ljava/lang/String;)V]
   + Utf8 [(Ljava/lang/String;Ljava/lang/String;)I]
   + Utf8 [(Ljava/lang/String;Ljava/lang/String;)V]
+  + Utf8 [(Ljava/lang/String;Ljava/lang/String;)Z]
   + Utf8 [(Ljava/lang/String;Ljava/lang/String;ZZ)Z]
   + Utf8 [(Ljava/lang/String;Z)Z]
   + Utf8 [(Z)Ljava/lang/Boolean;]
@@ -36164,6 +36384,7 @@ Constant Pool (count = 114):
   + Utf8 [onPostExecute]
   + Utf8 [onPreExecute]
   + Utf8 [please wait...]
+  + Utf8 [rw]
   + Utf8 [toString]
   + Utf8 [valueOf]
 
@@ -36192,26 +36413,26 @@ Methods (count = 6):
     + Code attribute instructions (code length = 32, locals = 6, stack = 2):
       [0] aload_0 v0
       [1] aload_1 v1
-      [2] putfield #21
+      [2] putfield #22
         + Fieldref [com/av1rus/adblockremover/a/b.e Lcom/av1rus/adblockremover/a/a;]
       [5] aload_0 v0
-      [6] invokespecial #22
+      [6] invokespecial #23
         + Methodref [android/os/AsyncTask.<init> ()V]
       [9] aload_0 v0
       [10] aload_2 v2
-      [11] putfield #17
+      [11] putfield #18
         + Fieldref [com/av1rus/adblockremover/a/b.a Ljava/lang/String;]
       [14] aload_0 v0
       [15] aload_3 v3
-      [16] putfield #18
+      [16] putfield #19
         + Fieldref [com/av1rus/adblockremover/a/b.b Ljava/lang/String;]
       [19] aload_0 v0
       [20] aload v4
-      [22] putfield #20
+      [22] putfield #21
         + Fieldref [com/av1rus/adblockremover/a/b.d Ljava/lang/Boolean;]
       [25] aload_0 v0
       [26] aload v5
-      [28] putfield #19
+      [28] putfield #20
         + Fieldref [com/av1rus/adblockremover/a/b.c Ljava/lang/String;]
       [31] return
       Code attribute exceptions (count = 0):
@@ -36220,18 +36441,26 @@ Methods (count = 6):
     Access flags: 0x4
       = protected void onPreExecute()
     Class member attributes (count = 1):
-    + Code attribute instructions (code length = 14, locals = 1, stack = 3):
+    + Code attribute instructions (code length = 24, locals = 1, stack = 3):
       [0] aload_0 v0
-      [1] getfield #21
+      [1] getfield #19
+        + Fieldref [com/av1rus/adblockremover/a/b.b Ljava/lang/String;]
+      [4] ldc #7
+        + String [rw]
+      [6] invokestatic #26
+        + Methodref [com/a/a/a.a (Ljava/lang/String;Ljava/lang/String;)Z]
+      [9] pop
+      [10] aload_0 v0
+      [11] getfield #22
         + Fieldref [com/av1rus/adblockremover/a/b.e Lcom/av1rus/adblockremover/a/a;]
-      [4] aload_0 v0
-      [5] getfield #19
+      [14] aload_0 v0
+      [15] getfield #20
         + Fieldref [com/av1rus/adblockremover/a/b.c Ljava/lang/String;]
-      [8] ldc #6
+      [18] ldc #6
         + String [please wait...]
-      [10] invokevirtual #28
+      [20] invokevirtual #30
         + Methodref [com/av1rus/adblockremover/a/a.d (Ljava/lang/String;Ljava/lang/String;)V]
-      [13] return
+      [23] return
       Code attribute exceptions (count = 0):
       Code attribute attributes (attribute count = 0):
   + Method:       a([Ljava/lang/String;)Ljava/lang/Boolean;
@@ -36240,52 +36469,52 @@ Methods (count = 6):
     Class member attributes (count = 1):
     + Code attribute instructions (code length = 66, locals = 3, stack = 4):
       [0] aload_0 v0
-      [1] getfield #17
+      [1] getfield #18
         + Fieldref [com/av1rus/adblockremover/a/b.a Ljava/lang/String;]
       [4] aload_0 v0
-      [5] getfield #18
+      [5] getfield #19
         + Fieldref [com/av1rus/adblockremover/a/b.b Ljava/lang/String;]
-      [8] iconst_0
+      [8] iconst_1
       [9] iconst_1
-      [10] invokestatic #25
+      [10] invokestatic #27
         + Methodref [com/a/a/a.a (Ljava/lang/String;Ljava/lang/String;ZZ)Z]
       [13] ifeq +8 (target=21)
       [16] iconst_1
-      [17] invokestatic #35
+      [17] invokestatic #37
         + Methodref [java/lang/Boolean.valueOf (Z)Ljava/lang/Boolean;]
       [20] areturn
       [21] ldc #1
         + String [AdBlockRemover - AsyncRemoveLine]
       [23] ldc #2
         + String [ERROR copying file]
-      [25] invokestatic #24
+      [25] invokestatic #25
         + Methodref [android/util/Log.e (Ljava/lang/String;Ljava/lang/String;)I]
       [28] pop
       [29] goto +32 (target=61)
       [32] astore_2 v2
       [33] ldc #1
         + String [AdBlockRemover - AsyncRemoveLine]
-      [35] new #16
+      [35] new #17
         + Class [java/lang/StringBuilder]
       [38] dup
-      [39] invokespecial #37
+      [39] invokespecial #39
         + Methodref [java/lang/StringBuilder.<init> ()V]
       [42] ldc #3
         + String [Exception when copying: ]
-      [44] invokevirtual #38
+      [44] invokevirtual #40
         + Methodref [java/lang/StringBuilder.append (Ljava/lang/String;)Ljava/lang/StringBuilder;]
       [47] aload_2 v2
-      [48] invokevirtual #36
+      [48] invokevirtual #38
         + Methodref [java/lang/Exception.getMessage ()Ljava/lang/String;]
-      [51] invokevirtual #38
+      [51] invokevirtual #40
         + Methodref [java/lang/StringBuilder.append (Ljava/lang/String;)Ljava/lang/StringBuilder;]
-      [54] invokevirtual #39
+      [54] invokevirtual #41
         + Methodref [java/lang/StringBuilder.toString ()Ljava/lang/String;]
-      [57] invokestatic #23
+      [57] invokestatic #24
         + Methodref [android/util/Log.d (Ljava/lang/String;Ljava/lang/String;)I]
       [60] pop
       [61] iconst_0
-      [62] invokestatic #35
+      [62] invokestatic #37
         + Methodref [java/lang/Boolean.valueOf (Z)Ljava/lang/Boolean;]
       [65] areturn
       Code attribute exceptions (count = 2):
@@ -36304,58 +36533,58 @@ Methods (count = 6):
     Class member attributes (count = 1):
     + Code attribute instructions (code length = 80, locals = 2, stack = 3):
       [0] aload_0 v0
-      [1] getfield #21
+      [1] getfield #22
         + Fieldref [com/av1rus/adblockremover/a/b.e Lcom/av1rus/adblockremover/a/a;]
-      [4] invokevirtual #29
+      [4] invokevirtual #31
         + Methodref [com/av1rus/adblockremover/a/a.i ()V]
       [7] aload_1 v1
-      [8] invokevirtual #34
+      [8] invokevirtual #36
         + Methodref [java/lang/Boolean.booleanValue ()Z]
       [11] ifne +19 (target=30)
       [14] aload_0 v0
-      [15] getfield #21
+      [15] getfield #22
         + Fieldref [com/av1rus/adblockremover/a/b.e Lcom/av1rus/adblockremover/a/a;]
       [18] ldc #4
         + String [errorWithCopy]
       [20] aload_0 v0
-      [21] getfield #17
+      [21] getfield #18
         + Fieldref [com/av1rus/adblockremover/a/b.a Ljava/lang/String;]
-      [24] invokevirtual #27
+      [24] invokevirtual #29
         + Methodref [com/av1rus/adblockremover/a/a.b (Ljava/lang/String;Ljava/lang/String;)V]
       [27] goto +52 (target=79)
-      [30] new #13
+      [30] new #14
         + Class [java/io/File]
       [33] dup
       [34] aload_0 v0
-      [35] getfield #18
+      [35] getfield #19
         + Fieldref [com/av1rus/adblockremover/a/b.b Ljava/lang/String;]
-      [38] invokespecial #32
+      [38] invokespecial #34
         + Methodref [java/io/File.<init> (Ljava/lang/String;)V]
-      [41] invokevirtual #33
+      [41] invokevirtual #35
         + Methodref [java/io/File.exists ()Z]
       [44] ifeq +22 (target=66)
       [47] aload_0 v0
-      [48] getfield #20
+      [48] getfield #21
         + Fieldref [com/av1rus/adblockremover/a/b.d Ljava/lang/Boolean;]
-      [51] invokevirtual #34
+      [51] invokevirtual #36
         + Methodref [java/lang/Boolean.booleanValue ()Z]
       [54] ifne +12 (target=66)
       [57] aload_0 v0
-      [58] getfield #17
+      [58] getfield #18
         + Fieldref [com/av1rus/adblockremover/a/b.a Ljava/lang/String;]
-      [61] iconst_0
-      [62] invokestatic #26
+      [61] iconst_1
+      [62] invokestatic #28
         + Methodref [com/a/a/a.a (Ljava/lang/String;Z)Z]
       [65] pop
       [66] aload_0 v0
-      [67] getfield #21
+      [67] getfield #22
         + Fieldref [com/av1rus/adblockremover/a/b.e Lcom/av1rus/adblockremover/a/a;]
       [70] ldc #5
         + String [filerestored]
       [72] aload_0 v0
-      [73] getfield #17
+      [73] getfield #18
         + Fieldref [com/av1rus/adblockremover/a/b.a Ljava/lang/String;]
-      [76] invokevirtual #27
+      [76] invokevirtual #29
         + Methodref [com/av1rus/adblockremover/a/a.b (Ljava/lang/String;Ljava/lang/String;)V]
       [79] return
       Code attribute exceptions (count = 0):
@@ -36371,9 +36600,9 @@ Methods (count = 6):
     + Code attribute instructions (code length = 9, locals = 2, stack = 2):
       [0] aload_0 v0
       [1] aload_1 v1
-      [2] checkcast #14
+      [2] checkcast #15
         + Class [java/lang/Boolean]
-      [5] invokevirtual #30
+      [5] invokevirtual #32
         + Methodref [com/av1rus/adblockremover/a/b.a (Ljava/lang/Boolean;)V]
       [8] return
       Code attribute exceptions (count = 0):
@@ -36385,9 +36614,9 @@ Methods (count = 6):
     + Code attribute instructions (code length = 9, locals = 2, stack = 2):
       [0] aload_0 v0
       [1] aload_1 v1
-      [2] checkcast #7
+      [2] checkcast #8
         + Class [[Ljava/lang/String;]
-      [5] invokevirtual #31
+      [5] invokevirtual #33
         + Methodref [com/av1rus/adblockremover/a/b.a ([Ljava/lang/String;)Ljava/lang/Boolean;]
       [8] areturn
       Code attribute exceptions (count = 0):
@@ -37297,7 +37526,7 @@ _____________________________________________________________________
 
 Interfaces (count = 0):
 
-Constant Pool (count = 141):
+Constant Pool (count = 144):
   + String []
   + String [:]
   + String [PATH]
@@ -37334,6 +37563,7 @@ Constant Pool (count = 141):
   + Methodref [com/a/a/d/b.<init> ()V]
   + Methodref [com/a/a/d/b.a (Ljava/lang/String;Ljava/lang/String;)Z]
   + Methodref [com/a/a/d/c.a ()V]
+  + Methodref [com/a/a/d/c.a (Landroid/app/Activity;)V]
   + Methodref [com/a/a/d/c.a (Ljava/lang/String;Ljava/lang/String;ZZ)Z]
   + Methodref [com/a/a/d/c.a (Ljava/lang/String;Z)Z]
   + Methodref [com/a/a/d/c.b ()Ljava/util/ArrayList;]
@@ -37348,6 +37578,7 @@ Constant Pool (count = 141):
   + NameAndType [<init> ()V]
   + NameAndType [a ()V]
   + NameAndType [a (I)Lcom/a/a/c/f;]
+  + NameAndType [a (Landroid/app/Activity;)V]
   + NameAndType [a (Ljava/lang/String;Ljava/lang/String;)Z]
   + NameAndType [a (Ljava/lang/String;Ljava/lang/String;ILjava/lang/Exception;)V]
   + NameAndType [a (Ljava/lang/String;Ljava/lang/String;ZZ)Z]
@@ -37382,6 +37613,7 @@ Constant Pool (count = 141):
   + Utf8 [()V]
   + Utf8 [()Z]
   + Utf8 [(I)Lcom/a/a/c/f;]
+  + Utf8 [(Landroid/app/Activity;)V]
   + Utf8 [(Lcom/a/a/d/c;)V]
   + Utf8 [(Ljava/lang/Object;)Z]
   + Utf8 [(Ljava/lang/String;)Lcom/a/a/a/b;]
@@ -37459,7 +37691,7 @@ Fields (count = 6):
     Access flags: 0x9
       = public static int e
 
-Methods (count = 21):
+Methods (count = 22):
   + Method:       a(Lcom/a/a/d/c;)V
     Access flags: 0x9
       = public static void a(com.a.a.d.c)
@@ -37520,7 +37752,7 @@ Methods (count = 21):
       [4] aload_1 v1
       [5] iload_2 v2
       [6] iload_3 v3
-      [7] invokevirtual #37
+      [7] invokevirtual #38
         + Methodref [com/a/a/d/c.a (Ljava/lang/String;Ljava/lang/String;ZZ)Z]
       [10] ireturn
       Code attribute exceptions (count = 0):
@@ -37534,7 +37766,7 @@ Methods (count = 21):
         + Methodref [com/a/a/a.e ()Lcom/a/a/d/c;]
       [3] aload_0 v0
       [4] iload_1 v1
-      [5] invokevirtual #38
+      [5] invokevirtual #39
         + Methodref [com/a/a/d/c.a (Ljava/lang/String;Z)Z]
       [8] ireturn
       Code attribute exceptions (count = 0):
@@ -37547,7 +37779,7 @@ Methods (count = 21):
       [0] invokestatic #29
         + Methodref [com/a/a/a.e ()Lcom/a/a/d/c;]
       [3] aload_0 v0
-      [4] invokevirtual #40
+      [4] invokevirtual #41
         + Methodref [com/a/a/d/c.e (Ljava/lang/String;)Z]
       [7] ireturn
       Code attribute exceptions (count = 0):
@@ -37560,7 +37792,7 @@ Methods (count = 21):
       [0] invokestatic #29
         + Methodref [com/a/a/a.e ()Lcom/a/a/d/c;]
       [3] aload_0 v0
-      [4] invokevirtual #41
+      [4] invokevirtual #42
         + Methodref [com/a/a/d/c.f (Ljava/lang/String;)Z]
       [7] ireturn
       Code attribute exceptions (count = 0):
@@ -37573,7 +37805,7 @@ Methods (count = 21):
       [0] invokestatic #29
         + Methodref [com/a/a/a.e ()Lcom/a/a/d/c;]
       [3] aload_0 v0
-      [4] invokevirtual #42
+      [4] invokevirtual #43
         + Methodref [com/a/a/d/c.g (Ljava/lang/String;)Lcom/a/a/a/b;]
       [7] areturn
       Code attribute exceptions (count = 0):
@@ -37585,7 +37817,7 @@ Methods (count = 21):
     + Code attribute instructions (code length = 7, locals = 0, stack = 1):
       [0] invokestatic #29
         + Methodref [com/a/a/a.e ()Lcom/a/a/d/c;]
-      [3] invokevirtual #39
+      [3] invokevirtual #40
         + Methodref [com/a/a/d/c.b ()Ljava/util/ArrayList;]
       [6] areturn
       Code attribute exceptions (count = 0):
@@ -37597,13 +37829,13 @@ Methods (count = 21):
     + Code attribute instructions (code length = 14, locals = 0, stack = 2):
       [0] ldc #3
         + String [PATH]
-      [2] invokestatic #45
+      [2] invokestatic #46
         + Methodref [java/lang/System.getenv (Ljava/lang/String;)Ljava/lang/String;]
       [5] ldc #2
         + String [:]
-      [7] invokevirtual #44
+      [7] invokevirtual #45
         + Methodref [java/lang/String.split (Ljava/lang/String;)[Ljava/lang/String;]
-      [10] invokestatic #47
+      [10] invokestatic #48
         + Methodref [java/util/Arrays.asList ([Ljava/lang/Object;)Ljava/util/List;]
       [13] areturn
       Code attribute exceptions (count = 0):
@@ -37674,6 +37906,19 @@ Methods (count = 21):
       [2] invokestatic #28
         + Methodref [com/a/a/a.b (Ljava/lang/String;)Z]
       [5] ireturn
+      Code attribute exceptions (count = 0):
+      Code attribute attributes (attribute count = 0):
+  + Method:       a(Landroid/app/Activity;)V
+    Access flags: 0x9
+      = public static void a(android.app.Activity)
+    Class member attributes (count = 1):
+    + Code attribute instructions (code length = 8, locals = 1, stack = 2):
+      [0] invokestatic #29
+        + Methodref [com/a/a/a.e ()Lcom/a/a/d/c;]
+      [3] aload_0 v0
+      [4] invokevirtual #37
+        + Methodref [com/a/a/d/c.a (Landroid/app/Activity;)V]
+      [7] return
       Code attribute exceptions (count = 0):
       Code attribute attributes (attribute count = 0):
   + Method:       a(Ljava/lang/String;Ljava/lang/String;)Z
@@ -37747,7 +37992,7 @@ Methods (count = 21):
       [4] aload_1 v1
       [5] ldc #1
         + String []
-      [7] invokevirtual #43
+      [7] invokevirtual #44
         + Methodref [java/lang/String.equals (Ljava/lang/Object;)Z]
       [10] ifne +67 (target=77)
       [13] getstatic #17
@@ -37805,7 +38050,7 @@ Methods (count = 21):
       [8] new #15
         + Class [java/util/ArrayList]
       [11] dup
-      [12] invokespecial #46
+      [12] invokespecial #47
         + Methodref [java/util/ArrayList.<init> ()V]
       [15] putstatic #18
         + Fieldref [com/a/a/a.b Ljava/util/List;]
@@ -43654,7 +43899,7 @@ _____________________________________________________________________
 
 Interfaces (count = 0):
 
-Constant Pool (count = 447):
+Constant Pool (count = 471):
   + String [ ]
   + String [ --list]
   + String [ > ]
@@ -43681,6 +43926,7 @@ Constant Pool (count = 447):
   + String [Box does not contain ]
   + String [Checking for ]
   + String [Checking permissions for ]
+  + String [Launching Market for BusyBox]
   + String [RO]
   + String [RW]
   + String [RootTools v3.4]
@@ -43695,6 +43941,7 @@ Constant Pool (count = 447):
   + String [Waiting for a command to be executed in a shell that is not reading! 
 
  Command: ]
+  + String [android.intent.action.VIEW]
   + String [busybox]
   + String [busybox cp -f ]
   + String [busybox cp -fp ]
@@ -43714,6 +43961,7 @@ Constant Pool (count = 447):
   + String [cp is not available, use cat!]
   + String [ls ]
   + String [ls -l ]
+  + String [market://details?id=stericson.busybox]
   + String [permission ]
   + String [rm]
   + String [rm -r ]
@@ -43724,6 +43972,9 @@ Constant Pool (count = 447):
   + String [toolbox]
   + String [toolbox ls -l ]
   + Class [[Ljava/lang/String;]
+  + Class [android/app/Activity]
+  + Class [android/content/Intent]
+  + Class [android/net/Uri]
   + Class [android/util/Log]
   + Class [com/a/a/a]
   + Class [com/a/a/a/a]
@@ -43760,6 +44011,9 @@ Constant Pool (count = 447):
   + Fieldref [com/a/a/d/a.c Z]
   + Fieldref [com/a/a/d/a.f Ljava/util/ArrayList;]
   + Fieldref [com/a/a/d/a.h Lcom/a/a/a/b;]
+  + Methodref [android/app/Activity.startActivity (Landroid/content/Intent;)V]
+  + Methodref [android/content/Intent.<init> (Ljava/lang/String;Landroid/net/Uri;)V]
+  + Methodref [android/net/Uri.parse (Ljava/lang/String;)Landroid/net/Uri;]
   + Methodref [android/util/Log.e (Ljava/lang/String;Ljava/lang/String;)I]
   + Methodref [com/a/a/a.a (Lcom/a/a/d/c;)V]
   + Methodref [com/a/a/a.a (Ljava/lang/String;)Z]
@@ -43854,6 +44108,7 @@ Constant Pool (count = 447):
   + NameAndType [<init> (Ljava/io/File;Ljava/io/File;Ljava/lang/String;Ljava/lang/String;)V]
   + NameAndType [<init> (Ljava/io/Reader;)V]
   + NameAndType [<init> (Ljava/lang/String;)V]
+  + NameAndType [<init> (Ljava/lang/String;Landroid/net/Uri;)V]
   + NameAndType [a ()Ljava/lang/String;]
   + NameAndType [a (I)V]
   + NameAndType [a (Lcom/a/a/c/a;)Lcom/a/a/c/a;]
@@ -43913,12 +44168,14 @@ Constant Pool (count = 447):
   + NameAndType [j ()Lcom/a/a/c/f;]
   + NameAndType [length ()I]
   + NameAndType [next ()Ljava/lang/Object;]
+  + NameAndType [parse (Ljava/lang/String;)Landroid/net/Uri;]
   + NameAndType [parseInt (Ljava/lang/String;)I]
   + NameAndType [printStackTrace ()V]
   + NameAndType [readLine ()Ljava/lang/String;]
   + NameAndType [reverse (Ljava/util/List;)V]
   + NameAndType [setStackTrace ([Ljava/lang/StackTraceElement;)V]
   + NameAndType [split (Ljava/lang/String;)[Ljava/lang/String;]
+  + NameAndType [startActivity (Landroid/content/Intent;)V]
   + NameAndType [substring (I)Ljava/lang/String;]
   + NameAndType [substring (II)Ljava/lang/String;]
   + NameAndType [toString ()Ljava/lang/String;]
@@ -43952,6 +44209,8 @@ Constant Pool (count = 447):
   + Utf8 [(II)Ljava/lang/String;]
   + Utf8 [(IZ[Ljava/lang/String;)V]
   + Utf8 [(J)V]
+  + Utf8 [(Landroid/app/Activity;)V]
+  + Utf8 [(Landroid/content/Intent;)V]
   + Utf8 [(Lcom/a/a/c/a;)Lcom/a/a/c/a;]
   + Utf8 [(Lcom/a/a/c/a;)Ljava/lang/String;]
   + Utf8 [(Lcom/a/a/c/a;)V]
@@ -43964,11 +44223,13 @@ Constant Pool (count = 447):
   + Utf8 [(Ljava/io/Reader;)V]
   + Utf8 [(Ljava/lang/Object;)Z]
   + Utf8 [(Ljava/lang/String;)I]
+  + Utf8 [(Ljava/lang/String;)Landroid/net/Uri;]
   + Utf8 [(Ljava/lang/String;)Lcom/a/a/a/b;]
   + Utf8 [(Ljava/lang/String;)Ljava/lang/StringBuilder;]
   + Utf8 [(Ljava/lang/String;)V]
   + Utf8 [(Ljava/lang/String;)Z]
   + Utf8 [(Ljava/lang/String;)[Ljava/lang/String;]
+  + Utf8 [(Ljava/lang/String;Landroid/net/Uri;)V]
   + Utf8 [(Ljava/lang/String;Ljava/lang/String;)I]
   + Utf8 [(Ljava/lang/String;Ljava/lang/String;)V]
   + Utf8 [(Ljava/lang/String;Ljava/lang/String;)Z]
@@ -43999,6 +44260,7 @@ Constant Pool (count = 447):
   + Utf8 [Checking for ]
   + Utf8 [Checking permissions for ]
   + Utf8 [Code]
+  + Utf8 [Launching Market for BusyBox]
   + Utf8 [Lcom/a/a/a/b;]
   + Utf8 [Ljava/lang/String;]
   + Utf8 [Ljava/util/ArrayList;]
@@ -44023,6 +44285,10 @@ Constant Pool (count = 447):
   + Utf8 [a]
   + Utf8 [add]
   + Utf8 [addAll]
+  + Utf8 [android.intent.action.VIEW]
+  + Utf8 [android/app/Activity]
+  + Utf8 [android/content/Intent]
+  + Utf8 [android/net/Uri]
   + Utf8 [android/util/Log]
   + Utf8 [append]
   + Utf8 [b]
@@ -44092,7 +44358,9 @@ Constant Pool (count = 447):
   + Utf8 [length]
   + Utf8 [ls ]
   + Utf8 [ls -l ]
+  + Utf8 [market://details?id=stericson.busybox]
   + Utf8 [next]
+  + Utf8 [parse]
   + Utf8 [parseInt]
   + Utf8 [permission ]
   + Utf8 [printStackTrace]
@@ -44104,6 +44372,7 @@ Constant Pool (count = 447):
   + Utf8 [setStackTrace]
   + Utf8 [special permissions ]
   + Utf8 [split]
+  + Utf8 [startActivity]
   + Utf8 [stat ]
   + Utf8 [substring]
   + Utf8 [target not exist or unable to delete file]
@@ -44115,14 +44384,14 @@ Constant Pool (count = 447):
 
 Fields (count = 0):
 
-Methods (count = 14):
+Methods (count = 15):
   - Method:       <init>()V
     Access flags: 0x4
       = protected c()
     Class member attributes (count = 1):
     + Code attribute instructions (code length = 5, locals = 1, stack = 1):
       [0] aload_0 v0
-      [1] invokespecial #159
+      [1] invokespecial #168
         + Methodref [java/lang/Object.<init> ()V]
       [4] return
       Code attribute exceptions (count = 0):
@@ -44132,12 +44401,12 @@ Methods (count = 14):
       = public static void a()
     Class member attributes (count = 1):
     + Code attribute instructions (code length = 11, locals = 0, stack = 2):
-      [0] new #72
+      [0] new #78
         + Class [com/a/a/d/c]
       [3] dup
-      [4] invokespecial #135
+      [4] invokespecial #144
         + Methodref [com/a/a/d/c.<init> ()V]
-      [7] invokestatic #102
+      [7] invokestatic #111
         + Methodref [com/a/a/a.a (Lcom/a/a/d/c;)V]
       [10] return
       Code attribute exceptions (count = 0):
@@ -44150,7 +44419,7 @@ Methods (count = 14):
       [0] aload_1 v1
       [1] ldc #1
         + String [ ]
-      [3] invokevirtual #165
+      [3] invokevirtual #174
         + Methodref [java/lang/String.split (Ljava/lang/String;)[Ljava/lang/String;]
       [6] astore_2 v2
       [7] aload_2 v2
@@ -44158,164 +44427,164 @@ Methods (count = 14):
       [9] aaload
       [10] astore_3 v3
       [11] aload_3 v3
-      [12] invokevirtual #164
+      [12] invokevirtual #173
         + Methodref [java/lang/String.length ()I]
       [15] bipush 10
       [17] ificmpne +246 (target=263)
       [20] aload_3 v3
       [21] iconst_0
-      [22] invokevirtual #161
+      [22] invokevirtual #170
         + Methodref [java/lang/String.charAt (I)C]
       [25] bipush 45
       [27] ificmpeq +23 (target=50)
       [30] aload_3 v3
       [31] iconst_0
-      [32] invokevirtual #161
+      [32] invokevirtual #170
         + Methodref [java/lang/String.charAt (I)C]
       [35] bipush 100
       [37] ificmpeq +13 (target=50)
       [40] aload_3 v3
       [41] iconst_0
-      [42] invokevirtual #161
+      [42] invokevirtual #170
         + Methodref [java/lang/String.charAt (I)C]
       [45] bipush 108
       [47] ificmpne +216 (target=263)
       [50] aload_3 v3
       [51] iconst_1
-      [52] invokevirtual #161
+      [52] invokevirtual #170
         + Methodref [java/lang/String.charAt (I)C]
       [55] bipush 45
       [57] ificmpeq +13 (target=70)
       [60] aload_3 v3
       [61] iconst_1
-      [62] invokevirtual #161
+      [62] invokevirtual #170
         + Methodref [java/lang/String.charAt (I)C]
       [65] bipush 114
       [67] ificmpne +196 (target=263)
       [70] aload_3 v3
       [71] iconst_2
-      [72] invokevirtual #161
+      [72] invokevirtual #170
         + Methodref [java/lang/String.charAt (I)C]
       [75] bipush 45
       [77] ificmpeq +13 (target=90)
       [80] aload_3 v3
       [81] iconst_2
-      [82] invokevirtual #161
+      [82] invokevirtual #170
         + Methodref [java/lang/String.charAt (I)C]
       [85] bipush 119
       [87] ificmpne +176 (target=263)
       [90] aload_3 v3
-      [91] invokestatic #111
+      [91] invokestatic #120
         + Methodref [com/a/a/a.d (Ljava/lang/String;)V]
-      [94] new #67
+      [94] new #73
         + Class [com/a/a/a/b]
       [97] dup
-      [98] invokespecial #113
+      [98] invokespecial #122
         + Methodref [com/a/a/a/b.<init> ()V]
       [101] astore v4
       [103] aload v4
       [105] aload_3 v3
       [106] iconst_0
       [107] iconst_1
-      [108] invokevirtual #167
+      [108] invokevirtual #176
         + Methodref [java/lang/String.substring (II)Ljava/lang/String;]
-      [111] invokevirtual #117
+      [111] invokevirtual #126
         + Methodref [com/a/a/a/b.b (Ljava/lang/String;)V]
       [114] aload v4
-      [116] invokevirtual #114
+      [116] invokevirtual #123
         + Methodref [com/a/a/a/b.a ()Ljava/lang/String;]
-      [119] invokestatic #111
+      [119] invokestatic #120
         + Methodref [com/a/a/a.d (Ljava/lang/String;)V]
       [122] aload v4
       [124] aload_3 v3
       [125] iconst_1
       [126] iconst_4
-      [127] invokevirtual #167
+      [127] invokevirtual #176
         + Methodref [java/lang/String.substring (II)Ljava/lang/String;]
-      [130] invokevirtual #119
+      [130] invokevirtual #128
         + Methodref [com/a/a/a/b.c (Ljava/lang/String;)V]
       [133] aload v4
-      [135] invokevirtual #118
+      [135] invokevirtual #127
         + Methodref [com/a/a/a/b.c ()Ljava/lang/String;]
-      [138] invokestatic #111
+      [138] invokestatic #120
         + Methodref [com/a/a/a.d (Ljava/lang/String;)V]
       [141] aload v4
       [143] aload_3 v3
       [144] iconst_4
       [145] bipush 7
-      [147] invokevirtual #167
+      [147] invokevirtual #176
         + Methodref [java/lang/String.substring (II)Ljava/lang/String;]
-      [150] invokevirtual #121
+      [150] invokevirtual #130
         + Methodref [com/a/a/a/b.d (Ljava/lang/String;)V]
       [153] aload v4
-      [155] invokevirtual #120
+      [155] invokevirtual #129
         + Methodref [com/a/a/a/b.d ()Ljava/lang/String;]
-      [158] invokestatic #111
+      [158] invokestatic #120
         + Methodref [com/a/a/a.d (Ljava/lang/String;)V]
       [161] aload v4
       [163] aload_3 v3
       [164] bipush 7
       [166] bipush 10
-      [168] invokevirtual #167
+      [168] invokevirtual #176
         + Methodref [java/lang/String.substring (II)Ljava/lang/String;]
-      [171] invokevirtual #123
+      [171] invokevirtual #132
         + Methodref [com/a/a/a/b.e (Ljava/lang/String;)V]
       [174] aload v4
-      [176] invokevirtual #122
+      [176] invokevirtual #131
         + Methodref [com/a/a/a/b.e ()Ljava/lang/String;]
-      [179] invokestatic #111
+      [179] invokestatic #120
         + Methodref [com/a/a/a.d (Ljava/lang/String;)V]
-      [182] new #85
+      [182] new #91
         + Class [java/lang/StringBuilder]
       [185] dup
-      [186] invokespecial #169
+      [186] invokespecial #178
         + Methodref [java/lang/StringBuilder.<init> ()V]
       [189] astore v5
       [191] aload v5
       [193] aload_0 v0
       [194] aload_3 v3
-      [195] invokevirtual #139
+      [195] invokevirtual #148
         + Methodref [com/a/a/d/c.c (Ljava/lang/String;)I]
-      [198] invokevirtual #171
+      [198] invokevirtual #180
         + Methodref [java/lang/StringBuilder.append (I)Ljava/lang/StringBuilder;]
       [201] pop
       [202] aload v5
       [204] aload_0 v0
       [205] aload v4
-      [207] invokevirtual #118
+      [207] invokevirtual #127
         + Methodref [com/a/a/a/b.c ()Ljava/lang/String;]
-      [210] invokevirtual #138
+      [210] invokevirtual #147
         + Methodref [com/a/a/d/c.b (Ljava/lang/String;)I]
-      [213] invokevirtual #171
+      [213] invokevirtual #180
         + Methodref [java/lang/StringBuilder.append (I)Ljava/lang/StringBuilder;]
       [216] pop
       [217] aload v5
       [219] aload_0 v0
       [220] aload v4
-      [222] invokevirtual #120
+      [222] invokevirtual #129
         + Methodref [com/a/a/a/b.d ()Ljava/lang/String;]
-      [225] invokevirtual #138
+      [225] invokevirtual #147
         + Methodref [com/a/a/d/c.b (Ljava/lang/String;)I]
-      [228] invokevirtual #171
+      [228] invokevirtual #180
         + Methodref [java/lang/StringBuilder.append (I)Ljava/lang/StringBuilder;]
       [231] pop
       [232] aload v5
       [234] aload_0 v0
       [235] aload v4
-      [237] invokevirtual #122
+      [237] invokevirtual #131
         + Methodref [com/a/a/a/b.e ()Ljava/lang/String;]
-      [240] invokevirtual #138
+      [240] invokevirtual #147
         + Methodref [com/a/a/d/c.b (Ljava/lang/String;)I]
-      [243] invokevirtual #171
+      [243] invokevirtual #180
         + Methodref [java/lang/StringBuilder.append (I)Ljava/lang/StringBuilder;]
       [246] pop
       [247] aload v4
       [249] aload v5
-      [251] invokevirtual #173
+      [251] invokevirtual #182
         + Methodref [java/lang/StringBuilder.toString ()Ljava/lang/String;]
-      [254] invokestatic #156
+      [254] invokestatic #165
         + Methodref [java/lang/Integer.parseInt (Ljava/lang/String;)I]
-      [257] invokevirtual #115
+      [257] invokevirtual #124
         + Methodref [com/a/a/a/b.a (I)V]
       [260] aload v4
       [262] areturn
@@ -44335,7 +44604,7 @@ Methods (count = 14):
     + Code attribute instructions (code length = 201, locals = 3, stack = 3):
       [0] aload_1 v1
       [1] iconst_0
-      [2] invokevirtual #161
+      [2] invokevirtual #170
         + Methodref [java/lang/String.charAt (I)C]
       [5] bipush 114
       [7] ificmpne +8 (target=15)
@@ -44344,128 +44613,128 @@ Methods (count = 14):
       [12] goto +5 (target=17)
       [15] iconst_0
       [16] istore_2 v2
-      [17] new #85
+      [17] new #91
         + Class [java/lang/StringBuilder]
       [20] dup
-      [21] invokespecial #169
+      [21] invokespecial #178
         + Methodref [java/lang/StringBuilder.<init> ()V]
-      [24] ldc #54
+      [24] ldc #57
         + String [permission ]
-      [26] invokevirtual #172
+      [26] invokevirtual #181
         + Methodref [java/lang/StringBuilder.append (Ljava/lang/String;)Ljava/lang/StringBuilder;]
       [29] iload_2 v2
-      [30] invokevirtual #171
+      [30] invokevirtual #180
         + Methodref [java/lang/StringBuilder.append (I)Ljava/lang/StringBuilder;]
-      [33] invokevirtual #173
+      [33] invokevirtual #182
         + Methodref [java/lang/StringBuilder.toString ()Ljava/lang/String;]
-      [36] invokestatic #111
+      [36] invokestatic #120
         + Methodref [com/a/a/a.d (Ljava/lang/String;)V]
-      [39] new #85
+      [39] new #91
         + Class [java/lang/StringBuilder]
       [42] dup
-      [43] invokespecial #169
+      [43] invokespecial #178
         + Methodref [java/lang/StringBuilder.<init> ()V]
-      [46] ldc #44
+      [46] ldc #46
         + String [character ]
-      [48] invokevirtual #172
+      [48] invokevirtual #181
         + Methodref [java/lang/StringBuilder.append (Ljava/lang/String;)Ljava/lang/StringBuilder;]
       [51] aload_1 v1
       [52] iconst_0
-      [53] invokevirtual #161
+      [53] invokevirtual #170
         + Methodref [java/lang/String.charAt (I)C]
-      [56] invokevirtual #170
+      [56] invokevirtual #179
         + Methodref [java/lang/StringBuilder.append (C)Ljava/lang/StringBuilder;]
-      [59] invokevirtual #173
+      [59] invokevirtual #182
         + Methodref [java/lang/StringBuilder.toString ()Ljava/lang/String;]
-      [62] invokestatic #111
+      [62] invokestatic #120
         + Methodref [com/a/a/a.d (Ljava/lang/String;)V]
       [65] aload_1 v1
       [66] iconst_1
-      [67] invokevirtual #161
+      [67] invokevirtual #170
         + Methodref [java/lang/String.charAt (I)C]
       [70] bipush 119
       [72] ificmpne +9 (target=81)
       [75] iinc v2, 2
       [78] goto +6 (target=84)
       [81] iinc v2, 0
-      [84] new #85
+      [84] new #91
         + Class [java/lang/StringBuilder]
       [87] dup
-      [88] invokespecial #169
+      [88] invokespecial #178
         + Methodref [java/lang/StringBuilder.<init> ()V]
-      [91] ldc #54
+      [91] ldc #57
         + String [permission ]
-      [93] invokevirtual #172
+      [93] invokevirtual #181
         + Methodref [java/lang/StringBuilder.append (Ljava/lang/String;)Ljava/lang/StringBuilder;]
       [96] iload_2 v2
-      [97] invokevirtual #171
+      [97] invokevirtual #180
         + Methodref [java/lang/StringBuilder.append (I)Ljava/lang/StringBuilder;]
-      [100] invokevirtual #173
+      [100] invokevirtual #182
         + Methodref [java/lang/StringBuilder.toString ()Ljava/lang/String;]
-      [103] invokestatic #111
+      [103] invokestatic #120
         + Methodref [com/a/a/a.d (Ljava/lang/String;)V]
-      [106] new #85
+      [106] new #91
         + Class [java/lang/StringBuilder]
       [109] dup
-      [110] invokespecial #169
+      [110] invokespecial #178
         + Methodref [java/lang/StringBuilder.<init> ()V]
-      [113] ldc #44
+      [113] ldc #46
         + String [character ]
-      [115] invokevirtual #172
+      [115] invokevirtual #181
         + Methodref [java/lang/StringBuilder.append (Ljava/lang/String;)Ljava/lang/StringBuilder;]
       [118] aload_1 v1
       [119] iconst_1
-      [120] invokevirtual #161
+      [120] invokevirtual #170
         + Methodref [java/lang/String.charAt (I)C]
-      [123] invokevirtual #170
+      [123] invokevirtual #179
         + Methodref [java/lang/StringBuilder.append (C)Ljava/lang/StringBuilder;]
-      [126] invokevirtual #173
+      [126] invokevirtual #182
         + Methodref [java/lang/StringBuilder.toString ()Ljava/lang/String;]
-      [129] invokestatic #111
+      [129] invokestatic #120
         + Methodref [com/a/a/a.d (Ljava/lang/String;)V]
       [132] aload_1 v1
       [133] iconst_2
-      [134] invokevirtual #161
+      [134] invokevirtual #170
         + Methodref [java/lang/String.charAt (I)C]
       [137] bipush 120
       [139] ificmpne +9 (target=148)
       [142] iinc v2, 1
       [145] goto +6 (target=151)
       [148] iinc v2, 0
-      [151] new #85
+      [151] new #91
         + Class [java/lang/StringBuilder]
       [154] dup
-      [155] invokespecial #169
+      [155] invokespecial #178
         + Methodref [java/lang/StringBuilder.<init> ()V]
-      [158] ldc #54
+      [158] ldc #57
         + String [permission ]
-      [160] invokevirtual #172
+      [160] invokevirtual #181
         + Methodref [java/lang/StringBuilder.append (Ljava/lang/String;)Ljava/lang/StringBuilder;]
       [163] iload_2 v2
-      [164] invokevirtual #171
+      [164] invokevirtual #180
         + Methodref [java/lang/StringBuilder.append (I)Ljava/lang/StringBuilder;]
-      [167] invokevirtual #173
+      [167] invokevirtual #182
         + Methodref [java/lang/StringBuilder.toString ()Ljava/lang/String;]
-      [170] invokestatic #111
+      [170] invokestatic #120
         + Methodref [com/a/a/a.d (Ljava/lang/String;)V]
-      [173] new #85
+      [173] new #91
         + Class [java/lang/StringBuilder]
       [176] dup
-      [177] invokespecial #169
+      [177] invokespecial #178
         + Methodref [java/lang/StringBuilder.<init> ()V]
-      [180] ldc #44
+      [180] ldc #46
         + String [character ]
-      [182] invokevirtual #172
+      [182] invokevirtual #181
         + Methodref [java/lang/StringBuilder.append (Ljava/lang/String;)Ljava/lang/StringBuilder;]
       [185] aload_1 v1
       [186] iconst_2
-      [187] invokevirtual #161
+      [187] invokevirtual #170
         + Methodref [java/lang/String.charAt (I)C]
-      [190] invokevirtual #170
+      [190] invokevirtual #179
         + Methodref [java/lang/StringBuilder.append (C)Ljava/lang/StringBuilder;]
-      [193] invokevirtual #173
+      [193] invokevirtual #182
         + Methodref [java/lang/StringBuilder.toString ()Ljava/lang/String;]
-      [196] invokestatic #111
+      [196] invokestatic #120
         + Methodref [com/a/a/a.d (Ljava/lang/String;)V]
       [199] iload_2 v2
       [200] ireturn
@@ -44487,40 +44756,40 @@ Methods (count = 14):
       [1] istore_2 v2
       [2] aload_1 v1
       [3] iconst_2
-      [4] invokevirtual #161
+      [4] invokevirtual #170
         + Methodref [java/lang/String.charAt (I)C]
       [7] bipush 115
       [9] ificmpne +6 (target=15)
       [12] iinc v2, 4
       [15] aload_1 v1
       [16] iconst_5
-      [17] invokevirtual #161
+      [17] invokevirtual #170
         + Methodref [java/lang/String.charAt (I)C]
       [20] bipush 115
       [22] ificmpne +6 (target=28)
       [25] iinc v2, 2
       [28] aload_1 v1
       [29] bipush 8
-      [31] invokevirtual #161
+      [31] invokevirtual #170
         + Methodref [java/lang/String.charAt (I)C]
       [34] bipush 116
       [36] ificmpne +6 (target=42)
       [39] iinc v2, 1
-      [42] new #85
+      [42] new #91
         + Class [java/lang/StringBuilder]
       [45] dup
-      [46] invokespecial #169
+      [46] invokespecial #178
         + Methodref [java/lang/StringBuilder.<init> ()V]
-      [49] ldc #58
+      [49] ldc #61
         + String [special permissions ]
-      [51] invokevirtual #172
+      [51] invokevirtual #181
         + Methodref [java/lang/StringBuilder.append (Ljava/lang/String;)Ljava/lang/StringBuilder;]
       [54] iload_2 v2
-      [55] invokevirtual #171
+      [55] invokevirtual #180
         + Methodref [java/lang/StringBuilder.append (I)Ljava/lang/StringBuilder;]
-      [58] invokevirtual #173
+      [58] invokevirtual #182
         + Methodref [java/lang/StringBuilder.toString ()Ljava/lang/String;]
-      [61] invokestatic #111
+      [61] invokestatic #120
         + Methodref [com/a/a/a.d (Ljava/lang/String;)V]
       [64] iload_2 v2
       [65] ireturn
@@ -44542,70 +44811,70 @@ Methods (count = 14):
       [6] iload_3 v3
       [7] ifeq +10 (target=17)
       [10] aload_2 v2
-      [11] ldc #28
+      [11] ldc #29
         + String [RW]
-      [13] invokestatic #104
+      [13] invokestatic #113
         + Methodref [com/a/a/a.a (Ljava/lang/String;Ljava/lang/String;)Z]
       [16] pop
       [17] aload_0 v0
-      [18] ldc #47
+      [18] ldc #49
         + String [cp]
-      [20] invokevirtual #140
+      [20] invokevirtual #149
         + Methodref [com/a/a/d/c.d (Ljava/lang/String;)Z]
       [23] ifeq +171 (target=194)
-      [26] ldc #50
+      [26] ldc #52
         + String [cp command is available!]
-      [28] invokestatic #111
+      [28] invokestatic #120
         + Methodref [com/a/a/a.d (Ljava/lang/String;)V]
       [31] iload v4
       [33] ifeq +82 (target=115)
-      [36] new #69
+      [36] new #75
         + Class [com/a/a/c/e]
       [39] dup
       [40] iconst_0
       [41] iconst_0
       [42] iconst_1
-      [43] anewarray #84
+      [43] anewarray #90
         + Class [java/lang/String]
       [46] dup
       [47] iconst_0
-      [48] new #85
+      [48] new #91
         + Class [java/lang/StringBuilder]
       [51] dup
-      [52] invokespecial #169
+      [52] invokespecial #178
         + Methodref [java/lang/StringBuilder.<init> ()V]
-      [55] ldc #49
+      [55] ldc #51
         + String [cp -fp ]
-      [57] invokevirtual #172
+      [57] invokevirtual #181
         + Methodref [java/lang/StringBuilder.append (Ljava/lang/String;)Ljava/lang/StringBuilder;]
       [60] aload_1 v1
-      [61] invokevirtual #172
+      [61] invokevirtual #181
         + Methodref [java/lang/StringBuilder.append (Ljava/lang/String;)Ljava/lang/StringBuilder;]
       [64] ldc #1
         + String [ ]
-      [66] invokevirtual #172
+      [66] invokevirtual #181
         + Methodref [java/lang/StringBuilder.append (Ljava/lang/String;)Ljava/lang/StringBuilder;]
       [69] aload_2 v2
-      [70] invokevirtual #172
+      [70] invokevirtual #181
         + Methodref [java/lang/StringBuilder.append (Ljava/lang/String;)Ljava/lang/StringBuilder;]
-      [73] invokevirtual #173
+      [73] invokevirtual #182
         + Methodref [java/lang/StringBuilder.toString ()Ljava/lang/String;]
       [76] aastore
-      [77] invokespecial #127
+      [77] invokespecial #136
         + Methodref [com/a/a/c/e.<init> (IZ[Ljava/lang/String;)V]
       [80] astore v5
-      [82] invokestatic #133
+      [82] invokestatic #142
         + Methodref [com/a/a/c/f.i ()Lcom/a/a/c/f;]
       [85] aload v5
-      [87] invokevirtual #129
+      [87] invokevirtual #138
         + Methodref [com/a/a/c/f.a (Lcom/a/a/c/a;)Lcom/a/a/c/a;]
       [90] pop
       [91] aload_0 v0
       [92] aload v5
-      [94] invokespecial #136
+      [94] invokespecial #145
         + Methodref [com/a/a/d/c.a (Lcom/a/a/c/a;)V]
       [97] aload v5
-      [99] invokevirtual #128
+      [99] invokevirtual #137
         + Methodref [com/a/a/c/e.f ()I]
       [102] ifne +7 (target=109)
       [105] iconst_1
@@ -44613,53 +44882,53 @@ Methods (count = 14):
       [109] iconst_0
       [110] istore v6
       [112] goto +410 (target=522)
-      [115] new #69
+      [115] new #75
         + Class [com/a/a/c/e]
       [118] dup
       [119] iconst_0
       [120] iconst_0
       [121] iconst_1
-      [122] anewarray #84
+      [122] anewarray #90
         + Class [java/lang/String]
       [125] dup
       [126] iconst_0
-      [127] new #85
+      [127] new #91
         + Class [java/lang/StringBuilder]
       [130] dup
-      [131] invokespecial #169
+      [131] invokespecial #178
         + Methodref [java/lang/StringBuilder.<init> ()V]
-      [134] ldc #48
+      [134] ldc #50
         + String [cp -f ]
-      [136] invokevirtual #172
+      [136] invokevirtual #181
         + Methodref [java/lang/StringBuilder.append (Ljava/lang/String;)Ljava/lang/StringBuilder;]
       [139] aload_1 v1
-      [140] invokevirtual #172
+      [140] invokevirtual #181
         + Methodref [java/lang/StringBuilder.append (Ljava/lang/String;)Ljava/lang/StringBuilder;]
       [143] ldc #1
         + String [ ]
-      [145] invokevirtual #172
+      [145] invokevirtual #181
         + Methodref [java/lang/StringBuilder.append (Ljava/lang/String;)Ljava/lang/StringBuilder;]
       [148] aload_2 v2
-      [149] invokevirtual #172
+      [149] invokevirtual #181
         + Methodref [java/lang/StringBuilder.append (Ljava/lang/String;)Ljava/lang/StringBuilder;]
-      [152] invokevirtual #173
+      [152] invokevirtual #182
         + Methodref [java/lang/StringBuilder.toString ()Ljava/lang/String;]
       [155] aastore
-      [156] invokespecial #127
+      [156] invokespecial #136
         + Methodref [com/a/a/c/e.<init> (IZ[Ljava/lang/String;)V]
       [159] astore v5
-      [161] invokestatic #133
+      [161] invokestatic #142
         + Methodref [com/a/a/c/f.i ()Lcom/a/a/c/f;]
       [164] aload v5
-      [166] invokevirtual #129
+      [166] invokevirtual #138
         + Methodref [com/a/a/c/f.a (Lcom/a/a/c/a;)Lcom/a/a/c/a;]
       [169] pop
       [170] aload_0 v0
       [171] aload v5
-      [173] invokespecial #136
+      [173] invokespecial #145
         + Methodref [com/a/a/d/c.a (Lcom/a/a/c/a;)V]
       [176] aload v5
-      [178] invokevirtual #128
+      [178] invokevirtual #137
         + Methodref [com/a/a/c/e.f ()I]
       [181] ifne +7 (target=188)
       [184] iconst_1
@@ -44668,126 +44937,126 @@ Methods (count = 14):
       [189] istore v6
       [191] goto +331 (target=522)
       [194] aload_0 v0
-      [195] ldc #35
+      [195] ldc #37
         + String [busybox]
-      [197] invokevirtual #140
+      [197] invokevirtual #149
         + Methodref [com/a/a/d/c.d (Ljava/lang/String;)Z]
       [200] ifeq +152 (target=352)
       [203] aload_0 v0
-      [204] ldc #47
+      [204] ldc #49
         + String [cp]
-      [206] ldc #35
+      [206] ldc #37
         + String [busybox]
-      [208] invokevirtual #137
+      [208] invokevirtual #146
         + Methodref [com/a/a/d/c.a (Ljava/lang/String;Ljava/lang/String;)Z]
       [211] ifeq +141 (target=352)
-      [214] ldc #38
+      [214] ldc #40
         + String [busybox cp command is available!]
-      [216] invokestatic #111
+      [216] invokestatic #120
         + Methodref [com/a/a/a.d (Ljava/lang/String;)V]
       [219] iload v4
       [221] ifeq +67 (target=288)
-      [224] new #69
+      [224] new #75
         + Class [com/a/a/c/e]
       [227] dup
       [228] iconst_0
       [229] iconst_0
       [230] iconst_1
-      [231] anewarray #84
+      [231] anewarray #90
         + Class [java/lang/String]
       [234] dup
       [235] iconst_0
-      [236] new #85
+      [236] new #91
         + Class [java/lang/StringBuilder]
       [239] dup
-      [240] invokespecial #169
+      [240] invokespecial #178
         + Methodref [java/lang/StringBuilder.<init> ()V]
-      [243] ldc #37
+      [243] ldc #39
         + String [busybox cp -fp ]
-      [245] invokevirtual #172
+      [245] invokevirtual #181
         + Methodref [java/lang/StringBuilder.append (Ljava/lang/String;)Ljava/lang/StringBuilder;]
       [248] aload_1 v1
-      [249] invokevirtual #172
+      [249] invokevirtual #181
         + Methodref [java/lang/StringBuilder.append (Ljava/lang/String;)Ljava/lang/StringBuilder;]
       [252] ldc #1
         + String [ ]
-      [254] invokevirtual #172
+      [254] invokevirtual #181
         + Methodref [java/lang/StringBuilder.append (Ljava/lang/String;)Ljava/lang/StringBuilder;]
       [257] aload_2 v2
-      [258] invokevirtual #172
+      [258] invokevirtual #181
         + Methodref [java/lang/StringBuilder.append (Ljava/lang/String;)Ljava/lang/StringBuilder;]
-      [261] invokevirtual #173
+      [261] invokevirtual #182
         + Methodref [java/lang/StringBuilder.toString ()Ljava/lang/String;]
       [264] aastore
-      [265] invokespecial #127
+      [265] invokespecial #136
         + Methodref [com/a/a/c/e.<init> (IZ[Ljava/lang/String;)V]
       [268] astore v5
-      [270] invokestatic #133
+      [270] invokestatic #142
         + Methodref [com/a/a/c/f.i ()Lcom/a/a/c/f;]
       [273] aload v5
-      [275] invokevirtual #129
+      [275] invokevirtual #138
         + Methodref [com/a/a/c/f.a (Lcom/a/a/c/a;)Lcom/a/a/c/a;]
       [278] pop
       [279] aload_0 v0
       [280] aload v5
-      [282] invokespecial #136
+      [282] invokespecial #145
         + Methodref [com/a/a/d/c.a (Lcom/a/a/c/a;)V]
       [285] goto +237 (target=522)
-      [288] new #69
+      [288] new #75
         + Class [com/a/a/c/e]
       [291] dup
       [292] iconst_0
       [293] iconst_0
       [294] iconst_1
-      [295] anewarray #84
+      [295] anewarray #90
         + Class [java/lang/String]
       [298] dup
       [299] iconst_0
-      [300] new #85
+      [300] new #91
         + Class [java/lang/StringBuilder]
       [303] dup
-      [304] invokespecial #169
+      [304] invokespecial #178
         + Methodref [java/lang/StringBuilder.<init> ()V]
-      [307] ldc #36
+      [307] ldc #38
         + String [busybox cp -f ]
-      [309] invokevirtual #172
+      [309] invokevirtual #181
         + Methodref [java/lang/StringBuilder.append (Ljava/lang/String;)Ljava/lang/StringBuilder;]
       [312] aload_1 v1
-      [313] invokevirtual #172
+      [313] invokevirtual #181
         + Methodref [java/lang/StringBuilder.append (Ljava/lang/String;)Ljava/lang/StringBuilder;]
       [316] ldc #1
         + String [ ]
-      [318] invokevirtual #172
+      [318] invokevirtual #181
         + Methodref [java/lang/StringBuilder.append (Ljava/lang/String;)Ljava/lang/StringBuilder;]
       [321] aload_2 v2
-      [322] invokevirtual #172
+      [322] invokevirtual #181
         + Methodref [java/lang/StringBuilder.append (Ljava/lang/String;)Ljava/lang/StringBuilder;]
-      [325] invokevirtual #173
+      [325] invokevirtual #182
         + Methodref [java/lang/StringBuilder.toString ()Ljava/lang/String;]
       [328] aastore
-      [329] invokespecial #127
+      [329] invokespecial #136
         + Methodref [com/a/a/c/e.<init> (IZ[Ljava/lang/String;)V]
       [332] astore v5
-      [334] invokestatic #133
+      [334] invokestatic #142
         + Methodref [com/a/a/c/f.i ()Lcom/a/a/c/f;]
       [337] aload v5
-      [339] invokevirtual #129
+      [339] invokevirtual #138
         + Methodref [com/a/a/c/f.a (Lcom/a/a/c/a;)Lcom/a/a/c/a;]
       [342] pop
       [343] aload_0 v0
       [344] aload v5
-      [346] invokespecial #136
+      [346] invokespecial #145
         + Methodref [com/a/a/d/c.a (Lcom/a/a/c/a;)V]
       [349] goto +173 (target=522)
       [352] aload_0 v0
-      [353] ldc #41
+      [353] ldc #43
         + String [cat]
-      [355] invokevirtual #140
+      [355] invokevirtual #149
         + Methodref [com/a/a/d/c.d (Ljava/lang/String;)Z]
       [358] ifeq +161 (target=519)
-      [361] ldc #51
+      [361] ldc #53
         + String [cp is not available, use cat!]
-      [363] invokestatic #111
+      [363] invokestatic #120
         + Methodref [com/a/a/a.d (Ljava/lang/String;)V]
       [366] iconst_m1
       [367] istore v7
@@ -44795,104 +45064,104 @@ Methods (count = 14):
       [371] ifeq +17 (target=388)
       [374] aload_0 v0
       [375] aload_1 v1
-      [376] invokevirtual #141
+      [376] invokevirtual #150
         + Methodref [com/a/a/d/c.g (Ljava/lang/String;)Lcom/a/a/a/b;]
       [379] astore v8
       [381] aload v8
-      [383] invokevirtual #116
+      [383] invokevirtual #125
         + Methodref [com/a/a/a/b.b ()I]
       [386] istore v7
-      [388] new #69
+      [388] new #75
         + Class [com/a/a/c/e]
       [391] dup
       [392] iconst_0
       [393] iconst_0
       [394] iconst_1
-      [395] anewarray #84
+      [395] anewarray #90
         + Class [java/lang/String]
       [398] dup
       [399] iconst_0
-      [400] new #85
+      [400] new #91
         + Class [java/lang/StringBuilder]
       [403] dup
-      [404] invokespecial #169
+      [404] invokespecial #178
         + Methodref [java/lang/StringBuilder.<init> ()V]
-      [407] ldc #42
+      [407] ldc #44
         + String [cat ]
-      [409] invokevirtual #172
+      [409] invokevirtual #181
         + Methodref [java/lang/StringBuilder.append (Ljava/lang/String;)Ljava/lang/StringBuilder;]
       [412] aload_1 v1
-      [413] invokevirtual #172
+      [413] invokevirtual #181
         + Methodref [java/lang/StringBuilder.append (Ljava/lang/String;)Ljava/lang/StringBuilder;]
       [416] ldc #3
         + String [ > ]
-      [418] invokevirtual #172
+      [418] invokevirtual #181
         + Methodref [java/lang/StringBuilder.append (Ljava/lang/String;)Ljava/lang/StringBuilder;]
       [421] aload_2 v2
-      [422] invokevirtual #172
+      [422] invokevirtual #181
         + Methodref [java/lang/StringBuilder.append (Ljava/lang/String;)Ljava/lang/StringBuilder;]
-      [425] invokevirtual #173
+      [425] invokevirtual #182
         + Methodref [java/lang/StringBuilder.toString ()Ljava/lang/String;]
       [428] aastore
-      [429] invokespecial #127
+      [429] invokespecial #136
         + Methodref [com/a/a/c/e.<init> (IZ[Ljava/lang/String;)V]
       [432] astore v5
-      [434] invokestatic #133
+      [434] invokestatic #142
         + Methodref [com/a/a/c/f.i ()Lcom/a/a/c/f;]
       [437] aload v5
-      [439] invokevirtual #129
+      [439] invokevirtual #138
         + Methodref [com/a/a/c/f.a (Lcom/a/a/c/a;)Lcom/a/a/c/a;]
       [442] pop
       [443] aload_0 v0
       [444] aload v5
-      [446] invokespecial #136
+      [446] invokespecial #145
         + Methodref [com/a/a/d/c.a (Lcom/a/a/c/a;)V]
       [449] iload v4
       [451] ifeq +65 (target=516)
-      [454] new #69
+      [454] new #75
         + Class [com/a/a/c/e]
       [457] dup
       [458] iconst_0
       [459] iconst_0
       [460] iconst_1
-      [461] anewarray #84
+      [461] anewarray #90
         + Class [java/lang/String]
       [464] dup
       [465] iconst_0
-      [466] new #85
+      [466] new #91
         + Class [java/lang/StringBuilder]
       [469] dup
-      [470] invokespecial #169
+      [470] invokespecial #178
         + Methodref [java/lang/StringBuilder.<init> ()V]
-      [473] ldc #45
+      [473] ldc #47
         + String [chmod ]
-      [475] invokevirtual #172
+      [475] invokevirtual #181
         + Methodref [java/lang/StringBuilder.append (Ljava/lang/String;)Ljava/lang/StringBuilder;]
       [478] iload v7
-      [480] invokevirtual #171
+      [480] invokevirtual #180
         + Methodref [java/lang/StringBuilder.append (I)Ljava/lang/StringBuilder;]
       [483] ldc #1
         + String [ ]
-      [485] invokevirtual #172
+      [485] invokevirtual #181
         + Methodref [java/lang/StringBuilder.append (Ljava/lang/String;)Ljava/lang/StringBuilder;]
       [488] aload_2 v2
-      [489] invokevirtual #172
+      [489] invokevirtual #181
         + Methodref [java/lang/StringBuilder.append (Ljava/lang/String;)Ljava/lang/StringBuilder;]
-      [492] invokevirtual #173
+      [492] invokevirtual #182
         + Methodref [java/lang/StringBuilder.toString ()Ljava/lang/String;]
       [495] aastore
-      [496] invokespecial #127
+      [496] invokespecial #136
         + Methodref [com/a/a/c/e.<init> (IZ[Ljava/lang/String;)V]
       [499] astore v5
-      [501] invokestatic #133
+      [501] invokestatic #142
         + Methodref [com/a/a/c/f.i ()Lcom/a/a/c/f;]
       [504] aload v5
-      [506] invokevirtual #129
+      [506] invokevirtual #138
         + Methodref [com/a/a/c/f.a (Lcom/a/a/c/a;)Lcom/a/a/c/a;]
       [509] pop
       [510] aload_0 v0
       [511] aload v5
-      [513] invokespecial #136
+      [513] invokespecial #145
         + Methodref [com/a/a/d/c.a (Lcom/a/a/c/a;)V]
       [516] goto +6 (target=522)
       [519] iconst_0
@@ -44900,22 +45169,22 @@ Methods (count = 14):
       [522] iload_3 v3
       [523] ifeq +10 (target=533)
       [526] aload_2 v2
-      [527] ldc #27
+      [527] ldc #28
         + String [RO]
-      [529] invokestatic #104
+      [529] invokestatic #113
         + Methodref [com/a/a/a.a (Ljava/lang/String;Ljava/lang/String;)Z]
       [532] pop
       [533] goto +13 (target=546)
       [536] astore v7
       [538] aload v7
-      [540] invokevirtual #154
+      [540] invokevirtual #163
         + Methodref [java/lang/Exception.printStackTrace ()V]
       [543] iconst_0
       [544] istore v6
       [546] aload v5
       [548] ifnull +18 (target=566)
       [551] aload v5
-      [553] invokevirtual #128
+      [553] invokevirtual #137
         + Methodref [com/a/a/c/e.f ()I]
       [556] ifne +7 (target=563)
       [559] iconst_1
@@ -44954,118 +45223,118 @@ Methods (count = 14):
     Class member attributes (count = 1):
     + Code attribute instructions (code length = 192, locals = 7, stack = 2):
       [0] aload_1 v1
-      [1] invokestatic #107
+      [1] invokestatic #116
         + Methodref [com/a/a/a.b (Ljava/lang/String;)Z]
       [4] ifeq +186 (target=190)
-      [7] new #88
+      [7] new #94
         + Class [java/util/ArrayList]
       [10] dup
-      [11] invokespecial #176
+      [11] invokespecial #185
         + Methodref [java/util/ArrayList.<init> ()V]
       [14] astore_2 v2
       [15] aload_2 v2
-      [16] getstatic #94
+      [16] getstatic #100
         + Fieldref [com/a/a/a.b Ljava/util/List;]
-      [19] invokeinterface #182
+      [19] invokeinterface #191
         + InterfaceMethodref [java/util/List.addAll (Ljava/util/Collection;)Z]
       [24] pop
       [25] aload_2 v2
-      [26] invokeinterface #185
+      [26] invokeinterface #194
         + InterfaceMethodref [java/util/List.iterator ()Ljava/util/Iterator;]
       [31] astore_3 v3
       [32] aload_3 v3
-      [33] invokeinterface #179
+      [33] invokeinterface #188
         + InterfaceMethodref [java/util/Iterator.hasNext ()Z]
       [38] ifeq +152 (target=190)
       [41] aload_3 v3
-      [42] invokeinterface #180
+      [42] invokeinterface #189
         + InterfaceMethodref [java/util/Iterator.next ()Ljava/lang/Object;]
-      [47] checkcast #84
+      [47] checkcast #90
         + Class [java/lang/String]
       [50] astore v4
-      [52] new #85
+      [52] new #91
         + Class [java/lang/StringBuilder]
       [55] dup
-      [56] invokespecial #169
+      [56] invokespecial #178
         + Methodref [java/lang/StringBuilder.<init> ()V]
       [59] aload v4
-      [61] invokevirtual #172
+      [61] invokevirtual #181
         + Methodref [java/lang/StringBuilder.append (Ljava/lang/String;)Ljava/lang/StringBuilder;]
       [64] ldc #9
         + String [/]
-      [66] invokevirtual #172
+      [66] invokevirtual #181
         + Methodref [java/lang/StringBuilder.append (Ljava/lang/String;)Ljava/lang/StringBuilder;]
       [69] aload_1 v1
-      [70] invokevirtual #172
+      [70] invokevirtual #181
         + Methodref [java/lang/StringBuilder.append (Ljava/lang/String;)Ljava/lang/StringBuilder;]
-      [73] invokevirtual #173
+      [73] invokevirtual #182
         + Methodref [java/lang/StringBuilder.toString ()Ljava/lang/String;]
-      [76] invokestatic #110
+      [76] invokestatic #119
         + Methodref [com/a/a/a.c (Ljava/lang/String;)Lcom/a/a/a/b;]
       [79] astore v5
       [81] aload v5
       [83] ifnull +104 (target=187)
       [86] aload v5
-      [88] invokevirtual #116
+      [88] invokevirtual #125
         + Methodref [com/a/a/a/b.b ()I]
-      [91] invokestatic #157
+      [91] invokestatic #166
         + Methodref [java/lang/Integer.toString (I)Ljava/lang/String;]
-      [94] invokevirtual #164
+      [94] invokevirtual #173
         + Methodref [java/lang/String.length ()I]
       [97] iconst_3
       [98] ificmple +20 (target=118)
       [101] aload v5
-      [103] invokevirtual #116
+      [103] invokevirtual #125
         + Methodref [com/a/a/a/b.b ()I]
-      [106] invokestatic #157
+      [106] invokestatic #166
         + Methodref [java/lang/Integer.toString (I)Ljava/lang/String;]
       [109] iconst_1
-      [110] invokevirtual #166
+      [110] invokevirtual #175
         + Methodref [java/lang/String.substring (I)Ljava/lang/String;]
       [113] astore v6
       [115] goto +13 (target=128)
       [118] aload v5
-      [120] invokevirtual #116
+      [120] invokevirtual #125
         + Methodref [com/a/a/a/b.b ()I]
-      [123] invokestatic #157
+      [123] invokestatic #166
         + Methodref [java/lang/Integer.toString (I)Ljava/lang/String;]
       [126] astore v6
       [128] aload v6
       [130] ldc #20
         + String [755]
-      [132] invokevirtual #163
+      [132] invokevirtual #172
         + Methodref [java/lang/String.equals (Ljava/lang/Object;)Z]
       [135] ifne +23 (target=158)
       [138] aload v6
       [140] ldc #22
         + String [777]
-      [142] invokevirtual #163
+      [142] invokevirtual #172
         + Methodref [java/lang/String.equals (Ljava/lang/Object;)Z]
       [145] ifne +13 (target=158)
       [148] aload v6
       [150] ldc #21
         + String [775]
-      [152] invokevirtual #163
+      [152] invokevirtual #172
         + Methodref [java/lang/String.equals (Ljava/lang/Object;)Z]
       [155] ifeq +32 (target=187)
-      [158] new #85
+      [158] new #91
         + Class [java/lang/StringBuilder]
       [161] dup
-      [162] invokespecial #169
+      [162] invokespecial #178
         + Methodref [java/lang/StringBuilder.<init> ()V]
       [165] aload v4
-      [167] invokevirtual #172
+      [167] invokevirtual #181
         + Methodref [java/lang/StringBuilder.append (Ljava/lang/String;)Ljava/lang/StringBuilder;]
       [170] ldc #9
         + String [/]
-      [172] invokevirtual #172
+      [172] invokevirtual #181
         + Methodref [java/lang/StringBuilder.append (Ljava/lang/String;)Ljava/lang/StringBuilder;]
       [175] aload_1 v1
-      [176] invokevirtual #172
+      [176] invokevirtual #181
         + Methodref [java/lang/StringBuilder.append (Ljava/lang/String;)Ljava/lang/StringBuilder;]
-      [179] invokevirtual #173
+      [179] invokevirtual #182
         + Methodref [java/lang/StringBuilder.toString ()Ljava/lang/String;]
-      [182] putstatic #95
+      [182] putstatic #101
         + Fieldref [com/a/a/a.c Ljava/lang/String;]
       [185] iconst_1
       [186] ireturn
@@ -45091,150 +45360,150 @@ Methods (count = 14):
       [2] iload_2 v2
       [3] ifeq +10 (target=13)
       [6] aload_1 v1
-      [7] ldc #28
+      [7] ldc #29
         + String [RW]
-      [9] invokestatic #104
+      [9] invokestatic #113
         + Methodref [com/a/a/a.a (Ljava/lang/String;Ljava/lang/String;)Z]
       [12] pop
       [13] aload_0 v0
-      [14] ldc #55
+      [14] ldc #58
         + String [rm]
-      [16] ldc #61
+      [16] ldc #64
         + String [toolbox]
-      [18] invokevirtual #137
+      [18] invokevirtual #146
         + Methodref [com/a/a/d/c.a (Ljava/lang/String;Ljava/lang/String;)Z]
       [21] ifeq +78 (target=99)
-      [24] ldc #57
+      [24] ldc #60
         + String [rm command is available!]
-      [26] invokestatic #111
+      [26] invokestatic #120
         + Methodref [com/a/a/a.d (Ljava/lang/String;)V]
-      [29] new #69
+      [29] new #75
         + Class [com/a/a/c/e]
       [32] dup
       [33] iconst_0
       [34] iconst_0
       [35] iconst_1
-      [36] anewarray #84
+      [36] anewarray #90
         + Class [java/lang/String]
       [39] dup
       [40] iconst_0
-      [41] new #85
+      [41] new #91
         + Class [java/lang/StringBuilder]
       [44] dup
-      [45] invokespecial #169
+      [45] invokespecial #178
         + Methodref [java/lang/StringBuilder.<init> ()V]
-      [48] ldc #56
+      [48] ldc #59
         + String [rm -r ]
-      [50] invokevirtual #172
+      [50] invokevirtual #181
         + Methodref [java/lang/StringBuilder.append (Ljava/lang/String;)Ljava/lang/StringBuilder;]
       [53] aload_1 v1
-      [54] invokevirtual #172
+      [54] invokevirtual #181
         + Methodref [java/lang/StringBuilder.append (Ljava/lang/String;)Ljava/lang/StringBuilder;]
-      [57] invokevirtual #173
+      [57] invokevirtual #182
         + Methodref [java/lang/StringBuilder.toString ()Ljava/lang/String;]
       [60] aastore
-      [61] invokespecial #127
+      [61] invokespecial #136
         + Methodref [com/a/a/c/e.<init> (IZ[Ljava/lang/String;)V]
       [64] astore v4
-      [66] invokestatic #133
+      [66] invokestatic #142
         + Methodref [com/a/a/c/f.i ()Lcom/a/a/c/f;]
       [69] aload v4
-      [71] invokevirtual #129
+      [71] invokevirtual #138
         + Methodref [com/a/a/c/f.a (Lcom/a/a/c/a;)Lcom/a/a/c/a;]
       [74] pop
       [75] aload_0 v0
       [76] aload v4
-      [78] invokespecial #136
+      [78] invokespecial #145
         + Methodref [com/a/a/d/c.a (Lcom/a/a/c/a;)V]
       [81] aload v4
-      [83] invokevirtual #128
+      [83] invokevirtual #137
         + Methodref [com/a/a/c/e.f ()I]
       [86] ifeq +10 (target=96)
-      [89] ldc #60
+      [89] ldc #63
         + String [target not exist or unable to delete file]
-      [91] invokestatic #111
+      [91] invokestatic #120
         + Methodref [com/a/a/a.d (Ljava/lang/String;)V]
       [94] iconst_0
       [95] istore_3 v3
       [96] goto +95 (target=191)
       [99] aload_0 v0
-      [100] ldc #35
+      [100] ldc #37
         + String [busybox]
-      [102] invokevirtual #140
+      [102] invokevirtual #149
         + Methodref [com/a/a/d/c.d (Ljava/lang/String;)Z]
       [105] ifeq +86 (target=191)
       [108] aload_0 v0
-      [109] ldc #55
+      [109] ldc #58
         + String [rm]
-      [111] ldc #35
+      [111] ldc #37
         + String [busybox]
-      [113] invokevirtual #137
+      [113] invokevirtual #146
         + Methodref [com/a/a/d/c.a (Ljava/lang/String;Ljava/lang/String;)Z]
       [116] ifeq +75 (target=191)
-      [119] ldc #38
+      [119] ldc #40
         + String [busybox cp command is available!]
-      [121] invokestatic #111
+      [121] invokestatic #120
         + Methodref [com/a/a/a.d (Ljava/lang/String;)V]
-      [124] new #69
+      [124] new #75
         + Class [com/a/a/c/e]
       [127] dup
       [128] iconst_0
       [129] iconst_0
       [130] iconst_1
-      [131] anewarray #84
+      [131] anewarray #90
         + Class [java/lang/String]
       [134] dup
       [135] iconst_0
-      [136] new #85
+      [136] new #91
         + Class [java/lang/StringBuilder]
       [139] dup
-      [140] invokespecial #169
+      [140] invokespecial #178
         + Methodref [java/lang/StringBuilder.<init> ()V]
-      [143] ldc #40
+      [143] ldc #42
         + String [busybox rm -rf ]
-      [145] invokevirtual #172
+      [145] invokevirtual #181
         + Methodref [java/lang/StringBuilder.append (Ljava/lang/String;)Ljava/lang/StringBuilder;]
       [148] aload_1 v1
-      [149] invokevirtual #172
+      [149] invokevirtual #181
         + Methodref [java/lang/StringBuilder.append (Ljava/lang/String;)Ljava/lang/StringBuilder;]
-      [152] invokevirtual #173
+      [152] invokevirtual #182
         + Methodref [java/lang/StringBuilder.toString ()Ljava/lang/String;]
       [155] aastore
-      [156] invokespecial #127
+      [156] invokespecial #136
         + Methodref [com/a/a/c/e.<init> (IZ[Ljava/lang/String;)V]
       [159] astore v4
-      [161] invokestatic #133
+      [161] invokestatic #142
         + Methodref [com/a/a/c/f.i ()Lcom/a/a/c/f;]
       [164] aload v4
-      [166] invokevirtual #129
+      [166] invokevirtual #138
         + Methodref [com/a/a/c/f.a (Lcom/a/a/c/a;)Lcom/a/a/c/a;]
       [169] pop
       [170] aload_0 v0
       [171] aload v4
-      [173] invokespecial #136
+      [173] invokespecial #145
         + Methodref [com/a/a/d/c.a (Lcom/a/a/c/a;)V]
       [176] aload v4
-      [178] invokevirtual #128
+      [178] invokevirtual #137
         + Methodref [com/a/a/c/e.f ()I]
       [181] ifeq +10 (target=191)
-      [184] ldc #60
+      [184] ldc #63
         + String [target not exist or unable to delete file]
-      [186] invokestatic #111
+      [186] invokestatic #120
         + Methodref [com/a/a/a.d (Ljava/lang/String;)V]
       [189] iconst_0
       [190] istore_3 v3
       [191] iload_2 v2
       [192] ifeq +10 (target=202)
       [195] aload_1 v1
-      [196] ldc #27
+      [196] ldc #28
         + String [RO]
-      [198] invokestatic #104
+      [198] invokestatic #113
         + Methodref [com/a/a/a.a (Ljava/lang/String;Ljava/lang/String;)Z]
       [201] pop
       [202] goto +12 (target=214)
       [205] astore v4
       [207] aload v4
-      [209] invokevirtual #154
+      [209] invokevirtual #163
         + Methodref [java/lang/Exception.printStackTrace ()V]
       [212] iconst_0
       [213] istore_3 v3
@@ -45257,146 +45526,146 @@ Methods (count = 14):
       = public boolean e(java.lang.String)
     Class member attributes (count = 1):
     + Code attribute instructions (code length = 238, locals = 7, stack = 10):
-      [0] new #88
+      [0] new #94
         + Class [java/util/ArrayList]
       [3] dup
-      [4] invokespecial #176
+      [4] invokespecial #185
         + Methodref [java/util/ArrayList.<init> ()V]
       [7] astore_2 v2
-      [8] new #73
+      [8] new #79
         + Class [com/a/a/d/d]
       [11] dup
       [12] aload_0 v0
       [13] iconst_0
       [14] iconst_0
       [15] iconst_1
-      [16] anewarray #84
+      [16] anewarray #90
         + Class [java/lang/String]
       [19] dup
       [20] iconst_0
-      [21] new #85
+      [21] new #91
         + Class [java/lang/StringBuilder]
       [24] dup
-      [25] invokespecial #169
+      [25] invokespecial #178
         + Methodref [java/lang/StringBuilder.<init> ()V]
-      [28] ldc #52
+      [28] ldc #54
         + String [ls ]
-      [30] invokevirtual #172
+      [30] invokevirtual #181
         + Methodref [java/lang/StringBuilder.append (Ljava/lang/String;)Ljava/lang/StringBuilder;]
       [33] aload_1 v1
-      [34] invokevirtual #172
+      [34] invokevirtual #181
         + Methodref [java/lang/StringBuilder.append (Ljava/lang/String;)Ljava/lang/StringBuilder;]
-      [37] invokevirtual #173
+      [37] invokevirtual #182
         + Methodref [java/lang/StringBuilder.toString ()Ljava/lang/String;]
       [40] aastore
       [41] aload_2 v2
-      [42] invokespecial #142
+      [42] invokespecial #151
         + Methodref [com/a/a/d/d.<init> (Lcom/a/a/d/c;IZ[Ljava/lang/String;Ljava/util/List;)V]
       [45] astore_3 v3
-      [46] invokestatic #132
+      [46] invokestatic #141
         + Methodref [com/a/a/c/f.g ()Z]
       [49] ifne +19 (target=68)
-      [52] invokestatic #134
+      [52] invokestatic #143
         + Methodref [com/a/a/c/f.j ()Lcom/a/a/c/f;]
       [55] aload_3 v3
-      [56] invokevirtual #129
+      [56] invokevirtual #138
         + Methodref [com/a/a/c/f.a (Lcom/a/a/c/a;)Lcom/a/a/c/a;]
       [59] pop
       [60] aload_0 v0
       [61] aload_3 v3
-      [62] invokespecial #136
+      [62] invokespecial #145
         + Methodref [com/a/a/d/c.a (Lcom/a/a/c/a;)V]
       [65] goto +16 (target=81)
-      [68] invokestatic #131
+      [68] invokestatic #140
         + Methodref [com/a/a/c/f.f ()Lcom/a/a/c/f;]
       [71] aload_3 v3
-      [72] invokevirtual #129
+      [72] invokevirtual #138
         + Methodref [com/a/a/c/f.a (Lcom/a/a/c/a;)Lcom/a/a/c/a;]
       [75] pop
       [76] aload_0 v0
       [77] aload_3 v3
-      [78] invokespecial #136
+      [78] invokespecial #145
         + Methodref [com/a/a/d/c.a (Lcom/a/a/c/a;)V]
       [81] goto +7 (target=88)
       [84] astore v4
       [86] iconst_0
       [87] ireturn
       [88] aload_2 v2
-      [89] invokeinterface #185
+      [89] invokeinterface #194
         + InterfaceMethodref [java/util/List.iterator ()Ljava/util/Iterator;]
       [94] astore v4
       [96] aload v4
-      [98] invokeinterface #179
+      [98] invokeinterface #188
         + InterfaceMethodref [java/util/Iterator.hasNext ()Z]
       [103] ifeq +32 (target=135)
       [106] aload v4
-      [108] invokeinterface #180
+      [108] invokeinterface #189
         + InterfaceMethodref [java/util/Iterator.next ()Ljava/lang/Object;]
-      [113] checkcast #84
+      [113] checkcast #90
         + Class [java/lang/String]
       [116] astore v5
       [118] aload v5
-      [120] invokevirtual #168
+      [120] invokevirtual #177
         + Methodref [java/lang/String.trim ()Ljava/lang/String;]
       [123] aload_1 v1
-      [124] invokevirtual #163
+      [124] invokevirtual #172
         + Methodref [java/lang/String.equals (Ljava/lang/Object;)Z]
       [127] ifeq +5 (target=132)
       [130] iconst_1
       [131] ireturn
       [132] goto -36 (target=96)
       [135] iconst_0
-      [136] invokestatic #105
+      [136] invokestatic #114
         + Methodref [com/a/a/a.a (Z)V]
       [139] goto +5 (target=144)
       [142] astore v4
       [144] aload_2 v2
-      [145] invokeinterface #183
+      [145] invokeinterface #192
         + InterfaceMethodref [java/util/List.clear ()V]
-      [150] invokestatic #133
+      [150] invokestatic #142
         + Methodref [com/a/a/c/f.i ()Lcom/a/a/c/f;]
       [153] aload_3 v3
-      [154] invokevirtual #129
+      [154] invokevirtual #138
         + Methodref [com/a/a/c/f.a (Lcom/a/a/c/a;)Lcom/a/a/c/a;]
       [157] pop
       [158] aload_0 v0
       [159] aload_3 v3
-      [160] invokespecial #136
+      [160] invokespecial #145
         + Methodref [com/a/a/d/c.a (Lcom/a/a/c/a;)V]
       [163] goto +7 (target=170)
       [166] astore v4
       [168] iconst_0
       [169] ireturn
-      [170] new #88
+      [170] new #94
         + Class [java/util/ArrayList]
       [173] dup
-      [174] invokespecial #176
+      [174] invokespecial #185
         + Methodref [java/util/ArrayList.<init> ()V]
       [177] astore v4
       [179] aload v4
       [181] aload_2 v2
-      [182] invokeinterface #182
+      [182] invokeinterface #191
         + InterfaceMethodref [java/util/List.addAll (Ljava/util/Collection;)Z]
       [187] pop
       [188] aload v4
-      [190] invokeinterface #185
+      [190] invokeinterface #194
         + InterfaceMethodref [java/util/List.iterator ()Ljava/util/Iterator;]
       [195] astore v5
       [197] aload v5
-      [199] invokeinterface #179
+      [199] invokeinterface #188
         + InterfaceMethodref [java/util/Iterator.hasNext ()Z]
       [204] ifeq +32 (target=236)
       [207] aload v5
-      [209] invokeinterface #180
+      [209] invokeinterface #189
         + InterfaceMethodref [java/util/Iterator.next ()Ljava/lang/Object;]
-      [214] checkcast #84
+      [214] checkcast #90
         + Class [java/lang/String]
       [217] astore v6
       [219] aload v6
-      [221] invokevirtual #168
+      [221] invokevirtual #177
         + Methodref [java/lang/String.trim ()Ljava/lang/String;]
       [224] aload_1 v1
-      [225] invokevirtual #163
+      [225] invokevirtual #172
         + Methodref [java/lang/String.equals (Ljava/lang/Object;)Z]
       [228] ifeq +5 (target=233)
       [231] iconst_1
@@ -45434,18 +45703,18 @@ Methods (count = 14):
     + Code attribute instructions (code length = 554, locals = 10, stack = 10):
       [0] iconst_0
       [1] istore_2 v2
-      [2] getstatic #94
+      [2] getstatic #100
         + Fieldref [com/a/a/a.b Ljava/util/List;]
-      [5] invokeinterface #183
+      [5] invokeinterface #192
         + InterfaceMethodref [java/util/List.clear ()V]
-      [10] new #88
+      [10] new #94
         + Class [java/util/ArrayList]
       [13] dup
-      [14] invokespecial #176
+      [14] invokespecial #185
         + Methodref [java/util/ArrayList.<init> ()V]
       [17] astore_3 v3
       [18] bipush 8
-      [20] anewarray #84
+      [20] anewarray #90
         + Class [java/lang/String]
       [23] dup
       [24] iconst_0
@@ -45488,21 +45757,21 @@ Methods (count = 14):
         + String [/data/local/]
       [64] aastore
       [65] astore v4
-      [67] new #85
+      [67] new #91
         + Class [java/lang/StringBuilder]
       [70] dup
-      [71] invokespecial #169
+      [71] invokespecial #178
         + Methodref [java/lang/StringBuilder.<init> ()V]
       [74] ldc #25
         + String [Checking for ]
-      [76] invokevirtual #172
+      [76] invokevirtual #181
         + Methodref [java/lang/StringBuilder.append (Ljava/lang/String;)Ljava/lang/StringBuilder;]
       [79] aload_1 v1
-      [80] invokevirtual #172
+      [80] invokevirtual #181
         + Methodref [java/lang/StringBuilder.append (Ljava/lang/String;)Ljava/lang/StringBuilder;]
-      [83] invokevirtual #173
+      [83] invokevirtual #182
         + Methodref [java/lang/StringBuilder.toString ()Ljava/lang/String;]
-      [86] invokestatic #111
+      [86] invokestatic #120
         + Methodref [com/a/a/a.d (Ljava/lang/String;)V]
       [89] aload v4
       [91] astore v5
@@ -45518,56 +45787,56 @@ Methods (count = 14):
       [110] iload v7
       [112] aaload
       [113] astore v8
-      [115] new #75
+      [115] new #81
         + Class [com/a/a/d/f]
       [118] dup
       [119] aload_0 v0
       [120] iconst_0
       [121] iconst_0
       [122] iconst_1
-      [123] anewarray #84
+      [123] anewarray #90
         + Class [java/lang/String]
       [126] dup
       [127] iconst_0
-      [128] new #85
+      [128] new #91
         + Class [java/lang/StringBuilder]
       [131] dup
-      [132] invokespecial #169
+      [132] invokespecial #178
         + Methodref [java/lang/StringBuilder.<init> ()V]
-      [135] ldc #59
+      [135] ldc #62
         + String [stat ]
-      [137] invokevirtual #172
+      [137] invokevirtual #181
         + Methodref [java/lang/StringBuilder.append (Ljava/lang/String;)Ljava/lang/StringBuilder;]
       [140] aload v8
-      [142] invokevirtual #172
+      [142] invokevirtual #181
         + Methodref [java/lang/StringBuilder.append (Ljava/lang/String;)Ljava/lang/StringBuilder;]
       [145] aload_1 v1
-      [146] invokevirtual #172
+      [146] invokevirtual #181
         + Methodref [java/lang/StringBuilder.append (Ljava/lang/String;)Ljava/lang/StringBuilder;]
-      [149] invokevirtual #173
+      [149] invokevirtual #182
         + Methodref [java/lang/StringBuilder.toString ()Ljava/lang/String;]
       [152] aastore
       [153] aload_1 v1
       [154] aload_3 v3
       [155] aload v8
-      [157] invokespecial #144
+      [157] invokespecial #153
         + Methodref [com/a/a/d/f.<init> (Lcom/a/a/d/c;IZ[Ljava/lang/String;Ljava/lang/String;Ljava/util/List;Ljava/lang/String;)V]
       [160] astore v9
       [162] iconst_0
-      [163] invokestatic #109
+      [163] invokestatic #118
         + Methodref [com/a/a/a.b (Z)Lcom/a/a/c/f;]
       [166] aload v9
-      [168] invokevirtual #129
+      [168] invokevirtual #138
         + Methodref [com/a/a/c/f.a (Lcom/a/a/c/a;)Lcom/a/a/c/a;]
       [171] pop
       [172] aload_0 v0
       [173] aload v9
-      [175] invokespecial #136
+      [175] invokespecial #145
         + Methodref [com/a/a/d/c.a (Lcom/a/a/c/a;)V]
       [178] iinc v7, 1
       [181] goto -80 (target=101)
       [184] aload_3 v3
-      [185] invokeinterface #184
+      [185] invokeinterface #193
         + InterfaceMethodref [java/util/List.isEmpty ()Z]
       [190] ifne +7 (target=197)
       [193] iconst_1
@@ -45576,27 +45845,27 @@ Methods (count = 14):
       [198] istore_2 v2
       [199] goto +27 (target=226)
       [202] astore v5
-      [204] new #85
+      [204] new #91
         + Class [java/lang/StringBuilder]
       [207] dup
-      [208] invokespecial #169
+      [208] invokespecial #178
         + Methodref [java/lang/StringBuilder.<init> ()V]
       [211] aload_1 v1
-      [212] invokevirtual #172
+      [212] invokevirtual #181
         + Methodref [java/lang/StringBuilder.append (Ljava/lang/String;)Ljava/lang/StringBuilder;]
       [215] ldc #8
         + String [ was not found, more information MAY be available with Debugging on.]
-      [217] invokevirtual #172
+      [217] invokevirtual #181
         + Methodref [java/lang/StringBuilder.append (Ljava/lang/String;)Ljava/lang/StringBuilder;]
-      [220] invokevirtual #173
+      [220] invokevirtual #182
         + Methodref [java/lang/StringBuilder.toString ()Ljava/lang/String;]
-      [223] invokestatic #111
+      [223] invokestatic #120
         + Methodref [com/a/a/a.d (Ljava/lang/String;)V]
       [226] iload_2 v2
       [227] ifne +133 (target=360)
-      [230] ldc #30
+      [230] ldc #31
         + String [Trying second method]
-      [232] invokestatic #111
+      [232] invokestatic #120
         + Methodref [com/a/a/a.d (Ljava/lang/String;)V]
       [235] aload v4
       [237] astore v5
@@ -45612,187 +45881,187 @@ Methods (count = 14):
       [256] iload v7
       [258] aaload
       [259] astore v8
-      [261] new #85
+      [261] new #91
         + Class [java/lang/StringBuilder]
       [264] dup
-      [265] invokespecial #169
+      [265] invokespecial #178
         + Methodref [java/lang/StringBuilder.<init> ()V]
       [268] aload v8
-      [270] invokevirtual #172
+      [270] invokevirtual #181
         + Methodref [java/lang/StringBuilder.append (Ljava/lang/String;)Ljava/lang/StringBuilder;]
       [273] aload_1 v1
-      [274] invokevirtual #172
+      [274] invokevirtual #181
         + Methodref [java/lang/StringBuilder.append (Ljava/lang/String;)Ljava/lang/StringBuilder;]
-      [277] invokevirtual #173
+      [277] invokevirtual #182
         + Methodref [java/lang/StringBuilder.toString ()Ljava/lang/String;]
-      [280] invokestatic #103
+      [280] invokestatic #112
         + Methodref [com/a/a/a.a (Ljava/lang/String;)Z]
       [283] ifeq +44 (target=327)
-      [286] new #85
+      [286] new #91
         + Class [java/lang/StringBuilder]
       [289] dup
-      [290] invokespecial #169
+      [290] invokespecial #178
         + Methodref [java/lang/StringBuilder.<init> ()V]
       [293] aload_1 v1
-      [294] invokevirtual #172
+      [294] invokevirtual #181
         + Methodref [java/lang/StringBuilder.append (Ljava/lang/String;)Ljava/lang/StringBuilder;]
       [297] ldc #6
         + String [ was found here: ]
-      [299] invokevirtual #172
+      [299] invokevirtual #181
         + Methodref [java/lang/StringBuilder.append (Ljava/lang/String;)Ljava/lang/StringBuilder;]
       [302] aload v8
-      [304] invokevirtual #172
+      [304] invokevirtual #181
         + Methodref [java/lang/StringBuilder.append (Ljava/lang/String;)Ljava/lang/StringBuilder;]
-      [307] invokevirtual #173
+      [307] invokevirtual #182
         + Methodref [java/lang/StringBuilder.toString ()Ljava/lang/String;]
-      [310] invokestatic #111
+      [310] invokestatic #120
         + Methodref [com/a/a/a.d (Ljava/lang/String;)V]
       [313] aload_3 v3
       [314] aload v8
-      [316] invokeinterface #181
+      [316] invokeinterface #190
         + InterfaceMethodref [java/util/List.add (Ljava/lang/Object;)Z]
       [321] pop
       [322] iconst_1
       [323] istore_2 v2
       [324] goto +30 (target=354)
-      [327] new #85
+      [327] new #91
         + Class [java/lang/StringBuilder]
       [330] dup
-      [331] invokespecial #169
+      [331] invokespecial #178
         + Methodref [java/lang/StringBuilder.<init> ()V]
       [334] aload_1 v1
-      [335] invokevirtual #172
+      [335] invokevirtual #181
         + Methodref [java/lang/StringBuilder.append (Ljava/lang/String;)Ljava/lang/StringBuilder;]
       [338] ldc #5
         + String [ was NOT found here: ]
-      [340] invokevirtual #172
+      [340] invokevirtual #181
         + Methodref [java/lang/StringBuilder.append (Ljava/lang/String;)Ljava/lang/StringBuilder;]
       [343] aload v8
-      [345] invokevirtual #172
+      [345] invokevirtual #181
         + Methodref [java/lang/StringBuilder.append (Ljava/lang/String;)Ljava/lang/StringBuilder;]
-      [348] invokevirtual #173
+      [348] invokevirtual #182
         + Methodref [java/lang/StringBuilder.toString ()Ljava/lang/String;]
-      [351] invokestatic #111
+      [351] invokestatic #120
         + Methodref [com/a/a/a.d (Ljava/lang/String;)V]
       [354] iinc v7, 1
       [357] goto -110 (target=247)
       [360] iload_2 v2
       [361] ifne +177 (target=538)
-      [364] ldc #31
+      [364] ldc #32
         + String [Trying third method]
-      [366] invokestatic #111
+      [366] invokestatic #120
         + Methodref [com/a/a/a.d (Ljava/lang/String;)V]
-      [369] invokestatic #106
+      [369] invokestatic #115
         + Methodref [com/a/a/a.b ()Ljava/util/List;]
       [372] astore v5
       [374] aload v5
       [376] ifnull +135 (target=511)
       [379] aload v5
-      [381] invokeinterface #185
+      [381] invokeinterface #194
         + InterfaceMethodref [java/util/List.iterator ()Ljava/util/Iterator;]
       [386] astore v6
       [388] aload v6
-      [390] invokeinterface #179
+      [390] invokeinterface #188
         + InterfaceMethodref [java/util/Iterator.hasNext ()Z]
       [395] ifeq +116 (target=511)
       [398] aload v6
-      [400] invokeinterface #180
+      [400] invokeinterface #189
         + InterfaceMethodref [java/util/Iterator.next ()Ljava/lang/Object;]
-      [405] checkcast #84
+      [405] checkcast #90
         + Class [java/lang/String]
       [408] astore v7
-      [410] new #85
+      [410] new #91
         + Class [java/lang/StringBuilder]
       [413] dup
-      [414] invokespecial #169
+      [414] invokespecial #178
         + Methodref [java/lang/StringBuilder.<init> ()V]
       [417] aload v7
-      [419] invokevirtual #172
+      [419] invokevirtual #181
         + Methodref [java/lang/StringBuilder.append (Ljava/lang/String;)Ljava/lang/StringBuilder;]
       [422] ldc #9
         + String [/]
-      [424] invokevirtual #172
+      [424] invokevirtual #181
         + Methodref [java/lang/StringBuilder.append (Ljava/lang/String;)Ljava/lang/StringBuilder;]
       [427] aload_1 v1
-      [428] invokevirtual #172
+      [428] invokevirtual #181
         + Methodref [java/lang/StringBuilder.append (Ljava/lang/String;)Ljava/lang/StringBuilder;]
-      [431] invokevirtual #173
+      [431] invokevirtual #182
         + Methodref [java/lang/StringBuilder.toString ()Ljava/lang/String;]
-      [434] invokestatic #103
+      [434] invokestatic #112
         + Methodref [com/a/a/a.a (Ljava/lang/String;)Z]
       [437] ifeq +44 (target=481)
-      [440] new #85
+      [440] new #91
         + Class [java/lang/StringBuilder]
       [443] dup
-      [444] invokespecial #169
+      [444] invokespecial #178
         + Methodref [java/lang/StringBuilder.<init> ()V]
       [447] aload_1 v1
-      [448] invokevirtual #172
+      [448] invokevirtual #181
         + Methodref [java/lang/StringBuilder.append (Ljava/lang/String;)Ljava/lang/StringBuilder;]
       [451] ldc #6
         + String [ was found here: ]
-      [453] invokevirtual #172
+      [453] invokevirtual #181
         + Methodref [java/lang/StringBuilder.append (Ljava/lang/String;)Ljava/lang/StringBuilder;]
       [456] aload v7
-      [458] invokevirtual #172
+      [458] invokevirtual #181
         + Methodref [java/lang/StringBuilder.append (Ljava/lang/String;)Ljava/lang/StringBuilder;]
-      [461] invokevirtual #173
+      [461] invokevirtual #182
         + Methodref [java/lang/StringBuilder.toString ()Ljava/lang/String;]
-      [464] invokestatic #111
+      [464] invokestatic #120
         + Methodref [com/a/a/a.d (Ljava/lang/String;)V]
       [467] aload_3 v3
       [468] aload v7
-      [470] invokeinterface #181
+      [470] invokeinterface #190
         + InterfaceMethodref [java/util/List.add (Ljava/lang/Object;)Z]
       [475] pop
       [476] iconst_1
       [477] istore_2 v2
       [478] goto +30 (target=508)
-      [481] new #85
+      [481] new #91
         + Class [java/lang/StringBuilder]
       [484] dup
-      [485] invokespecial #169
+      [485] invokespecial #178
         + Methodref [java/lang/StringBuilder.<init> ()V]
       [488] aload_1 v1
-      [489] invokevirtual #172
+      [489] invokevirtual #181
         + Methodref [java/lang/StringBuilder.append (Ljava/lang/String;)Ljava/lang/StringBuilder;]
       [492] ldc #5
         + String [ was NOT found here: ]
-      [494] invokevirtual #172
+      [494] invokevirtual #181
         + Methodref [java/lang/StringBuilder.append (Ljava/lang/String;)Ljava/lang/StringBuilder;]
       [497] aload v7
-      [499] invokevirtual #172
+      [499] invokevirtual #181
         + Methodref [java/lang/StringBuilder.append (Ljava/lang/String;)Ljava/lang/StringBuilder;]
-      [502] invokevirtual #173
+      [502] invokevirtual #182
         + Methodref [java/lang/StringBuilder.toString ()Ljava/lang/String;]
-      [505] invokestatic #111
+      [505] invokestatic #120
         + Methodref [com/a/a/a.d (Ljava/lang/String;)V]
       [508] goto -120 (target=388)
       [511] goto +27 (target=538)
       [514] astore v5
-      [516] new #85
+      [516] new #91
         + Class [java/lang/StringBuilder]
       [519] dup
-      [520] invokespecial #169
+      [520] invokespecial #178
         + Methodref [java/lang/StringBuilder.<init> ()V]
       [523] aload_1 v1
-      [524] invokevirtual #172
+      [524] invokevirtual #181
         + Methodref [java/lang/StringBuilder.append (Ljava/lang/String;)Ljava/lang/StringBuilder;]
       [527] ldc #8
         + String [ was not found, more information MAY be available with Debugging on.]
-      [529] invokevirtual #172
+      [529] invokevirtual #181
         + Methodref [java/lang/StringBuilder.append (Ljava/lang/String;)Ljava/lang/StringBuilder;]
-      [532] invokevirtual #173
+      [532] invokevirtual #182
         + Methodref [java/lang/StringBuilder.toString ()Ljava/lang/String;]
-      [535] invokestatic #111
+      [535] invokestatic #120
         + Methodref [com/a/a/a.d (Ljava/lang/String;)V]
       [538] aload_3 v3
-      [539] invokestatic #178
+      [539] invokestatic #187
         + Methodref [java/util/Collections.reverse (Ljava/util/List;)V]
-      [542] getstatic #94
+      [542] getstatic #100
         + Fieldref [com/a/a/a.b Ljava/util/List;]
       [545] aload_3 v3
-      [546] invokeinterface #182
+      [546] invokeinterface #191
         + InterfaceMethodref [java/util/List.addAll (Ljava/util/Collection;)Z]
       [551] pop
       [552] iload_2 v2
@@ -45825,140 +46094,140 @@ Methods (count = 14):
       = public com.a.a.a.b g(java.lang.String)
     Class member attributes (count = 1):
     + Code attribute instructions (code length = 183, locals = 3, stack = 10):
-      [0] new #85
+      [0] new #91
         + Class [java/lang/StringBuilder]
       [3] dup
-      [4] invokespecial #169
+      [4] invokespecial #178
         + Methodref [java/lang/StringBuilder.<init> ()V]
       [7] ldc #26
         + String [Checking permissions for ]
-      [9] invokevirtual #172
+      [9] invokevirtual #181
         + Methodref [java/lang/StringBuilder.append (Ljava/lang/String;)Ljava/lang/StringBuilder;]
       [12] aload_1 v1
-      [13] invokevirtual #172
+      [13] invokevirtual #181
         + Methodref [java/lang/StringBuilder.append (Ljava/lang/String;)Ljava/lang/StringBuilder;]
-      [16] invokevirtual #173
+      [16] invokevirtual #182
         + Methodref [java/lang/StringBuilder.toString ()Ljava/lang/String;]
-      [19] invokestatic #111
+      [19] invokestatic #120
         + Methodref [com/a/a/a.d (Ljava/lang/String;)V]
       [22] aload_1 v1
-      [23] invokestatic #103
+      [23] invokestatic #112
         + Methodref [com/a/a/a.a (Ljava/lang/String;)Z]
       [26] ifeq +155 (target=181)
-      [29] new #85
+      [29] new #91
         + Class [java/lang/StringBuilder]
       [32] dup
-      [33] invokespecial #169
+      [33] invokespecial #178
         + Methodref [java/lang/StringBuilder.<init> ()V]
       [36] aload_1 v1
-      [37] invokevirtual #172
+      [37] invokevirtual #181
         + Methodref [java/lang/StringBuilder.append (Ljava/lang/String;)Ljava/lang/StringBuilder;]
       [40] ldc #7
         + String [ was found.]
-      [42] invokevirtual #172
+      [42] invokevirtual #181
         + Methodref [java/lang/StringBuilder.append (Ljava/lang/String;)Ljava/lang/StringBuilder;]
-      [45] invokevirtual #173
+      [45] invokevirtual #182
         + Methodref [java/lang/StringBuilder.toString ()Ljava/lang/String;]
-      [48] invokestatic #111
+      [48] invokestatic #120
         + Methodref [com/a/a/a.d (Ljava/lang/String;)V]
-      [51] new #76
+      [51] new #82
         + Class [com/a/a/d/g]
       [54] dup
       [55] aload_0 v0
       [56] iconst_1
       [57] iconst_0
       [58] iconst_4
-      [59] anewarray #84
+      [59] anewarray #90
         + Class [java/lang/String]
       [62] dup
       [63] iconst_0
-      [64] new #85
+      [64] new #91
         + Class [java/lang/StringBuilder]
       [67] dup
-      [68] invokespecial #169
+      [68] invokespecial #178
         + Methodref [java/lang/StringBuilder.<init> ()V]
-      [71] ldc #53
+      [71] ldc #55
         + String [ls -l ]
-      [73] invokevirtual #172
+      [73] invokevirtual #181
         + Methodref [java/lang/StringBuilder.append (Ljava/lang/String;)Ljava/lang/StringBuilder;]
       [76] aload_1 v1
-      [77] invokevirtual #172
+      [77] invokevirtual #181
         + Methodref [java/lang/StringBuilder.append (Ljava/lang/String;)Ljava/lang/StringBuilder;]
-      [80] invokevirtual #173
+      [80] invokevirtual #182
         + Methodref [java/lang/StringBuilder.toString ()Ljava/lang/String;]
       [83] aastore
       [84] dup
       [85] iconst_1
-      [86] new #85
+      [86] new #91
         + Class [java/lang/StringBuilder]
       [89] dup
-      [90] invokespecial #169
+      [90] invokespecial #178
         + Methodref [java/lang/StringBuilder.<init> ()V]
-      [93] ldc #39
+      [93] ldc #41
         + String [busybox ls -l ]
-      [95] invokevirtual #172
+      [95] invokevirtual #181
         + Methodref [java/lang/StringBuilder.append (Ljava/lang/String;)Ljava/lang/StringBuilder;]
       [98] aload_1 v1
-      [99] invokevirtual #172
+      [99] invokevirtual #181
         + Methodref [java/lang/StringBuilder.append (Ljava/lang/String;)Ljava/lang/StringBuilder;]
-      [102] invokevirtual #173
+      [102] invokevirtual #182
         + Methodref [java/lang/StringBuilder.toString ()Ljava/lang/String;]
       [105] aastore
       [106] dup
       [107] iconst_2
-      [108] new #85
+      [108] new #91
         + Class [java/lang/StringBuilder]
       [111] dup
-      [112] invokespecial #169
+      [112] invokespecial #178
         + Methodref [java/lang/StringBuilder.<init> ()V]
       [115] ldc #17
         + String [/system/bin/failsafe/toolbox ls -l ]
-      [117] invokevirtual #172
+      [117] invokevirtual #181
         + Methodref [java/lang/StringBuilder.append (Ljava/lang/String;)Ljava/lang/StringBuilder;]
       [120] aload_1 v1
-      [121] invokevirtual #172
+      [121] invokevirtual #181
         + Methodref [java/lang/StringBuilder.append (Ljava/lang/String;)Ljava/lang/StringBuilder;]
-      [124] invokevirtual #173
+      [124] invokevirtual #182
         + Methodref [java/lang/StringBuilder.toString ()Ljava/lang/String;]
       [127] aastore
       [128] dup
       [129] iconst_3
-      [130] new #85
+      [130] new #91
         + Class [java/lang/StringBuilder]
       [133] dup
-      [134] invokespecial #169
+      [134] invokespecial #178
         + Methodref [java/lang/StringBuilder.<init> ()V]
-      [137] ldc #62
+      [137] ldc #65
         + String [toolbox ls -l ]
-      [139] invokevirtual #172
+      [139] invokevirtual #181
         + Methodref [java/lang/StringBuilder.append (Ljava/lang/String;)Ljava/lang/StringBuilder;]
       [142] aload_1 v1
-      [143] invokevirtual #172
+      [143] invokevirtual #181
         + Methodref [java/lang/StringBuilder.append (Ljava/lang/String;)Ljava/lang/StringBuilder;]
-      [146] invokevirtual #173
+      [146] invokevirtual #182
         + Methodref [java/lang/StringBuilder.toString ()Ljava/lang/String;]
       [149] aastore
-      [150] invokespecial #145
+      [150] invokespecial #154
         + Methodref [com/a/a/d/g.<init> (Lcom/a/a/d/c;IZ[Ljava/lang/String;)V]
       [153] astore_2 v2
-      [154] invokestatic #133
+      [154] invokestatic #142
         + Methodref [com/a/a/c/f.i ()Lcom/a/a/c/f;]
       [157] aload_2 v2
-      [158] invokevirtual #129
+      [158] invokevirtual #138
         + Methodref [com/a/a/c/f.a (Lcom/a/a/c/a;)Lcom/a/a/c/a;]
       [161] pop
       [162] aload_0 v0
       [163] aload_2 v2
-      [164] invokespecial #136
+      [164] invokespecial #145
         + Methodref [com/a/a/d/c.a (Lcom/a/a/c/a;)V]
-      [167] getstatic #100
+      [167] getstatic #106
         + Fieldref [com/a/a/d/a.h Lcom/a/a/a/b;]
       [170] areturn
       [171] astore_2 v2
       [172] aload_2 v2
-      [173] invokevirtual #153
+      [173] invokevirtual #162
         + Methodref [java/lang/Exception.getMessage ()Ljava/lang/String;]
-      [176] invokestatic #111
+      [176] invokestatic #120
         + Methodref [com/a/a/a.d (Ljava/lang/String;)V]
       [179] aconst_null
       [180] areturn
@@ -45977,98 +46246,98 @@ Methods (count = 14):
     Class member attributes (count = 1):
     + Code attribute instructions (code length = 225, locals = 11, stack = 8):
       [0] iconst_1
-      [1] invokestatic #109
+      [1] invokestatic #118
         + Methodref [com/a/a/a.b (Z)Lcom/a/a/c/f;]
       [4] astore_1 v1
-      [5] new #69
+      [5] new #75
         + Class [com/a/a/c/e]
       [8] dup
       [9] iconst_0
       [10] iconst_0
       [11] iconst_2
-      [12] anewarray #84
+      [12] anewarray #90
         + Class [java/lang/String]
       [15] dup
       [16] iconst_0
-      [17] ldc #43
+      [17] ldc #45
         + String [cat /proc/mounts > /data/local/RootToolsMounts]
       [19] aastore
       [20] dup
       [21] iconst_1
-      [22] ldc #46
+      [22] ldc #48
         + String [chmod 0777 /data/local/RootToolsMounts]
       [24] aastore
-      [25] invokespecial #127
+      [25] invokespecial #136
         + Methodref [com/a/a/c/e.<init> (IZ[Ljava/lang/String;)V]
       [28] astore_2 v2
       [29] aload_1 v1
       [30] aload_2 v2
-      [31] invokevirtual #129
+      [31] invokevirtual #138
         + Methodref [com/a/a/c/f.a (Lcom/a/a/c/a;)Lcom/a/a/c/a;]
       [34] pop
       [35] aload_0 v0
       [36] aload_2 v2
-      [37] invokespecial #136
+      [37] invokespecial #145
         + Methodref [com/a/a/d/c.a (Lcom/a/a/c/a;)V]
       [40] aconst_null
       [41] astore_3 v3
       [42] aconst_null
       [43] astore v4
-      [45] new #78
+      [45] new #84
         + Class [java/io/FileReader]
       [48] dup
       [49] ldc #11
         + String [/data/local/RootToolsMounts]
-      [51] invokespecial #147
+      [51] invokespecial #156
         + Methodref [java/io/FileReader.<init> (Ljava/lang/String;)V]
       [54] astore v4
-      [56] new #79
+      [56] new #85
         + Class [java/io/LineNumberReader]
       [59] dup
       [60] aload v4
-      [62] invokespecial #149
+      [62] invokespecial #158
         + Methodref [java/io/LineNumberReader.<init> (Ljava/io/Reader;)V]
       [65] astore_3 v3
-      [66] new #88
+      [66] new #94
         + Class [java/util/ArrayList]
       [69] dup
-      [70] invokespecial #176
+      [70] invokespecial #185
         + Methodref [java/util/ArrayList.<init> ()V]
       [73] astore v6
       [75] aload_3 v3
-      [76] invokevirtual #151
+      [76] invokevirtual #160
         + Methodref [java/io/LineNumberReader.readLine ()Ljava/lang/String;]
       [79] dup
       [80] astore v5
       [82] ifnull +63 (target=145)
       [85] aload v5
-      [87] invokestatic #111
+      [87] invokestatic #120
         + Methodref [com/a/a/a.d (Ljava/lang/String;)V]
       [90] aload v5
       [92] ldc #1
         + String [ ]
-      [94] invokevirtual #165
+      [94] invokevirtual #174
         + Methodref [java/lang/String.split (Ljava/lang/String;)[Ljava/lang/String;]
       [97] astore v7
       [99] aload v6
-      [101] new #66
+      [101] new #72
         + Class [com/a/a/a/a]
       [104] dup
-      [105] new #77
+      [105] new #83
         + Class [java/io/File]
       [108] dup
       [109] aload v7
       [111] iconst_0
       [112] aaload
-      [113] invokespecial #146
+      [113] invokespecial #155
         + Methodref [java/io/File.<init> (Ljava/lang/String;)V]
-      [116] new #77
+      [116] new #83
         + Class [java/io/File]
       [119] dup
       [120] aload v7
       [122] iconst_1
       [123] aaload
-      [124] invokespecial #146
+      [124] invokespecial #155
         + Methodref [java/io/File.<init> (Ljava/lang/String;)V]
       [127] aload v7
       [129] iconst_2
@@ -46076,30 +46345,30 @@ Methods (count = 14):
       [131] aload v7
       [133] iconst_3
       [134] aaload
-      [135] invokespecial #112
+      [135] invokespecial #121
         + Methodref [com/a/a/a/a.<init> (Ljava/io/File;Ljava/io/File;Ljava/lang/String;Ljava/lang/String;)V]
-      [138] invokevirtual #177
+      [138] invokevirtual #186
         + Methodref [java/util/ArrayList.add (Ljava/lang/Object;)Z]
       [141] pop
       [142] goto -67 (target=75)
       [145] aload v6
-      [147] putstatic #99
+      [147] putstatic #105
         + Fieldref [com/a/a/d/a.f Ljava/util/ArrayList;]
-      [150] getstatic #99
+      [150] getstatic #105
         + Fieldref [com/a/a/d/a.f Ljava/util/ArrayList;]
       [153] ifnull +35 (target=188)
-      [156] getstatic #99
+      [156] getstatic #105
         + Fieldref [com/a/a/d/a.f Ljava/util/ArrayList;]
       [159] astore v7
       [161] aload v4
-      [163] invokevirtual #148
+      [163] invokevirtual #157
         + Methodref [java/io/FileReader.close ()V]
       [166] aconst_null
       [167] astore v4
       [169] goto +5 (target=174)
       [172] astore v8
       [174] aload_3 v3
-      [175] invokevirtual #150
+      [175] invokevirtual #159
         + Methodref [java/io/LineNumberReader.close ()V]
       [178] aconst_null
       [179] astore_3 v3
@@ -46107,22 +46376,22 @@ Methods (count = 14):
       [183] astore v8
       [185] aload v7
       [187] areturn
-      [188] new #80
+      [188] new #86
         + Class [java/lang/Exception]
       [191] dup
-      [192] invokespecial #152
+      [192] invokespecial #161
         + Methodref [java/lang/Exception.<init> ()V]
       [195] athrow
       [196] astore v9
       [198] aload v4
-      [200] invokevirtual #148
+      [200] invokevirtual #157
         + Methodref [java/io/FileReader.close ()V]
       [203] aconst_null
       [204] astore v4
       [206] goto +5 (target=211)
       [209] astore v10
       [211] aload_3 v3
-      [212] invokevirtual #150
+      [212] invokevirtual #159
         + Methodref [java/io/LineNumberReader.close ()V]
       [215] aconst_null
       [216] astore_3 v3
@@ -46161,140 +46430,140 @@ Methods (count = 14):
     Class member attributes (count = 1):
     + Code attribute instructions (code length = 186, locals = 4, stack = 10):
       [0] iconst_0
-      [1] putstatic #98
+      [1] putstatic #104
         + Fieldref [com/a/a/d/a.c Z]
       [4] aload_2 v2
-      [5] ldc #61
+      [5] ldc #64
         + String [toolbox]
-      [7] invokevirtual #162
+      [7] invokevirtual #171
         + Methodref [java/lang/String.endsWith (Ljava/lang/String;)Z]
       [10] ifne +14 (target=24)
       [13] aload_2 v2
-      [14] ldc #35
+      [14] ldc #37
         + String [busybox]
-      [16] invokevirtual #162
+      [16] invokevirtual #171
         + Methodref [java/lang/String.endsWith (Ljava/lang/String;)Z]
       [19] ifne +5 (target=24)
       [22] iconst_0
       [23] ireturn
-      [24] new #74
+      [24] new #80
         + Class [com/a/a/d/e]
       [27] dup
       [28] aload_0 v0
       [29] iconst_0
       [30] iconst_0
       [31] iconst_1
-      [32] anewarray #84
+      [32] anewarray #90
         + Class [java/lang/String]
       [35] dup
       [36] iconst_0
       [37] aload_2 v2
-      [38] ldc #61
+      [38] ldc #64
         + String [toolbox]
-      [40] invokevirtual #162
+      [40] invokevirtual #171
         + Methodref [java/lang/String.endsWith (Ljava/lang/String;)Z]
       [43] ifeq +29 (target=72)
-      [46] new #85
+      [46] new #91
         + Class [java/lang/StringBuilder]
       [49] dup
-      [50] invokespecial #169
+      [50] invokespecial #178
         + Methodref [java/lang/StringBuilder.<init> ()V]
       [53] aload_2 v2
-      [54] invokevirtual #172
+      [54] invokevirtual #181
         + Methodref [java/lang/StringBuilder.append (Ljava/lang/String;)Ljava/lang/StringBuilder;]
       [57] ldc #1
         + String [ ]
-      [59] invokevirtual #172
+      [59] invokevirtual #181
         + Methodref [java/lang/StringBuilder.append (Ljava/lang/String;)Ljava/lang/StringBuilder;]
       [62] aload_1 v1
-      [63] invokevirtual #172
+      [63] invokevirtual #181
         + Methodref [java/lang/StringBuilder.append (Ljava/lang/String;)Ljava/lang/StringBuilder;]
-      [66] invokevirtual #173
+      [66] invokevirtual #182
         + Methodref [java/lang/StringBuilder.toString ()Ljava/lang/String;]
       [69] goto +22 (target=91)
-      [72] new #85
+      [72] new #91
         + Class [java/lang/StringBuilder]
       [75] dup
-      [76] invokespecial #169
+      [76] invokespecial #178
         + Methodref [java/lang/StringBuilder.<init> ()V]
       [79] aload_2 v2
-      [80] invokevirtual #172
+      [80] invokevirtual #181
         + Methodref [java/lang/StringBuilder.append (Ljava/lang/String;)Ljava/lang/StringBuilder;]
       [83] ldc #2
         + String [ --list]
-      [85] invokevirtual #172
+      [85] invokevirtual #181
         + Methodref [java/lang/StringBuilder.append (Ljava/lang/String;)Ljava/lang/StringBuilder;]
-      [88] invokevirtual #173
+      [88] invokevirtual #182
         + Methodref [java/lang/StringBuilder.toString ()Ljava/lang/String;]
       [91] aastore
       [92] aload_2 v2
       [93] aload_1 v1
-      [94] invokespecial #143
+      [94] invokespecial #152
         + Methodref [com/a/a/d/e.<init> (Lcom/a/a/d/c;IZ[Ljava/lang/String;Ljava/lang/String;Ljava/lang/String;)V]
       [97] astore_3 v3
       [98] iconst_1
-      [99] invokestatic #109
+      [99] invokestatic #118
         + Methodref [com/a/a/a.b (Z)Lcom/a/a/c/f;]
       [102] aload_3 v3
-      [103] invokevirtual #129
+      [103] invokevirtual #138
         + Methodref [com/a/a/c/f.a (Lcom/a/a/c/a;)Lcom/a/a/c/a;]
       [106] pop
       [107] aload_0 v0
       [108] aload_3 v3
-      [109] invokespecial #136
+      [109] invokespecial #145
         + Methodref [com/a/a/d/c.a (Lcom/a/a/c/a;)V]
-      [112] getstatic #98
+      [112] getstatic #104
         + Fieldref [com/a/a/d/a.c Z]
       [115] ifeq +32 (target=147)
-      [118] new #85
+      [118] new #91
         + Class [java/lang/StringBuilder]
       [121] dup
-      [122] invokespecial #169
+      [122] invokespecial #178
         + Methodref [java/lang/StringBuilder.<init> ()V]
       [125] ldc #23
         + String [Box contains ]
-      [127] invokevirtual #172
+      [127] invokevirtual #181
         + Methodref [java/lang/StringBuilder.append (Ljava/lang/String;)Ljava/lang/StringBuilder;]
       [130] aload_1 v1
-      [131] invokevirtual #172
+      [131] invokevirtual #181
         + Methodref [java/lang/StringBuilder.append (Ljava/lang/String;)Ljava/lang/StringBuilder;]
       [134] ldc #4
         + String [ util!]
-      [136] invokevirtual #172
+      [136] invokevirtual #181
         + Methodref [java/lang/StringBuilder.append (Ljava/lang/String;)Ljava/lang/StringBuilder;]
-      [139] invokevirtual #173
+      [139] invokevirtual #182
         + Methodref [java/lang/StringBuilder.toString ()Ljava/lang/String;]
-      [142] invokestatic #111
+      [142] invokestatic #120
         + Methodref [com/a/a/a.d (Ljava/lang/String;)V]
       [145] iconst_1
       [146] ireturn
-      [147] new #85
+      [147] new #91
         + Class [java/lang/StringBuilder]
       [150] dup
-      [151] invokespecial #169
+      [151] invokespecial #178
         + Methodref [java/lang/StringBuilder.<init> ()V]
       [154] ldc #24
         + String [Box does not contain ]
-      [156] invokevirtual #172
+      [156] invokevirtual #181
         + Methodref [java/lang/StringBuilder.append (Ljava/lang/String;)Ljava/lang/StringBuilder;]
       [159] aload_1 v1
-      [160] invokevirtual #172
+      [160] invokevirtual #181
         + Methodref [java/lang/StringBuilder.append (Ljava/lang/String;)Ljava/lang/StringBuilder;]
       [163] ldc #4
         + String [ util!]
-      [165] invokevirtual #172
+      [165] invokevirtual #181
         + Methodref [java/lang/StringBuilder.append (Ljava/lang/String;)Ljava/lang/StringBuilder;]
-      [168] invokevirtual #173
+      [168] invokevirtual #182
         + Methodref [java/lang/StringBuilder.toString ()Ljava/lang/String;]
-      [171] invokestatic #111
+      [171] invokestatic #120
         + Methodref [com/a/a/a.d (Ljava/lang/String;)V]
       [174] iconst_0
       [175] ireturn
       [176] astore_3 v3
       [177] aload_3 v3
-      [178] invokevirtual #153
+      [178] invokevirtual #162
         + Methodref [java/lang/Exception.getMessage ()Ljava/lang/String;]
-      [181] invokestatic #111
+      [181] invokestatic #120
         + Methodref [com/a/a/a.d (Ljava/lang/String;)V]
       [184] iconst_0
       [185] ireturn
@@ -46310,41 +46579,69 @@ Methods (count = 14):
         - [91] Var: [a:com/a/a/d/c][a:java/lang/String][a:java/lang/String], Stack: [u:24][u:24][a:com/a/a/d/c][i][i][a:[Ljava/lang/String;][a:[Ljava/lang/String;][i][a:java/lang/String]
         - [147] Var: ...[a:com/a/a/c/e], Stack: (empty)
         - [176] Var: [a:com/a/a/d/c][a:java/lang/String][a:java/lang/String], Stack: [a:java/lang/Exception]
+  + Method:       a(Landroid/app/Activity;)V
+    Access flags: 0x1
+      = public void a(android.app.Activity)
+    Class member attributes (count = 1):
+    + Code attribute instructions (code length = 26, locals = 3, stack = 4):
+      [0] ldc #27
+        + String [Launching Market for BusyBox]
+      [2] invokestatic #120
+        + Methodref [com/a/a/a.d (Ljava/lang/String;)V]
+      [5] new #68
+        + Class [android/content/Intent]
+      [8] dup
+      [9] ldc #36
+        + String [android.intent.action.VIEW]
+      [11] ldc #56
+        + String [market://details?id=stericson.busybox]
+      [13] invokestatic #109
+        + Methodref [android/net/Uri.parse (Ljava/lang/String;)Landroid/net/Uri;]
+      [16] invokespecial #108
+        + Methodref [android/content/Intent.<init> (Ljava/lang/String;Landroid/net/Uri;)V]
+      [19] astore_2 v2
+      [20] aload_1 v1
+      [21] aload_2 v2
+      [22] invokevirtual #107
+        + Methodref [android/app/Activity.startActivity (Landroid/content/Intent;)V]
+      [25] return
+      Code attribute exceptions (count = 0):
+      Code attribute attributes (attribute count = 0):
   + Method:       a(Lcom/a/a/c/a;)V
     Access flags: 0x2
       = private void a(com.a.a.c.a)
     Class member attributes (count = 1):
     + Code attribute instructions (code length = 255, locals = 5, stack = 3):
       [0] aload_1 v1
-      [1] invokevirtual #126
+      [1] invokevirtual #135
         + Methodref [com/a/a/c/a.e ()Z]
       [4] ifne +250 (target=254)
-      [7] ldc #29
+      [7] ldc #30
         + String [RootTools v3.4]
-      [9] invokestatic #131
+      [9] invokestatic #140
         + Methodref [com/a/a/c/f.f ()Lcom/a/a/c/f;]
       [12] aload_1 v1
-      [13] invokevirtual #130
+      [13] invokevirtual #139
         + Methodref [com/a/a/c/f.c (Lcom/a/a/c/a;)Ljava/lang/String;]
-      [16] invokestatic #108
+      [16] invokestatic #117
         + Methodref [com/a/a/a.b (Ljava/lang/String;Ljava/lang/String;)V]
       [19] aload_1 v1
       [20] dup
       [21] astore_2 v2
       [22] monitorenter
       [23] aload_1 v1
-      [24] invokevirtual #126
+      [24] invokevirtual #135
         + Methodref [com/a/a/c/a.e ()Z]
       [27] ifne +10 (target=37)
       [30] aload_1 v1
-      [31] ldc2_w #92
+      [31] ldc2_w #98
         + Long [2000]
-      [34] invokevirtual #160
+      [34] invokevirtual #169
         + Methodref [java/lang/Object.wait (J)V]
       [37] goto +8 (target=45)
       [40] astore_3 v3
       [41] aload_3 v3
-      [42] invokevirtual #158
+      [42] invokevirtual #167
         + Methodref [java/lang/InterruptedException.printStackTrace ()V]
       [45] aload_2 v2
       [46] monitorexit
@@ -46355,143 +46652,143 @@ Methods (count = 14):
       [54] aload v4
       [56] athrow
       [57] aload_1 v1
-      [58] invokevirtual #125
+      [58] invokevirtual #134
         + Methodref [com/a/a/c/a.d ()Z]
       [61] ifne -61 (target=0)
       [64] aload_1 v1
-      [65] invokevirtual #126
+      [65] invokevirtual #135
         + Methodref [com/a/a/c/a.e ()Z]
       [68] ifne -68 (target=0)
-      [71] getstatic #96
+      [71] getstatic #102
         + Fieldref [com/a/a/c/f.a Z]
       [74] ifne +62 (target=136)
-      [77] getstatic #97
+      [77] getstatic #103
         + Fieldref [com/a/a/c/f.b Z]
       [80] ifne +56 (target=136)
-      [83] ldc #29
+      [83] ldc #30
         + String [RootTools v3.4]
-      [85] new #85
+      [85] new #91
         + Class [java/lang/StringBuilder]
       [88] dup
-      [89] invokespecial #169
+      [89] invokespecial #178
         + Methodref [java/lang/StringBuilder.<init> ()V]
-      [92] ldc #33
+      [92] ldc #34
         + String [Waiting for a command to be executed in a shell that is not executing and not reading! 
 
  Command: ]
-      [94] invokevirtual #172
+      [94] invokevirtual #181
         + Methodref [java/lang/StringBuilder.append (Ljava/lang/String;)Ljava/lang/StringBuilder;]
       [97] aload_1 v1
-      [98] invokevirtual #124
+      [98] invokevirtual #133
         + Methodref [com/a/a/c/a.c ()Ljava/lang/String;]
-      [101] invokevirtual #172
+      [101] invokevirtual #181
         + Methodref [java/lang/StringBuilder.append (Ljava/lang/String;)Ljava/lang/StringBuilder;]
-      [104] invokevirtual #173
+      [104] invokevirtual #182
         + Methodref [java/lang/StringBuilder.toString ()Ljava/lang/String;]
-      [107] invokestatic #101
+      [107] invokestatic #110
         + Methodref [android/util/Log.e (Ljava/lang/String;Ljava/lang/String;)I]
       [110] pop
-      [111] new #80
+      [111] new #86
         + Class [java/lang/Exception]
       [114] dup
-      [115] invokespecial #152
+      [115] invokespecial #161
         + Methodref [java/lang/Exception.<init> ()V]
       [118] astore_2 v2
       [119] aload_2 v2
-      [120] invokestatic #174
+      [120] invokestatic #183
         + Methodref [java/lang/Thread.currentThread ()Ljava/lang/Thread;]
-      [123] invokevirtual #175
+      [123] invokevirtual #184
         + Methodref [java/lang/Thread.getStackTrace ()[Ljava/lang/StackTraceElement;]
-      [126] invokevirtual #155
+      [126] invokevirtual #164
         + Methodref [java/lang/Exception.setStackTrace ([Ljava/lang/StackTraceElement;)V]
       [129] aload_2 v2
-      [130] invokevirtual #154
+      [130] invokevirtual #163
         + Methodref [java/lang/Exception.printStackTrace ()V]
       [133] goto -133 (target=0)
-      [136] getstatic #96
+      [136] getstatic #102
         + Fieldref [com/a/a/c/f.a Z]
       [139] ifeq +62 (target=201)
-      [142] getstatic #97
+      [142] getstatic #103
         + Fieldref [com/a/a/c/f.b Z]
       [145] ifne +56 (target=201)
-      [148] ldc #29
+      [148] ldc #30
         + String [RootTools v3.4]
-      [150] new #85
+      [150] new #91
         + Class [java/lang/StringBuilder]
       [153] dup
-      [154] invokespecial #169
+      [154] invokespecial #178
         + Methodref [java/lang/StringBuilder.<init> ()V]
-      [157] ldc #32
+      [157] ldc #33
         + String [Waiting for a command to be executed in a shell that is executing but not reading! 
 
  Command: ]
-      [159] invokevirtual #172
+      [159] invokevirtual #181
         + Methodref [java/lang/StringBuilder.append (Ljava/lang/String;)Ljava/lang/StringBuilder;]
       [162] aload_1 v1
-      [163] invokevirtual #124
+      [163] invokevirtual #133
         + Methodref [com/a/a/c/a.c ()Ljava/lang/String;]
-      [166] invokevirtual #172
+      [166] invokevirtual #181
         + Methodref [java/lang/StringBuilder.append (Ljava/lang/String;)Ljava/lang/StringBuilder;]
-      [169] invokevirtual #173
+      [169] invokevirtual #182
         + Methodref [java/lang/StringBuilder.toString ()Ljava/lang/String;]
-      [172] invokestatic #101
+      [172] invokestatic #110
         + Methodref [android/util/Log.e (Ljava/lang/String;Ljava/lang/String;)I]
       [175] pop
-      [176] new #80
+      [176] new #86
         + Class [java/lang/Exception]
       [179] dup
-      [180] invokespecial #152
+      [180] invokespecial #161
         + Methodref [java/lang/Exception.<init> ()V]
       [183] astore_2 v2
       [184] aload_2 v2
-      [185] invokestatic #174
+      [185] invokestatic #183
         + Methodref [java/lang/Thread.currentThread ()Ljava/lang/Thread;]
-      [188] invokevirtual #175
+      [188] invokevirtual #184
         + Methodref [java/lang/Thread.getStackTrace ()[Ljava/lang/StackTraceElement;]
-      [191] invokevirtual #155
+      [191] invokevirtual #164
         + Methodref [java/lang/Exception.setStackTrace ([Ljava/lang/StackTraceElement;)V]
       [194] aload_2 v2
-      [195] invokevirtual #154
+      [195] invokevirtual #163
         + Methodref [java/lang/Exception.printStackTrace ()V]
       [198] goto -198 (target=0)
-      [201] ldc #29
+      [201] ldc #30
         + String [RootTools v3.4]
-      [203] new #85
+      [203] new #91
         + Class [java/lang/StringBuilder]
       [206] dup
-      [207] invokespecial #169
+      [207] invokespecial #178
         + Methodref [java/lang/StringBuilder.<init> ()V]
-      [210] ldc #34
+      [210] ldc #35
         + String [Waiting for a command to be executed in a shell that is not reading! 
 
  Command: ]
-      [212] invokevirtual #172
+      [212] invokevirtual #181
         + Methodref [java/lang/StringBuilder.append (Ljava/lang/String;)Ljava/lang/StringBuilder;]
       [215] aload_1 v1
-      [216] invokevirtual #124
+      [216] invokevirtual #133
         + Methodref [com/a/a/c/a.c ()Ljava/lang/String;]
-      [219] invokevirtual #172
+      [219] invokevirtual #181
         + Methodref [java/lang/StringBuilder.append (Ljava/lang/String;)Ljava/lang/StringBuilder;]
-      [222] invokevirtual #173
+      [222] invokevirtual #182
         + Methodref [java/lang/StringBuilder.toString ()Ljava/lang/String;]
-      [225] invokestatic #101
+      [225] invokestatic #110
         + Methodref [android/util/Log.e (Ljava/lang/String;Ljava/lang/String;)I]
       [228] pop
-      [229] new #80
+      [229] new #86
         + Class [java/lang/Exception]
       [232] dup
-      [233] invokespecial #152
+      [233] invokespecial #161
         + Methodref [java/lang/Exception.<init> ()V]
       [236] astore_2 v2
       [237] aload_2 v2
-      [238] invokestatic #174
+      [238] invokestatic #183
         + Methodref [java/lang/Thread.currentThread ()Ljava/lang/Thread;]
-      [241] invokevirtual #175
+      [241] invokevirtual #184
         + Methodref [java/lang/Thread.getStackTrace ()[Ljava/lang/StackTraceElement;]
-      [244] invokevirtual #155
+      [244] invokevirtual #164
         + Methodref [java/lang/Exception.setStackTrace ([Ljava/lang/StackTraceElement;)V]
       [247] aload_2 v2
-      [248] invokevirtual #154
+      [248] invokevirtual #163
         + Methodref [java/lang/Exception.printStackTrace ()V]
       [251] goto -251 (target=0)
       [254] return

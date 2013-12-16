@@ -1,3 +1,5 @@
+android.annotation.SuppressLint
+android.annotation.TargetApi
 android.support.v4.accessibilityservice.AccessibilityServiceInfoCompat
 android.support.v4.accessibilityservice.AccessibilityServiceInfoCompat$AccessibilityServiceInfoIcsImpl
 android.support.v4.accessibilityservice.AccessibilityServiceInfoCompat$AccessibilityServiceInfoStubImpl
@@ -497,13 +499,13 @@ com.av1rus.adblockremover.AdBlockRemoverActivity
 com.av1rus.adblockremover.BackgroundJobs:
     private static final java.lang.String TAG
     private com.av1rus.adblockremover.SocketApplication app
-    237:262:public void restoreHostsFile(java.lang.String)
+    221:246:public void restoreHostsFile(java.lang.String)
 com.av1rus.adblockremover.BuildConfig
 com.av1rus.adblockremover.ExecShell
 com.av1rus.adblockremover.ExecShell$SHELL_CMD
 com.av1rus.adblockremover.MainActivity:
     android.app.ProgressDialog progressDialog
-    243:274:public java.lang.String runSUcommand(java.lang.String)
+    258:289:public java.lang.String runSUcommand(java.lang.String)
 com.av1rus.adblockremover.MainActivity$CheckBusyBox
 com.av1rus.adblockremover.R
 com.av1rus.adblockremover.R$attr
@@ -547,7 +549,6 @@ com.stericson.RootTools.RootTools:
     549:549:public static boolean isNativeToolsReady(int,android.content.Context)
     561:561:public static boolean isProcessRunning(java.lang.String)
     579:579:public static boolean killProcess(java.lang.String)
-    588:589:public static void offerBusyBox(android.app.Activity)
     600:600:public static android.content.Intent offerBusyBox(android.app.Activity,int)
     609:610:public static void offerSuperUser(android.app.Activity)
     621:621:public static android.content.Intent offerSuperUser(android.app.Activity,int)
@@ -634,7 +635,6 @@ com.stericson.RootTools.internal.RootToolsInternalMethods:
     1268:1276:public boolean isAppletAvailable(java.lang.String,java.lang.String)
     1289:1309:public boolean isProcessRunning(java.lang.String)
     1319:1378:public boolean killProcess(java.lang.String)
-    1387:1391:public void offerBusyBox(android.app.Activity)
     1402:1406:public android.content.Intent offerBusyBox(android.app.Activity,int)
     1415:1419:public void offerSuperUser(android.app.Activity)
     1430:1434:public android.content.Intent offerSuperUser(android.app.Activity,int)

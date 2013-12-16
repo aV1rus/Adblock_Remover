@@ -838,20 +838,27 @@ com.av1rus.adblockremover.MainActivity$3 -> com.av1rus.adblockremover.y:
     com.av1rus.adblockremover.MainActivity this$0 -> a
     void onClick(android.content.DialogInterface,int) -> onClick
 com.av1rus.adblockremover.MainActivity$4 -> com.av1rus.adblockremover.z:
-    com.av1rus.adblockremover.MainActivity this$0 -> a
-    void onClick(android.view.View) -> onClick
+    android.app.Activity val$activity -> a
+    com.av1rus.adblockremover.MainActivity this$0 -> b
+    void onClick(android.content.DialogInterface,int) -> onClick
 com.av1rus.adblockremover.MainActivity$5 -> com.av1rus.adblockremover.aa:
     com.av1rus.adblockremover.MainActivity this$0 -> a
+    void onClick(android.content.DialogInterface,int) -> onClick
+com.av1rus.adblockremover.MainActivity$6 -> com.av1rus.adblockremover.ab:
+    com.av1rus.adblockremover.MainActivity this$0 -> a
     void onClick(android.view.View) -> onClick
-com.av1rus.adblockremover.MyList -> com.av1rus.adblockremover.ab:
+com.av1rus.adblockremover.MainActivity$7 -> com.av1rus.adblockremover.ac:
+    com.av1rus.adblockremover.MainActivity this$0 -> a
+    void onClick(android.view.View) -> onClick
+com.av1rus.adblockremover.MyList -> com.av1rus.adblockremover.ad:
     java.lang.String title -> a
     java.lang.String desc -> b
-com.av1rus.adblockremover.MyListAdapter -> com.av1rus.adblockremover.ac:
+com.av1rus.adblockremover.MyListAdapter -> com.av1rus.adblockremover.ae:
     android.content.Context context -> a
     int layoutResourceId -> b
     com.av1rus.adblockremover.MyList[] data -> c
     android.view.View getView(int,android.view.View,android.view.ViewGroup) -> getView
-com.av1rus.adblockremover.MyListAdapter$ListHolder -> com.av1rus.adblockremover.ad:
+com.av1rus.adblockremover.MyListAdapter$ListHolder -> com.av1rus.adblockremover.af:
     android.widget.TextView txtTitle -> a
     android.widget.TextView txtDesc -> b
 com.av1rus.adblockremover.async.AsyncFunctions -> com.av1rus.adblockremover.a.a:
@@ -916,6 +923,7 @@ com.stericson.RootTools.RootTools -> com.a.a.a:
     com.stericson.RootTools.execution.Shell getShell(boolean) -> b
     boolean isBusyboxAvailable() -> c
     boolean isRootAvailable() -> d
+    void offerBusyBox(android.app.Activity) -> a
     boolean remount(java.lang.String,java.lang.String) -> a
     void log(java.lang.String) -> d
     void log(java.lang.String,java.lang.String) -> b
@@ -1093,6 +1101,7 @@ com.stericson.RootTools.internal.RootToolsInternalMethods -> com.a.a.d.c:
     com.stericson.RootTools.containers.Permissions getFilePermissionsSymlinks(java.lang.String) -> g
     java.util.ArrayList getMounts() -> b
     boolean hasUtil(java.lang.String,java.lang.String) -> a
+    void offerBusyBox(android.app.Activity) -> a
     void commandWait(com.stericson.RootTools.execution.Command) -> a
 com.stericson.RootTools.internal.RootToolsInternalMethods$1 -> com.a.a.d.d:
     java.util.List val$result -> m
