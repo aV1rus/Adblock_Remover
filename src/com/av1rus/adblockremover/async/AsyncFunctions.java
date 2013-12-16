@@ -113,6 +113,7 @@ public class AsyncFunctions extends Activity {
 
         @Override
         protected void onPreExecute() {
+            RootTools.remount(destination, "rw");
             showProgress(message, "please wait...");
         }
 
