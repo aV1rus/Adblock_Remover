@@ -119,7 +119,7 @@ public class AsyncFunctions extends Activity {
         @Override
         protected Boolean doInBackground(String... aug) {
             try {
-                if(RootTools.copyFile(file, destination, false, true)){
+                if(RootTools.copyFile(file, destination, true, true)){
                     return true;
                 }
                 Log.e(TAG, "ERROR copying file");
@@ -137,7 +137,7 @@ public class AsyncFunctions extends Activity {
             } else {
 
                 if(new File(destination).exists() && !KeepOriginal){
-                    RootTools.deleteFileOrDirectory(file, false);
+                    RootTools.deleteFileOrDirectory(file, true);
                 }
 
                 notifyUser("filerestored", file);
