@@ -1,18 +1,15 @@
 package com.av1rus.adblockremover;
 
 
-import android.os.Bundle;
 import android.annotation.SuppressLint;
+import android.os.Bundle;
 import android.view.Menu;
 import android.view.MenuItem;
 import android.view.View;
 import android.view.View.OnClickListener;
 import android.widget.Button;
-import android.widget.Toast;
 import android.widget.LinearLayout.LayoutParams;
-import android.support.v4.app.NavUtils;
-import com.av1rus.adblockremover.BackgroundJobs;
-import com.av1rus.adblockremover.R;
+import android.widget.Toast;
 
 @SuppressLint("ParserError")
 public class AdBlockRemoverActivity extends BackgroundJobs implements OnClickListener {

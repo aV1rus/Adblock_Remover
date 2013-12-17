@@ -26,8 +26,6 @@ android.support.v4.view.ViewPager$SavedState
 android.support.v4.view.ViewPager$SavedState: android.os.Parcelable$Creator CREATOR
 com.av1rus.adblockremover.AdBlockRemoverActivity: void onClick(android.view.View)
 com.av1rus.adblockremover.BackgroundJobs: BackgroundJobs()
-com.av1rus.adblockremover.ExecShell$SHELL_CMD: com.av1rus.adblockremover.ExecShell$SHELL_CMD[] values()
-com.av1rus.adblockremover.ExecShell$SHELL_CMD: com.av1rus.adblockremover.ExecShell$SHELL_CMD valueOf(java.lang.String)
 com.av1rus.adblockremover.MainActivity
 com.av1rus.adblockremover.MainActivity: MainActivity()
 com.av1rus.adblockremover.R$dimen: int padding_large

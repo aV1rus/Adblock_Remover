@@ -29187,8 +29187,8 @@ Continue?]
   + String [View All]
   + String [View Recommended to Remove]
   + String [Yes]
-  + String [You are about to remove all adblock entries... This is not recommended. 
-(Always make BACKUPS before continuing!!)
+  + String [You are about to remove all adblock entries... Second chance to make a backup!! 
+
 Continue?]
   + String [You are about to remove all entries except for the localhost entry in the hosts file. 
 
@@ -29497,8 +29497,8 @@ Continue?]
   + Utf8 [View All]
   + Utf8 [View Recommended to Remove]
   + Utf8 [Yes]
-  + Utf8 [You are about to remove all adblock entries... This is not recommended. 
-(Always make BACKUPS before continuing!!)
+  + Utf8 [You are about to remove all adblock entries... Second chance to make a backup!! 
+
 Continue?]
   + Utf8 [You are about to remove all entries except for the localhost entry in the hosts file. 
 
@@ -30809,8 +30809,8 @@ Make sure to create a backup before running. You can individually remove entries
         + String [REMOVE ALL ENTRIES]
       [3] ifacmpne +9 (target=12)
       [6] ldc #53
-        + String [You are about to remove all adblock entries... This is not recommended. 
-(Always make BACKUPS before continuing!!)
+        + String [You are about to remove all adblock entries... Second chance to make a backup!! 
+
 Continue?]
       [8] astore_2 v2
       [9] goto +40 (target=49)

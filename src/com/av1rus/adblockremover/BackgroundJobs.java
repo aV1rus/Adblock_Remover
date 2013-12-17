@@ -18,7 +18,6 @@ import java.io.IOException;
 
 public class BackgroundJobs extends AsyncFunctions {
     private static final String TAG = "AdblockRemover - BackgroundJobs";
-    private SocketApplication app;
     final String externalStorage = Environment.getExternalStorageDirectory().toString()+"/adblockremover_backups/";
     final String rootHostsFile = Environment.getRootDirectory().toString()+"/etc/hosts";
     final Runtime runtime = Runtime.getRuntime();
@@ -438,7 +437,7 @@ public class BackgroundJobs extends AsyncFunctions {
     public void confirmDeleteFromFile(final String word){
         String usermessage;
         if(word == "REMOVE ALL ENTRIES"){
-            usermessage = "You are about to remove all adblock entries... This is not recommended. \n(Always make BACKUPS before continuing!!)\nContinue?";
+            usermessage = "You are about to remove all adblock entries... Second chance to make a backup!! \n\nContinue?";
         }else if(word == "REMOVE RECOMMENDED"){
             usermessage = "You are about to remove all recommended adblock entries. This will not remove anything more than what is needed but still always make a backup before continuing. \nContinue?";
 

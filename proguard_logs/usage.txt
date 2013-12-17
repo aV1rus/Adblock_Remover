@@ -498,14 +498,11 @@ android.support.v4.widget.SimpleCursorAdapter$ViewBinder
 com.av1rus.adblockremover.AdBlockRemoverActivity
 com.av1rus.adblockremover.BackgroundJobs:
     private static final java.lang.String TAG
-    private com.av1rus.adblockremover.SocketApplication app
-    221:246:public void restoreHostsFile(java.lang.String)
+    220:245:public void restoreHostsFile(java.lang.String)
 com.av1rus.adblockremover.BuildConfig
-com.av1rus.adblockremover.ExecShell
-com.av1rus.adblockremover.ExecShell$SHELL_CMD
 com.av1rus.adblockremover.MainActivity:
     android.app.ProgressDialog progressDialog
-    258:289:public java.lang.String runSUcommand(java.lang.String)
+    249:280:public java.lang.String runSUcommand(java.lang.String)
 com.av1rus.adblockremover.MainActivity$CheckBusyBox
 com.av1rus.adblockremover.R
 com.av1rus.adblockremover.R$attr
@@ -516,7 +513,6 @@ com.av1rus.adblockremover.R$layout
 com.av1rus.adblockremover.R$menu
 com.av1rus.adblockremover.R$string
 com.av1rus.adblockremover.R$style
-com.av1rus.adblockremover.SocketApplication
 com.stericson.RootTools.BuildConfig
 com.stericson.RootTools.Constants
 com.stericson.RootTools.RootTools:
